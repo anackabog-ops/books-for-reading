@@ -22,6 +22,10 @@ import wave
 from xml.sax.saxutils import escape
 
 
+AUDIO_TIMING_VERSION = 2
+VOICE_SWITCH_GAP_SECONDS = 0.0625
+
+
 def plain_text(text):
     # Remove stress accents only; keep Lithuanian letters (ą, ė, ū, č, ...).
     return unicodedata.normalize("NFC", "".join(
@@ -83,6 +87,22 @@ def build_ssml(chapter, female_blocks, narrator_spans):
     return "".join(parts), phrases
 
 
+def correct_bookmark_offsets(phrases, offsets):
+    """Account for the audio gap Azure omits from offsets at each voice change."""
+    starts, previous_voice, voice_switches = [], None, 0
+    for phrase in phrases:
+        segments = phrase.get("segments") or [phrase]
+        for index, segment in enumerate(segments):
+            voice = segment["voice"]
+            if previous_voice is not None and voice != previous_voice:
+                voice_switches += 1
+            if index == 0:
+                starts.append(offsets[phrase["mark"]] + voice_switches * VOICE_SWITCH_GAP_SECONDS)
+            previous_voice = voice
+    starts[0] = 0
+    return starts
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("book", type=Path)
@@ -139,8 +159,7 @@ def main():
         params = recording.getparams()
         frames = recording.readframes(params.nframes)
     duration = params.nframes / params.framerate
-    starts = [offsets[p["mark"]] for p in phrases]
-    starts[0] = 0  # Include the initial breath/silence in the first clip.
+    starts = correct_bookmark_offsets(phrases, offsets)
     if not all(0 <= a < b <= duration for a, b in zip(starts, starts[1:] + [duration])):
         raise SystemExit("Invalid bookmark timing; refusing to cut audio")
 
@@ -176,7 +195,10 @@ def main():
     current_chapter["audio"] = str(relative_dir / "chapter.mp3")
     for phrase in phrases:
         current_chapter["blocks"][phrase["block"]]["items"][phrase["item"]]["audio"] = phrase["audio"]
-    manifest = dict(provider="Azure Speech", sourceSha256=digest, sampleRate=params.framerate,
+    manifest = dict(provider="Azure Speech", sourceSha256=digest,
+                    timingVersion=AUDIO_TIMING_VERSION,
+                    voiceSwitchGapSeconds=VOICE_SWITCH_GAP_SECONDS,
+                    sampleRate=params.framerate,
                     duration=duration, phrases=phrases,
                     casting=dict(femaleBlocks=args.female_blocks, narratorSpans=narrator_spans))
     (output / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")

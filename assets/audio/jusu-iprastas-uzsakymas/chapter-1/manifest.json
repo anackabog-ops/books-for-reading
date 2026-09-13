@@ -1,6 +1,8 @@
 {
   "provider": "Azure Speech",
   "sourceSha256": "4339bc269227b1f6d084df64b3ba4dd3d1ccd2812f0df6148a9b7b0c71eb71c7",
+  "timingVersion": 2,
+  "voiceSwitchGapSeconds": 0.0625,
   "sampleRate": 24000,
   "duration": 452.592,
   "phrases": [
@@ -1171,7 +1173,7 @@
       "text": "Tada pažiūrėjo į Tomą.",
       "voice": "lt-LT-LeonasNeural",
       "start": 387.5375,
-      "end": 390.025,
+      "end": 390.0875,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-047-i-005.mp3"
     },
     {
@@ -1180,8 +1182,8 @@
       "item": 0,
       "text": "— Labas vakaras. Atrodo, šiandien laukiate manęs vakarienės?",
       "voice": "lt-LT-OnaNeural",
-      "start": 390.025,
-      "end": 396.0375,
+      "start": 390.0875,
+      "end": 396.1625,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-048-i-000.mp3"
     },
     {
@@ -1190,8 +1192,8 @@
       "item": 0,
       "text": "Tomas nieko nepasakė. Moteris kilstelėjo telefoną.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 396.0375,
-      "end": 401.475,
+      "start": 396.1625,
+      "end": 401.6625,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-049-i-000.mp3"
     },
     {
@@ -1200,8 +1202,8 @@
       "item": 0,
       "text": "— Gavau jūsų kvietimą. Septintą valandą.",
       "voice": "lt-LT-OnaNeural",
-      "start": 401.475,
-      "end": 406.35,
+      "start": 401.6625,
+      "end": 406.5375,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-050-i-000.mp3"
     },
     {
@@ -1210,8 +1212,8 @@
       "item": 1,
       "text": "Atsiprašau, truputį vėluoju. Pradėjo lyti.",
       "voice": "lt-LT-OnaNeural",
-      "start": 406.35,
-      "end": 411.2625,
+      "start": 406.5375,
+      "end": 411.5125,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-050-i-001.mp3"
     },
     {
@@ -1220,8 +1222,8 @@
       "item": 0,
       "text": "Ji parodė kvietimą telefono ekrane.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 411.2625,
-      "end": 414.4875,
+      "start": 411.5125,
+      "end": 414.7375,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-051-i-000.mp3"
     },
     {
@@ -1230,8 +1232,8 @@
       "item": 1,
       "text": "Adresas buvo teisingas. Vardas irgi.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 414.4875,
-      "end": 419.425,
+      "start": 414.7375,
+      "end": 419.675,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-051-i-001.mp3"
     },
     {
@@ -1240,8 +1242,8 @@
       "item": 2,
       "text": "Virš kvietimo Tomas pamatė savo numerį.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 419.425,
-      "end": 422.9,
+      "start": 419.675,
+      "end": 423.15,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-051-i-002.mp3"
     },
     {
@@ -1250,8 +1252,8 @@
       "item": 0,
       "text": "— Bet aš nieko nekviečiau.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 422.9,
-      "end": 425.325,
+      "start": 423.15,
+      "end": 425.575,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-052-i-000.mp3"
     },
     {
@@ -1260,8 +1262,8 @@
       "item": 0,
       "text": "Moteris nuleido telefoną. Abu tylėjo.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 425.325,
-      "end": 429.9125,
+      "start": 425.575,
+      "end": 430.1625,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-053-i-000.mp3"
     },
     {
@@ -1270,8 +1272,8 @@
       "item": 1,
       "text": "Iš virtuvės atėjo ramus balsas:",
       "voice": "lt-LT-LeonasNeural",
-      "start": 429.9125,
-      "end": 433.0375,
+      "start": 430.1625,
+      "end": 433.2875,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-053-i-001.mp3"
     },
     {
@@ -1280,8 +1282,8 @@
       "item": 0,
       "text": "— Tomai, jūsų vakarienė šąla.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 433.0375,
-      "end": 436.0625,
+      "start": 433.2875,
+      "end": 436.3125,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-054-i-000.mp3"
     },
     {
@@ -1290,8 +1292,8 @@
       "item": 0,
       "text": "Moteris pažvelgė pro atviras duris.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 436.0625,
-      "end": 439.325,
+      "start": 436.3125,
+      "end": 439.575,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-055-i-000.mp3"
     },
     {
@@ -1300,8 +1302,8 @@
       "item": 1,
       "text": "Tomas žengė į šoną.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 439.325,
-      "end": 441.6875,
+      "start": 439.575,
+      "end": 441.9375,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-055-i-001.mp3"
     },
     {
@@ -1310,8 +1312,8 @@
       "item": 0,
       "text": "— Užeikite. Čia bent jau sausa.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 441.6875,
-      "end": 446.1375,
+      "start": 441.9375,
+      "end": 446.3875,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-056-i-000.mp3"
     },
     {
@@ -1320,8 +1322,8 @@
       "item": 0,
       "text": "Ant stalo laukė dvi porcijos.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 446.1375,
-      "end": 449.075,
+      "start": 446.3875,
+      "end": 449.325,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-057-i-000.mp3"
     },
     {
@@ -1330,9 +1332,16 @@
       "item": 1,
       "text": "Dabar bent buvo aišku, kam antroji.",
       "voice": "lt-LT-LeonasNeural",
-      "start": 449.075,
+      "start": 449.325,
       "end": 452.592,
       "audio": "assets/audio/jusu-iprastas-uzsakymas/chapter-1/p-057-i-001.mp3"
     }
-  ]
+  ],
+  "casting": {
+    "femaleBlocks": [
+      49,
+      51
+    ],
+    "narratorSpans": {}
+  }
 }

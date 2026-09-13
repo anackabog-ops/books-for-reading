@@ -10,6 +10,7 @@
     tooltipTimer: null,
     chapterTimelines: {},
     chapterDurations: {},
+    chapterAudioVersions: {},
     audioChapterId: null,
     readingPhrase: null,
     pendingSeek: null,
@@ -468,6 +469,10 @@
     return minutes + ":" + remainingSeconds;
   }
 
+  function addAudioVersion(path, version) {
+    return path + (path.includes("?") ? "&" : "?") + "v=" + encodeURIComponent(version);
+  }
+
   function loadChapterTimelines() {
     var phrases = {};
     content.querySelectorAll(".phrase").forEach(function (phrase) {
@@ -475,7 +480,7 @@
     });
     state.book.chapters.forEach(function (chapter) {
       if (!chapter.audio) return;
-      fetch(new URL("manifest.json", new URL(chapter.audio, document.baseURI)))
+      fetch(new URL("manifest.json", new URL(chapter.audio, document.baseURI)), { cache: "no-cache" })
         .then(function (response) {
           if (!response.ok) throw new Error("timeline load failed");
           return response.json();
@@ -484,22 +489,28 @@
           if (!Number.isFinite(manifest.duration) || manifest.duration <= 0) {
             throw new Error("invalid duration");
           }
+          var audioVersion = String(manifest.sourceSha256 || "audio").slice(0, 12) +
+            "-t" + String(manifest.timingVersion || 1);
           var cues = manifest.phrases.map(function (cue) {
             var phrase = phrases[cue.audio];
             if (!phrase || phrase.dataset.chapterId !== chapter.id ||
                 !Number.isFinite(cue.start) || !Number.isFinite(cue.end) || cue.end <= cue.start) {
               throw new Error("invalid timeline");
             }
-            return { start: cue.start, end: cue.end, audio: cue.audio, phrase: phrase };
+            var audio = addAudioVersion(cue.audio, audioVersion);
+            phrase._phraseData.audio = audio;
+            return { start: cue.start, end: cue.end, audio: audio, phrase: phrase };
           });
           if (!cues.length) throw new Error("empty timeline");
           state.chapterTimelines[chapter.id] = cues;
           state.chapterDurations[chapter.id] = manifest.duration;
+          state.chapterAudioVersions[chapter.id] = audioVersion;
           updateChapterAudioButton();
         })
         .catch(function () {
           state.chapterTimelines[chapter.id] = null;
           state.chapterDurations[chapter.id] = null;
+          state.chapterAudioVersions[chapter.id] = null;
           updateChapterAudioButton();
         });
     });
@@ -545,7 +556,7 @@
     chapterAudioError.hidden = true;
     if (!sameChapter || chapterAudio.error) {
       state.audioChapterId = chapter.id;
-      chapterAudio.src = chapter.audio;
+      chapterAudio.src = addAudioVersion(chapter.audio, state.chapterAudioVersions[chapter.id]);
     }
     // Keep play() in the click gesture for mobile browsers; seek as soon as metadata is ready.
     state.pendingSeek = start;

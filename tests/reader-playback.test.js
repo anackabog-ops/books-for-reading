@@ -23,11 +23,13 @@ function player({ metadata = true } = {}) {
   const state = {
     book: { chapters: [{ id: "one", audio: "one.mp3" }, { id: "two" }] },
     chapterTimelines: { one: [{ start: 390.025, end: 396.0375, audio: "phrase.mp3", phrase }] },
+    chapterAudioVersions: { one: "source-t2" },
     audioChapterId: null, activePhrase: null, pendingSeek: null, readingPhrase: null
   };
   const context = vm.createContext({
     state, chapterAudio: audio, chapterSelect: { value: "one" },
     chapterAudioError: { hidden: true },
+    addAudioVersion(path, version) { return path + "?v=" + version; },
     hideTooltip() { state.activePhrase = null; },
     updateChapterAudioButton() {}
   });
@@ -40,7 +42,7 @@ test("chapter playback starts at the selected phrase, before hiding its tooltip"
   p.state.activePhrase = p.phrase;
   p.play();
   assert.equal(p.audio.currentTime, 390.025);
-  assert.equal(p.audio.source, "one.mp3");
+  assert.equal(p.audio.source, "one.mp3?v=source-t2");
   assert.equal(p.audio.paused, false);
   assert.equal(p.state.activePhrase, null);
 });

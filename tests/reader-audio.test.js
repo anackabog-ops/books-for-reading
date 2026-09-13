@@ -18,6 +18,8 @@ test("every narrated chapter covers its current text and reviewed cast", () => {
 
 function verifyChapter(chapter, chapterIndex) {
   const manifest = JSON.parse(fs.readFileSync(path.join(root, path.dirname(chapter.audio), "manifest.json")));
+  assert.equal(manifest.timingVersion, 2, `stale timing in chapter ${chapterIndex + 1}`);
+  assert.equal(manifest.voiceSwitchGapSeconds, 0.0625, `wrong voice gap in chapter ${chapterIndex + 1}`);
   const items = chapter.blocks.flatMap((block, blockIndex) => block.items.map((item) => ({ item, blockIndex })));
   const casting = manifest.casting || { femaleBlocks: chapterIndex === 0 ? [49, 51] : [], narratorSpans: {} };
   assert.equal(manifest.phrases.length, items.length, `missing phrase recordings in chapter ${chapterIndex + 1}`);

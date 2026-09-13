@@ -1,6 +1,8 @@
 {
   "provider": "Azure Speech",
   "sourceSha256": "fbe7ebbe6699688038f2b14ec1ec3dbbc08e0e61c5ee396a87069a9c81ddaa22",
+  "timingVersion": 2,
+  "voiceSwitchGapSeconds": 0.0625,
   "sampleRate": 24000,
   "duration": 230.328,
   "phrases": [
