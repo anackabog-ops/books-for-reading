@@ -1,0 +1,4687 @@
+{
+  "status": "whole-narrative-targeted-accent-review",
+  "rules": {
+    "kurti": {
+      "accent": "kùrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-0"
+    },
+    "pakviesti": {
+      "accent": "pakviẽsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-1"
+    },
+    "atsinešti": {
+      "accent": "atsinèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-2"
+    },
+    "pasiimti": {
+      "accent": "pasiim̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-3"
+    },
+    "kepti": {
+      "accent": "kèpti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-4"
+    },
+    "uždengti": {
+      "accent": "uždeñgti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-6"
+    },
+    "grįžti": {
+      "accent": "grį̃žti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-7"
+    },
+    "atversti": {
+      "accent": "atver̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-8"
+    },
+    "pradėti": {
+      "accent": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9"
+    },
+    "suprasti": {
+      "accent": "supràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-10"
+    },
+    "pirkti": {
+      "accent": "pir̃kti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-11"
+    },
+    "laukti": {
+      "accent": "láukti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-12"
+    },
+    "sutikti": {
+      "accent": "sutìkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-13"
+    },
+    "užsirišti": {
+      "accent": "užsirìšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-14"
+    },
+    "nuvilti": {
+      "accent": "nuvìlti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-15"
+    },
+    "paruošti": {
+      "accent": "paruõšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-16"
+    },
+    "ateiti": {
+      "accent": "ateĩti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-17"
+    },
+    "susitikti": {
+      "accent": "susitìkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-18"
+    },
+    "dirbti": {
+      "accent": "dìrbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-19"
+    },
+    "atsiųsti": {
+      "accent": "atsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-20"
+    },
+    "siūti": {
+      "accent": "siū́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-21"
+    },
+    "tartis": {
+      "accent": "tar̃tis",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-22"
+    },
+    "atmesti": {
+      "accent": "atmèsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-23"
+    },
+    "ruošti": {
+      "accent": "ruõšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-24"
+    },
+    "sudėti": {
+      "accent": "sudė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-25"
+    },
+    "rasti": {
+      "accent": "ràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-26"
+    },
+    "padėti": {
+      "accent": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27"
+    },
+    "skirti": {
+      "accent": "skìrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-0"
+    },
+    "sukurti": {
+      "accent": "sukùrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-1"
+    },
+    "užsidirbti": {
+      "accent": "užsidìrbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-2"
+    },
+    "atimti": {
+      "accent": "atim̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-3"
+    },
+    "pakeisti": {
+      "accent": "pakeĩsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-4"
+    },
+    "nunešti": {
+      "accent": "nunèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-5"
+    },
+    "pridėti": {
+      "accent": "pridė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-6"
+    },
+    "išsiųsti": {
+      "accent": "išsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-7"
+    },
+    "nupirkti": {
+      "accent": "nupir̃kti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-8"
+    },
+    "gintis": {
+      "accent": "gìntis",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-9"
+    },
+    "atnešti": {
+      "accent": "atnèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-10"
+    },
+    "ištrinti": {
+      "accent": "ištrìnti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-11"
+    },
+    "tarti": {
+      "accent": "tar̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-12"
+    },
+    "baigti": {
+      "accent": "baĩgti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-13"
+    },
+    "atsigriebti": {
+      "accent": "atsigriẽbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-14"
+    },
+    "įkvėpti": {
+      "accent": "įkvė̃pti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-15"
+    },
+    "įvykti": {
+      "accent": "įvỹkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-16"
+    },
+    "nešti": {
+      "accent": "nèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-17"
+    },
+    "susitarti": {
+      "accent": "susitar̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-18"
+    },
+    "įveikti": {
+      "accent": "įveĩkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-19"
+    },
+    "slėpti": {
+      "accent": "slė̃pti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-20"
+    },
+    "atiduoti": {
+      "accent": "atidúoti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-21"
+    },
+    "aptarti": {
+      "accent": "aptar̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-22"
+    },
+    "imtis": {
+      "accent": "im̃tis",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-23"
+    },
+    "išsivirti": {
+      "accent": "išsivìrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-24"
+    },
+    "būti": {
+      "accent": "bū́ti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "pakelti": {
+      "accent": "pakélti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "išmokti": {
+      "accent": "išmókti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "išeiti": {
+      "accent": "išeĩti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "nusipirkti": {
+      "accent": "nusipir̃kti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "paimti": {
+      "accent": "paim̃ti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "palikti": {
+      "accent": "palìkti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "pasiruošti": {
+      "accent": "pasiruõšti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "sustoti": {
+      "accent": "sustóti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "paklausti": {
+      "accent": "pakláusti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "eiti": {
+      "accent": "eĩti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "paulius": {
+      "accent": "paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "skaičiau": {
+      "accent": "skaičiaũ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "biblioteka": {
+      "accent": "bibliotekà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "kalba": {
+      "accent": "kalbà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "kalbos": {
+      "accent": "kalbõs",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "mama": {
+      "accent": "mamà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "ranka": {
+      "accent": "rankà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "laikas": {
+      "accent": "laĩkas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "laiką": {
+      "accent": "laĩką",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "paskui": {
+      "accent": "paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "paklausė": {
+      "accent": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "ryte": {
+      "accent": "rytè",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "telefone": {
+      "accent": "telefonè",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "visas": {
+      "accent": "vìsas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "kitas": {
+      "accent": "kìtas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json"
+    },
+    "senas": {
+      "accent": "sẽnas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-30"
+    },
+    "žalias": {
+      "accent": "žãlias",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-31"
+    },
+    "klausia": {
+      "accent": "kláusia",
+      "reason": "Глагол «спрашивает», а не прилагательное.",
+      "evidence": "a-32"
+    },
+    "mažas": {
+      "accent": "mãžas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-34"
+    },
+    "rimtas": {
+      "accent": "rim̃tas",
+      "reason": "Именительный мужского рода; выбран словарный вариант с циркумфлексом.",
+      "evidence": "a-35"
+    },
+    "naujas": {
+      "accent": "naũjas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-38"
+    },
+    "arbata": {
+      "accent": "arbatà",
+      "reason": "Именительный или творительный единственного числа; не обращение.",
+      "evidence": "a-39"
+    },
+    "tuščia": {
+      "accent": "tuščià",
+      "reason": "Женский род, именительный/творительный; не безличное сказуемое.",
+      "evidence": "a-40"
+    },
+    "visa": {
+      "accent": "visà",
+      "reason": "Согласуется с valanda в творительном падеже.",
+      "evidence": "a-41"
+    },
+    "trumpas": {
+      "accent": "trum̃pas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-43"
+    },
+    "šalta": {
+      "accent": "šaltà",
+      "reason": "В главе 7 согласуется с kava: женский род, именительный.",
+      "evidence": "a-44"
+    },
+    "trumpa": {
+      "accent": "trumpà",
+      "reason": "Согласуется с istorija: женский род, именительный.",
+      "evidence": "a-45"
+    },
+    "geras": {
+      "accent": "gẽras",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-47"
+    },
+    "tikras": {
+      "accent": "tìkras",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-48"
+    },
+    "siūlė": {
+      "accent": "siū́lė",
+      "reason": "Глагол «предлагала», не существительное «шов».",
+      "evidence": "b-25"
+    },
+    "sėdime": {
+      "accent": "sė́dime",
+      "reason": "Глагол, настоящее время, 1-е лицо множественного числа.",
+      "evidence": "b-26"
+    },
+    "pradžia": {
+      "accent": "pradžià",
+      "reason": "Существительное, именительный единственного числа.",
+      "evidence": "b-27"
+    },
+    "spalvos": {
+      "accent": "spalvõs",
+      "reason": "Родительный единственного числа в вопросе о цвете.",
+      "evidence": "b-28"
+    },
+    "galvos": {
+      "accent": "galvõs",
+      "reason": "Родительный единственного числа после ant.",
+      "evidence": "b-29"
+    },
+    "pabaigos": {
+      "accent": "pabaigõs",
+      "reason": "Родительный единственного числа.",
+      "evidence": "b-30"
+    },
+    "valandos": {
+      "accent": "valandõs",
+      "reason": "Родительный единственного числа после po.",
+      "evidence": "b-31"
+    },
+    "burna": {
+      "accent": "burnà",
+      "reason": "Именительный единственного числа.",
+      "evidence": "b-32"
+    },
+    "pravira": {
+      "accent": "pravirà",
+      "reason": "Женский род, именительный; согласуется с burna.",
+      "evidence": "b-33"
+    },
+    "pilna": {
+      "accent": "pilnà",
+      "reason": "Женский род, именительный; согласуется с salė.",
+      "evidence": "b-34"
+    },
+    "minkšta": {
+      "accent": "minkštà",
+      "reason": "Женский род, именительный; согласуется с duona.",
+      "evidence": "b-35"
+    },
+    "aukšta": {
+      "accent": "aukštà",
+      "reason": "Женский род, именительный; согласуется с temperatūra.",
+      "evidence": "b-36"
+    },
+    "antras": {
+      "accent": "añtras",
+      "reason": "Порядковое числительное, мужской род, именительный единственного числа.",
+      "evidence": "kirtis.info: antras"
+    },
+    "trečias": {
+      "accent": "trẽčias",
+      "reason": "Порядковое числительное, мужской род, именительный единственного числа.",
+      "evidence": "kirtis.info: trečias"
+    },
+    "ona": {
+      "accent": "onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1"
+    },
+    "rasa": {
+      "accent": "rasà",
+      "reason": "Имя, именительный или творительный единственного числа.",
+      "evidence": "c-3"
+    },
+    "kartų": {
+      "accent": "kar̃tų",
+      "reason": "Родительный множественного числа существительного kartas — раз.",
+      "evidence": "c-12"
+    },
+    "žila": {
+      "accent": "žilà",
+      "reason": "Женский род, именительный; согласуется с moteris.",
+      "evidence": "c-13"
+    },
+    "stora": {
+      "accent": "storà",
+      "reason": "Женский род, именительный; согласуется с knyga.",
+      "evidence": "d-0"
+    },
+    "bloga": {
+      "accent": "blogà",
+      "reason": "Женский род, именительный; согласуется с kalba.",
+      "evidence": "d-1"
+    },
+    "pikta": {
+      "accent": "piktà",
+      "reason": "Прилагательное женского рода в перечне состояний рассказчицы.",
+      "evidence": "d-2"
+    },
+    "aiškios": {
+      "accent": "aiškiõs",
+      "reason": "Родительный единственного числа; согласуется с pabaigos.",
+      "evidence": "d-4"
+    },
+    "tešla": {
+      "accent": "tešlà",
+      "reason": "Существительное, именительный единственного числа.",
+      "evidence": "d-5"
+    },
+    "pluta": {
+      "accent": "plutà",
+      "reason": "Существительное, именительный единственного числа.",
+      "evidence": "d-6"
+    },
+    "spalva": {
+      "accent": "spalvà",
+      "reason": "Именительный или творительный единственного числа; не обращение.",
+      "evidence": "d-7"
+    },
+    "vieta": {
+      "accent": "vietà",
+      "reason": "Именительный или творительный единственного числа.",
+      "evidence": "a-29"
+    }
+  },
+  "conditionalRules": {
+    "viena": {
+      "6": "vienà",
+      "11": "vienà",
+      "12": "vienà",
+      "15": "vienà",
+      "16": "vienà"
+    },
+    "kita": {
+      "4": "kità"
+    },
+    "nauja": {
+      "10": "naujà",
+      "15": "naujà"
+    },
+    "paprasta": {
+      "14": "paprastà"
+    },
+    "liūdna": {
+      "6": "liūdnà"
+    }
+  },
+  "evidence": {
+    "a": [
+      {
+        "id": 0,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkurtì\tbdv. mot. g. vns. šauksm.\t-\nkurtì\tbdv. mot. g. vns. vard.\t-\nkur̃ti\tdkt. vyr. g. vns. šauksm.\t-\nkurtì\tbdv. vyr. g. dgs. šauksm.\t-\nkurtì\tbdv. vyr. g. dgs. vard.\t-\nkurtì\tvksm.\t-\nkurtì\tvksm.\t-\nkùrti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 1,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npakviestì\tvksm.\t-\npakviestì\tvksm.\t-\npakviẽsti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 2,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natsineštì\tvksm.\t-\natsineštì\tvksm.\t-\natsinèšti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 3,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npasiimtì\tvksm.\t-\npasiimtì\tvksm.\t-\npasiim̃ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 4,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkeptì\tvksm.\t-\nkeptì\tvksm.\t-\nkèpti\tvksm. bendratis\t-\nkeptì\tvksm.\t-\nkeptì\tvksm.\t-\nkèpti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 5,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nprisimintì\tvksm.\t-\nprisimintì\tvksm.\t-\nprisimìnti\tvksm. bendratis\t-\nprisimintì\tvksm.\t-\nprisimintì\tvksm.\t-\nprisimiñti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 6,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nuždengtì\tvksm.\t-\nuždengtì\tvksm.\t-\nuždeñgti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 7,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ngrįžtì\tvksm.\t-\ngrįžtì\tvksm.\t-\ngrįžtì\tvksm.\t-\ngrį̃žti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 8,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natverstì\tvksm.\t-\natverstì\tvksm.\t-\natver̃sti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 9,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npradėtì\tvksm.\t-\npradėtì\tvksm.\t-\npradė́ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 10,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsuprastì\tvksm.\t-\nsuprastì\tvksm.\t-\nsupràsti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 11,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npirktì\tvksm.\t-\npirktì\tvksm.\t-\npir̃kti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 12,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nlauktì\tvksm.\t-\nlauktì\tvksm.\t-\nláukti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 13,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsutiktì\tvksm.\t-\nsutiktì\tvksm.\t-\nsutìkti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 14,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nužsirištì\tvksm.\t-\nužsirištì\tvksm.\t-\nužsirìšti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 15,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnuviltì\tvksm.\t-\nnuviltì\tvksm.\t-\nnuvìlti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 16,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nparuoštì\tvksm.\t-\nparuoštì\tvksm.\t-\nparuõšti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 17,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nateitì\tvksm.\t-\nateitì\tvksm.\t-\nateĩti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 18,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsusitiktì\tvksm.\t-\nsusitiktì\tvksm.\t-\nsusitìkti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 19,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ndirbtì\tvksm.\t-\ndirbtì\tvksm.\t-\ndìrbti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 20,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natsiųstì\tvksm.\t-\natsiųstì\tvksm.\t-\natsių̃sti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 21,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsiūtì\tvksm.\t-\nsiūtì\tvksm.\t-\nsiū́ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 22,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntartìs\tdkt. mot. g. dgs. gal.\t-\ntartìs\tdkt. mot. g. vns. vard.\t-\ntar̃tis\tvksm. bendratis\t-"
+      },
+      {
+        "id": 23,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natmestì\tvksm.\t-\natmestì\tvksm.\t-\natmèsti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 24,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nruoštì\tvksm.\t-\nruoštì\tvksm.\t-\nruõšti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 25,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsudėtì\tvksm.\t-\nsudėtì\tvksm.\t-\nsudė́ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 26,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrastì\tvksm.\t-\nrastì\tvksm.\t-\nràsti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 27,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npadėtì\tvksm.\t-\npadėtì\tvksm.\t-\npadė́ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 28,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbibliotèka\tdkt. mot. g. vns. šauksm.\t-\nbibliotekà\tdkt. mot. g. vns. įn.\t-\nbibliotekà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 29,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nviẽta\tdkt. mot. g. vns. šauksm.\t-\nvietà\tdkt. mot. g. vns. įn.\t-\nvietà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 30,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsenàs\tbdv. mot. g. dgs. gal.\t-\nsẽnas\tbdv. vyr. g. vns. šauksm.\t-\nsẽnas\tbdv. vyr. g. vns. vard.\t-"
+      },
+      {
+        "id": 31,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nžaliàs\tbdv. mot. g. dgs. gal.\t-\nžãlias\tbdv. vyr. g. vns. šauksm.\t-\nžãlias\tbdv. vyr. g. vns. vard.\t-"
+      },
+      {
+        "id": 32,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nklausià\tbdv. mot. g. vns. įn.\t-\nkláusia\tvksm.\t-"
+      },
+      {
+        "id": 33,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkìta\tįv.\t-\nkità\tįv.\t-\nkità\tįv.\t-\nkità\tįv.\t-"
+      },
+      {
+        "id": 34,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmažàs\tbdv. mot. g. dgs. gal.\t-\nmãžas\tbdv. vyr. g. vns. šauksm.\t-\nmãžas\tbdv. vyr. g. vns. vard.\t-"
+      },
+      {
+        "id": 35,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrimtàs\tbdv. mot. g. dgs. gal.\t-\nrìmtas\tbdv. mot. g. dgs. gal.\t-\nrim̃tas\tbdv. vyr. g. vns. šauksm.\t-\nrìmtas\tbdv. vyr. g. vns. šauksm.\t-\nrim̃tas\tbdv. vyr. g. vns. vard.\t-\nrìmtas\tbdv. vyr. g. vns. vard.\t-\nrìmtas\tvksm.\t-\nrìmtas\tvksm.\t-\nrìmtas\tvksm.\t-"
+      },
+      {
+        "id": 36,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvãlanda\tdkt. mot. g. vns. šauksm.\t-\nvãlanda\tdkt. mot. g. vns. įn.\t-\nvalandà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 37,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkal̃bos\tdkt. mot. g. dgs. šauksm.\t-\nkal̃bos\tdkt. mot. g. dgs. vard.\t-\nkalbõs\tdkt. mot. g. vns. kilm.\t-"
+      },
+      {
+        "id": 38,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnaujàs\tbdv. mot. g. dgs. gal.\t-\nnaũjas\tbdv. vyr. g. vns. šauksm.\t-\nnaũjas\tbdv. vyr. g. vns. vard.\t-"
+      },
+      {
+        "id": 39,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\narbãta\tdkt. mot. g. vns. šauksm.\t-\narbatà\tdkt. mot. g. vns. įn.\t-\narbatà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 40,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntùščia\tbdv. bev. g.\t-\ntuščià\tbdv. mot. g. vns. šauksm.\t-\ntuščià\tbdv. mot. g. vns. įn.\t-\ntuščià\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 41,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvìsa\tįv.\t-\nvisà\tįv.\t-\nvisà\tįv.\t-\nvisà\tįv.\t-"
+      },
+      {
+        "id": 42,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvíena\tįv.\t-\nvienà\tįv.\t-\nvíena\tįv.\t-\nvienà\tįv.\t-\nvíena\tsktv.\t-\nvienà\tsktv.\t-\nvíena\tsktv.\t-\nvienà\tsktv.\t-\nvíena\tbdv. bev. g.\t-\nvienà\tbdv. mot. g. vns. šauksm.\t-\nvíena\tbdv. mot. g. vns. įn.\t-\nvienà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 43,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntrumpàs\tbdv. mot. g. dgs. gal.\t-\ntrum̃pas\tbdv. vyr. g. vns. šauksm.\t-\ntrum̃pas\tbdv. vyr. g. vns. vard.\t-"
+      },
+      {
+        "id": 44,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšálta\tbdv. bev. g.\t-\nšaltà\tbdv. mot. g. vns. šauksm.\t-\nšálta\tbdv. mot. g. vns. įn.\t-\nšaltà\tbdv. mot. g. vns. vard.\t-\nšálta\tvksm.\t-\nšaltà\tvksm.\t-\nšálta\tvksm.\t-\nšaltà\tvksm.\t-"
+      },
+      {
+        "id": 45,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntrum̃pa\tbdv. bev. g.\t-\ntrumpà\tbdv. mot. g. vns. šauksm.\t-\ntrumpà\tbdv. mot. g. vns. įn.\t-\ntrumpà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 46,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmãma\tdkt. mot. g. vns. šauksm.\t-\nmamà\tdkt. mot. g. vns. įn.\t-\nmamà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 47,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ngeràs\tbdv. mot. g. dgs. gal.\t-\ngẽras\tbdv. vyr. g. vns. šauksm.\t-\ngẽras\tbdv. vyr. g. vns. vard.\t-"
+      },
+      {
+        "id": 48,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntikràs\tbdv. mot. g. dgs. gal.\t-\ntìkras\tbdv. vyr. g. vns. šauksm.\t-\ntìkras\tbdv. vyr. g. vns. vard.\t-"
+      },
+      {
+        "id": 49,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nleñgva\tbdv. bev. g.\t-\nlengvà\tbdv. mot. g. vns. šauksm.\t-\nlengvà\tbdv. mot. g. vns. įn.\t-\nlengvà\tbdv. mot. g. vns. vard.\t-"
+      }
+    ],
+    "b": [
+      {
+        "id": 0,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nskirtì\tvksm.\t-\nskirtì\tvksm.\t-\nskìrti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 1,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsukurtì\tvksm.\t-\nsukurtì\tvksm.\t-\nsukùrti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 2,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nužsidirbtì\tvksm.\t-\nužsidirbtì\tvksm.\t-\nužsidìrbti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 3,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natimtì\tvksm.\t-\natimtì\tvksm.\t-\natim̃ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 4,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npakeistì\tvksm.\t-\npakeistì\tvksm.\t-\npakeĩsti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 5,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnuneštì\tvksm.\t-\nnuneštì\tvksm.\t-\nnunèšti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 6,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npridėtì\tvksm.\t-\npridėtì\tvksm.\t-\npridė́ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 7,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nišsiųstì\tvksm.\t-\nišsiųstì\tvksm.\t-\nišsių̃sti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 8,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnupirktì\tvksm.\t-\nnupirktì\tvksm.\t-\nnupir̃kti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 9,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ngintìs\tdkt. mot. g. dgs. gal.\t-\ngintìs\tdkt. mot. g. vns. vard.\t-\ngìntis\tvksm. bendratis\t-"
+      },
+      {
+        "id": 10,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natneštì\tvksm.\t-\natneštì\tvksm.\t-\natnèšti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 11,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ništrintì\tvksm.\t-\ništrintì\tvksm.\t-\ništrìnti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 12,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntartì\tvksm.\t-\ntartì\tvksm.\t-\ntar̃ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 13,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbaigtì\tvksm.\t-\nbaigtì\tvksm.\t-\nbaĩgti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 14,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natsigriebtì\tvksm.\t-\natsigriebtì\tvksm.\t-\natsigriẽbti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 15,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nįkvėptì\tvksm.\t-\nįkvėptì\tvksm.\t-\nįkvė̃pti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 16,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nįvyktì\tvksm.\t-\nįvyktì\tvksm.\t-\nįvỹkti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 17,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nneštì\tvksm.\t-\nneštì\tvksm.\t-\nnèšti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 18,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsusitartì\tvksm.\t-\nsusitartì\tvksm.\t-\nsusitar̃ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 19,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nįveiktì\tdkt. vyr. g. vns. šauksm.\t-\nįveiktì\tvksm.\t-\nįveiktì\tvksm.\t-\nįveĩkti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 20,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nslėptì\tvksm.\t-\nslėptì\tvksm.\t-\nslė̃pti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 21,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natiduotì\tvksm.\t-\natiduotì\tvksm.\t-\natidúoti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 22,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\naptartì\tvksm.\t-\naptartì\tvksm.\t-\naptar̃ti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 23,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nimtìs\tdkt. mot. g. dgs. gal.\t-\nimtìs\tdkt. mot. g. vns. vard.\t-\nim̃tis\tvksm. bendratis\t-"
+      },
+      {
+        "id": 24,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nišsivirtì\tvksm.\t-\nišsivirtì\tvksm.\t-\nišsivìrti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 25,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsiūlė̃\tdkt. mot. g. vns. vard.\t-\nsiū́lė\tvksm.\t-"
+      },
+      {
+        "id": 26,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsėdìme\tdkt. vyr. g. vns. šauksm.\t-\nsėdimè\tdkt. vyr. g. vns. viet.\t-\nsė́dime\tvksm.\t-"
+      },
+      {
+        "id": 27,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nprãdžia\tdkt. mot. g. vns. šauksm.\t-\npradžià\tdkt. mot. g. vns. įn.\t-\npradžià\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 28,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nspal̃vos\tdkt. mot. g. dgs. šauksm.\t-\nspal̃vos\tdkt. mot. g. dgs. vard.\t-\nspalvõs\tdkt. mot. g. vns. kilm.\t-\nspalvõs\tvksm.\t-"
+      },
+      {
+        "id": 29,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ngálvos\tdkt. mot. g. dgs. šauksm.\t-\ngálvos\tdkt. mot. g. dgs. vard.\t-\ngalvõs\tdkt. mot. g. vns. kilm.\t-\ngalvõs\tvksm.\t-"
+      },
+      {
+        "id": 30,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npãbaigos\tdkt. mot. g. dgs. šauksm.\t-\npãbaigos\tdkt. mot. g. dgs. vard.\t-\npabaigõs\tdkt. mot. g. vns. kilm.\t-"
+      },
+      {
+        "id": 31,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvãlandos\tdkt. mot. g. dgs. šauksm.\t-\nvãlandos\tdkt. mot. g. dgs. vard.\t-\nvalandõs\tdkt. mot. g. vns. kilm.\t-"
+      },
+      {
+        "id": 32,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbùrna\tdkt. mot. g. vns. šauksm.\t-\nbùrna\tdkt. mot. g. vns. įn.\t-\nburnà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 33,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nprãvira\tbdv. bev. g.\t-\npravirà\tbdv. mot. g. vns. šauksm.\t-\nprãvira\tbdv. mot. g. vns. įn.\t-\npravirà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 34,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npìlna\tbdv. bev. g.\t-\npilnà\tbdv. mot. g. vns. šauksm.\t-\npìlna\tbdv. mot. g. vns. įn.\t-\npilnà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 35,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmìnkšta\tbdv. bev. g.\t-\nminkštà\tbdv. mot. g. vns. šauksm.\t-\nmìnkšta\tbdv. mot. g. vns. įn.\t-\nminkštà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 36,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\náukšta\tbdv. bev. g.\t-\naukštà\tbdv. mot. g. vns. šauksm.\t-\náukšta\tbdv. mot. g. vns. įn.\t-\naukštà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 37,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nantràs\tsktv.\t-\nañtras\tsktv.\t-\nañtras\tsktv.\t-"
+      },
+      {
+        "id": 40,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntrečiàs\tsktv.\t-\ntrẽčias\tsktv.\t-\ntrẽčias\tsktv.\t-"
+      },
+      {
+        "id": 42,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrimtàs\tbdv. mot. g. dgs. gal.\t-\nrìmtas\tbdv. mot. g. dgs. gal.\t-\nrim̃tas\tbdv. vyr. g. vns. šauksm.\t-\nrìmtas\tbdv. vyr. g. vns. šauksm.\t-\nrim̃tas\tbdv. vyr. g. vns. vard.\t-\nrìmtas\tbdv. vyr. g. vns. vard.\t-\nrìmtas\tvksm.\t-\nrìmtas\tvksm.\t-\nrìmtas\tvksm.\t-"
+      },
+      {
+        "id": 43,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nprisimintì\tvksm.\t-\nprisimintì\tvksm.\t-\nprisimìnti\tvksm. bendratis\t-\nprisimintì\tvksm.\t-\nprisimintì\tvksm.\t-\nprisimiñti\tvksm. bendratis\t-"
+      }
+    ],
+    "c": [
+      {
+        "id": 0,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nprimintì\tvksm.\t-\nprimintì\tvksm.\t-\nprimiñti\tvksm. bendratis\t-\nprimintì\tvksm.\t-\nprimintì\tvksm.\t-\nprimìnti\tvksm. bendratis\t-"
+      },
+      {
+        "id": 1,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nÕna\tdkt. tikr. mot. g. vns. šauksm.\t-\nOnà\tdkt. tikr. mot. g. vns. įn.\t-\nOnà\tdkt. tikr. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 3,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nRãsa\tdkt. mot. g. vns. šauksm.\t-\nRasà\tdkt. mot. g. vns. įn.\t-\nRasà\tdkt. mot. g. vns. vard.\t-\nRãsa\tdkt. tikr. mot. g. vns. šauksm.\t-\nRasà\tdkt. tikr. mot. g. vns. įn.\t-\nRasà\tdkt. tikr. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 12,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkártų\tbdv. vyr. g. vns. gal.\t-\nkar̃tų\tbdv. vyr. g. vns. gal.\t-\nkartų̃\tdkt. mot. g. dgs. kilm.\t-\nkar̃tų\tdkt. vyr. g. dgs. kilm.\t-\nkártų\tvksm.\t-\nkartų̃\tvksm.\t-\nkartų̃\tvksm.\t-"
+      },
+      {
+        "id": 13,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nžìla\tbdv. bev. g.\t-\nžilà\tbdv. mot. g. vns. šauksm.\t-\nžilà\tbdv. mot. g. vns. įn.\t-\nžilà\tbdv. mot. g. vns. vard.\t-"
+      }
+    ],
+    "d": [
+      {
+        "id": 0,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nstóra\tbdv. bev. g.\t-\nstorà\tbdv. mot. g. vns. šauksm.\t-\nstóra\tbdv. mot. g. vns. įn.\t-\nstorà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 1,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nblõga\tbdv. bev. g.\t-\nblogà\tbdv. mot. g. vns. šauksm.\t-\nblogà\tbdv. mot. g. vns. įn.\t-\nblogà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 2,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npìkta\tbdv. bev. g.\t-\npiktà\tbdv. mot. g. vns. šauksm.\t-\npiktà\tbdv. mot. g. vns. įn.\t-\npiktà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 3,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nliū̃dna\tbdv. bev. g.\t-\nliūdnà\tbdv. mot. g. vns. šauksm.\t-\nliūdnà\tbdv. mot. g. vns. įn.\t-\nliūdnà\tbdv. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 4,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\náiškios\tbdv. mot. g. dgs. šauksm.\t-\náiškios\tbdv. mot. g. dgs. vard.\t-\naiškiõs\tbdv. mot. g. vns. kilm.\t-"
+      },
+      {
+        "id": 5,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntẽšla\tdkt. mot. g. vns. šauksm.\t-\ntešlà\tdkt. mot. g. vns. įn.\t-\ntešlà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 6,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nplùta\tdkt. mot. g. vns. šauksm.\t-\nplùta\tdkt. mot. g. vns. šauksm.\t-\nplutà\tdkt. mot. g. vns. įn.\t-\nplutà\tdkt. mot. g. vns. įn.\t-\nplutà\tdkt. mot. g. vns. vard.\t-\nplutà\tdkt. mot. g. vns. vard.\t-"
+      },
+      {
+        "id": 7,
+        "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nspal̃va\tdkt. mot. g. vns. šauksm.\t-\nspalvà\tdkt. mot. g. vns. įn.\t-\nspalvà\tdkt. mot. g. vns. vard.\t-"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "chapter": "ch01",
+      "wordIndex": 30,
+      "before": "áukštą",
+      "after": "aũkštą",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "grindų lašėjo vanduo. Buvau įsitikinusi, kad supainiojau aukštą. – Truputį pakelkite duris, – pasakė vyras už nugaros. Su"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 44,
+      "before": "rañka",
+      "after": "rankà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ras už nugaros. Supratau tik žodį „duris“. Vyras parodė ranka, ir aš pabandžiau dar kartą. Durys atsidarė. – Ačiū. Aš"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 63,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "blogai kalbu lietuviškai. – Bet duris jau atidarėte. Aš Paulius, gyvenu priešais. – Ana. Jis paėmė vieną krepšį ir pasta"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 83,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "siūlyti arbatos, tačiau nežinojau, kur padėjau puodelius. Paulius neskubino. Pasakė, kad galiu pasibelsti, jeigu ko nors r"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 88,
+      "before": "pasibelstì",
+      "after": "pasibélsti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "padėjau puodelius. Paulius neskubino. Pasakė, kad galiu pasibelsti, jeigu ko nors reikės, ir išėjo. Man buvo dvidešimt dev"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 106,
+      "before": "nusipirktì",
+      "after": "nusipir̃kti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "i. Anksčiau kūriau plakatus mažoje įmonėje. Žinojau, kur nusipirkti duonos, kam paskambinti ir ką atsakyti, kai kas nors pa"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 129,
+      "before": "skaĩčiau",
+      "after": "skaičiaũ",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "turėjau kelis nuotolinius užsakymus ir adresą, kurį dar skaičiau iš telefono. Ant virtuvės stalo gulėjo šeimininkės palik"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 143,
+      "before": "išneštì",
+      "after": "išnèšti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "o šeimininkės paliktas lapas: kaip naudotis šildymu, kada išnešti šiukšles. Perskaičiau jį tris kartus. Mano naujas gyveni"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 150,
+      "before": "naujàs",
+      "after": "naũjas",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "kada išnešti šiukšles. Perskaičiau jį tris kartus. Mano naujas gyvenimas prasidėjo nuo nesuprantamų šiukšlių taisyklių. P"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 158,
+      "before": "mãma",
+      "after": "mamà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "prasidėjo nuo nesuprantamų šiukšlių taisyklių. Paskambino mama. Atsiliepusi atsisėdau ant grindų, nes vienintelė kėdė bu"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 167,
+      "before": "ùžimta",
+      "after": "užimtà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "siliepusi atsisėdau ant grindų, nes vienintelė kėdė buvo užimta dėžėmis. – Na, kaip jautiesi? – Gerai. Butas šviesus. Tai"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 177,
+      "before": "tiẽsa",
+      "after": "tiesà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "s. – Na, kaip jautiesi? – Gerai. Butas šviesus. Tai buvo tiesa, nors jau temo. Apie save nieko nepasakiau. – Ar pavalg"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 189,
+      "before": "Mãma",
+      "after": "Mamà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "mo. Apie save nieko nepasakiau. – Ar pavalgei? – Dar ne. Mama pradėjo pasakoti, ką galėčiau greitai pasigaminti. Klausy"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 207,
+      "before": "spręstì",
+      "after": "sprę́sti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "tau, kad ilgai laukiau šio klausimo. Visą dieną reikėjo spręsti, mokėti, ieškoti, nepasiklysti. Dabar kažkam rūpėjo, ar p"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 212,
+      "before": "kažkam̃",
+      "after": "kažkám",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "eną reikėjo spręsti, mokėti, ieškoti, nepasiklysti. Dabar kažkam rūpėjo, ar pavalgiau. – Mama, man baisu, – pagaliau pasak"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 223,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "valgiau. – Mama, man baisu, – pagaliau pasakiau. Ji kurį laiką tylėjo. – Nori grįžti? Pažiūrėjau į uždarą lagaminą. Galė"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 226,
+      "before": "grįžtì",
+      "after": "grį̃žti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "baisu, – pagaliau pasakiau. Ji kurį laiką tylėjo. – Nori grįžti? Pažiūrėjau į uždarą lagaminą. Galėjau rytoj nusipirkti b"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 233,
+      "before": "nusipirktì",
+      "after": "nusipir̃kti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "Nori grįžti? Pažiūrėjau į uždarą lagaminą. Galėjau rytoj nusipirkti bilietą. Niekas nebuvo užrakinęs durų iš lauko. – Šiandi"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 272,
+      "before": "nusipirktì",
+      "after": "nusipir̃kti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ms, bet pirmame puslapyje užrašiau tris paprastus darbus: nusipirkti maisto, susirasti kalbos kursus, išmokti pasakyti savo a"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 274,
+      "before": "susirastì",
+      "after": "susiràsti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "slapyje užrašiau tris paprastus darbus: nusipirkti maisto, susirasti kalbos kursus, išmokti pasakyti savo adresą. Tada išgirda"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 275,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ašiau tris paprastus darbus: nusipirkti maisto, susirasti kalbos kursus, išmokti pasakyti savo adresą. Tada išgirdau beldi"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 277,
+      "before": "išmoktì",
+      "after": "išmókti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "rastus darbus: nusipirkti maisto, susirasti kalbos kursus, išmokti pasakyti savo adresą. Tada išgirdau beldimą. Už durų sto"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 287,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "yti savo adresą. Tada išgirdau beldimą. Už durų stovėjo Paulius su dviem puodeliais. – Pagalvojau, gal dar neradote savų"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 300,
+      "before": "kitàs",
+      "after": "kìtas",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "u, gal dar neradote savųjų. Vienas puodelis buvo baltas, kitas mėlynas. Pasirinkau mėlyną. Padėjusi jį ant stalo, pirmą"
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 319,
+      "before": "nãme",
+      "after": "namè",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "neskubėdama. Už lango kažkas vedžiojo mažą šunį. Kitame name degė virtuvės šviesa. Šį vakarą turėjau kur likti."
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 322,
+      "before": "šviẽsa",
+      "after": "šviesà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ngo kažkas vedžiojo mažą šunį. Kitame name degė virtuvės šviesa. Šį vakarą turėjau kur likti."
+    },
+    {
+      "chapter": "ch01",
+      "wordIndex": 327,
+      "before": "liktì",
+      "after": "lìkti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "Kitame name degė virtuvės šviesa. Šį vakarą turėjau kur likti."
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 8,
+      "before": "telefòne",
+      "after": "telefonè",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "Kitą rytą nuėjau į kepyklą. Prieš išeidama telefone pasitikrinau, kaip paprašyti duonos. Ėjau kartodama sakin"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 20,
+      "before": "visàs",
+      "after": "vìsas",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "duonos. Ėjau kartodama sakinį, tarsi nuo jo priklausytų visas pokalbis. – Laba diena. Norėčiau duonos, – pasakiau pardav"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 22,
+      "before": "Lãba",
+      "after": "Labà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "odama sakinį, tarsi nuo jo priklausytų visas pokalbis. – Laba diena. Norėčiau duonos, – pasakiau pardavėjai. – Kurią pja"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 23,
+      "before": "diẽna",
+      "after": "dienà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "sakinį, tarsi nuo jo priklausytų visas pokalbis. – Laba diena. Norėčiau duonos, – pasakiau pardavėjai. – Kurią pjaustyti"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 38,
+      "before": "pãskui",
+      "after": "paskuĩ",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "o mano pasiruoštame pokalbyje nebuvo. Žiūrėjau į lentyną, paskui į jos rankas. Už manęs stovėjo moteris su vaiku. Man p"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 81,
+      "before": "mãma",
+      "after": "mamà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "Vaikas už manęs norėjo bandelės ir garsiai ginčijosi su mama. Pasirodo, jie galvojo apie bandelę, o ne apie mano lie"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 95,
+      "before": "šil̃tos",
+      "after": "šiltõs",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "andelę, o ne apie mano lietuvių kalbą. Lauke atsikandau šiltos duonos. Buvau nusipirkusi daugiau, negu reikėjo, tačiau p"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 121,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "kvapą. Prie bibliotekos pamačiau skelbimą apie lietuvių kalbos grupę. Užsiėmimai vyko antradieniais ir ketvirtadieniais."
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 132,
+      "before": "vãlandos",
+      "after": "valandõs",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "dieniais ir ketvirtadieniais. Parašiau nurodytu adresu. Po valandos gavau atsakymą: „Ateikite šiandien. Susipažinsime. Eglė.“"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 143,
+      "before": "víena",
+      "after": "vienà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "dien. Susipažinsime. Eglė.“ Norėjau dar savaitę pasimokyti viena. Taip į pirmą pamoką galėčiau ateiti jau mokėdama kalbė"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 149,
+      "before": "ateitì",
+      "after": "ateĩti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "r savaitę pasimokyti viena. Taip į pirmą pamoką galėčiau ateiti jau mokėdama kalbėti. Perskaičiusi savo mintį sąsiuvinyje"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 162,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "i savo mintį sąsiuvinyje, nusijuokiau. Vis tiek dar kurį laiką delsiau. Grupėje sėdėjo šeši žmonės. Prie lango liko vi"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 171,
+      "before": "víena",
+      "after": "vienà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "iką delsiau. Grupėje sėdėjo šeši žmonės. Prie lango liko viena laisva vieta. Šalia sėdinti moteris patraukė savo rankin"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 172,
+      "before": "laĩsva",
+      "after": "laisvà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "siau. Grupėje sėdėjo šeši žmonės. Prie lango liko viena laisva vieta. Šalia sėdinti moteris patraukė savo rankinę. – Aš"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 173,
+      "before": "viẽta",
+      "after": "vietà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "rupėje sėdėjo šeši žmonės. Prie lango liko viena laisva vieta. Šalia sėdinti moteris patraukė savo rankinę. – Aš Samira"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 184,
+      "before": "naũja",
+      "after": "naujà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ėdinti moteris patraukė savo rankinę. – Aš Samira. Ir aš nauja, – pasakė ji. Mokytoja Eglė paprašė papasakoti, kas mums"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 209,
+      "before": "rýte",
+      "after": "rytè",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "rbą, vaikus. Aš prisistačiau ir nutilau. – O ką veikėte ryte? – paklausė Eglė. – Aš pirkau… duona. – Pirkau duoną, – r"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 210,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "kus. Aš prisistačiau ir nutilau. – O ką veikėte ryte? – paklausė Eglė. – Aš pirkau… duona. – Pirkau duoną, – ramiai pakart"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 227,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "pakartojo ji. – Ar skani buvo? Atsakiau, kad taip. Eglė paklausė, ar kepykla netoli namų. Staiga jau kalbėjomės apie man"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 229,
+      "before": "kepỹkla",
+      "after": "kepyklà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "– Ar skani buvo? Atsakiau, kad taip. Eglė paklausė, ar kepykla netoli namų. Staiga jau kalbėjomės apie mano gatvę. Vie"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 238,
+      "before": "Víena",
+      "after": "Vienà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "kla netoli namų. Staiga jau kalbėjomės apie mano gatvę. Viena netaisyklinga galūnė nesustabdė viso pokalbio. Per pertra"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 274,
+      "before": "pãmokos",
+      "after": "pamokõs",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "iškino ji. – Mano rankos jau gerai kalba lietuviškai. Po pamokos Eglė paklausė, ar prisijungsiu prie grupės. Pasakiau, ka"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 276,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ano rankos jau gerai kalba lietuviškai. Po pamokos Eglė paklausė, ar prisijungsiu prie grupės. Pasakiau, kad bijau atsilik"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 284,
+      "before": "atsiliktì",
+      "after": "atsilìkti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "klausė, ar prisijungsiu prie grupės. Pasakiau, kad bijau atsilikti. – Pabandykime. Pažiūrėsime, kur reikia pagalbos. Galite a"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 291,
+      "before": "ateitì",
+      "after": "ateĩti",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": ". – Pabandykime. Pažiūrėsime, kur reikia pagalbos. Galite ateiti ir su klausimais. Grįždama namo užėjau į tą pačią kepy"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 307,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ačią kepyklą. Šįkart paprašiau dviejų bandelių. Pardavėja paklausė, ar su obuoliais. – Taip. Viena man, kita kaimynui. Prie"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 312,
+      "before": "Víena",
+      "after": "Vienà",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "ų bandelių. Pardavėja paklausė, ar su obuoliais. – Taip. Viena man, kita kaimynui. Prie Pauliaus durų sustojau pakėlusi"
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 314,
+      "before": "kìta",
+      "after": "kità",
+      "reason": "Ранее проверенный текст первой/второй главы.",
+      "evidence": "canonical-book",
+      "context": "Pardavėja paklausė, ar su obuoliais. – Taip. Viena man, kita kaimynui. Prie Pauliaus durų sustojau pakėlusi ranką. Du"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 38,
+      "before": "žìla",
+      "after": "žilà",
+      "reason": "Женский род, именительный; согласуется с moteris.",
+      "evidence": "c-13",
+      "context": "ti „tu“, – pasiūliau ir pati nustebau. Prie mūsų priėjo žila moteris su akiniais ant galvos. – Aš Ona. Man sakė, ka"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 43,
+      "before": "gálvos",
+      "after": "galvõs",
+      "reason": "Родительный единственного числа после ant.",
+      "evidence": "b-29",
+      "context": "nustebau. Prie mūsų priėjo žila moteris su akiniais ant galvos. – Aš Ona. Man sakė, kad moki kurti plakatus. Pažiūrėja"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 45,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "mūsų priėjo žila moteris su akiniais ant galvos. – Aš Ona. Man sakė, kad moki kurti plakatus. Pažiūrėjau į Paulių"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 50,
+      "before": "kurtì",
+      "after": "kùrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-0",
+      "context": "s su akiniais ant galvos. – Aš Ona. Man sakė, kad moki kurti plakatus. Pažiūrėjau į Paulių. Jis šypsojosi, lyg būtų p"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 64,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "psojosi, lyg būtų perdavęs gerą knygą kitam skaitytojui. Ona papasakojo, kad lapkričio pabaigoje biblioteka rengs isto"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 69,
+      "before": "bibliotèka",
+      "after": "bibliotekà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "itam skaitytojui. Ona papasakojo, kad lapkričio pabaigoje biblioteka rengs istorijų vakarą. Žmonės galės papasakoti, ką pradė"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 82,
+      "before": "pakviestì",
+      "after": "pakviẽsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-1",
+      "context": "Žmonės galės papasakoti, ką pradėjo iš naujo. Ji norėjo pakviesti ir mūsų grupę. – Gal kas nors paskaitytų trumpą tekstą?"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 107,
+      "before": "viẽta",
+      "after": "vietà",
+      "reason": "Именительный или творительный единственного числа.",
+      "evidence": "a-29",
+      "context": "padaryti plakatą, – greitai pasakiau. Plakatas buvo saugi vieta. Galėjau rinktis spalvas ir taisyti žodžius tiek kartų,"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 115,
+      "before": "kártų",
+      "after": "kar̃tų",
+      "reason": "Родительный множественного числа существительного kartas — раз.",
+      "evidence": "c-12",
+      "context": "vieta. Galėjau rinktis spalvas ir taisyti žodžius tiek kartų, kiek reikėjo. Kalbėti prieš žmones visai nenorėjau. Ona"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 123,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "rtų, kiek reikėjo. Kalbėti prieš žmones visai nenorėjau. Ona pakvietė mane į mažą salę. Ten buvo dvylika skirtingų k"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 143,
+      "before": "senàs",
+      "after": "sẽnas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-30",
+      "context": "tlošas klibėjo, kitą reikėjo nuvalyti. Ant sienos kabėjo senas miesto žemėlapis. – Čia dar nieko nėra, – pasakė ji. – T"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 176,
+      "before": "atsineštì",
+      "after": "atsinèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-2",
+      "context": "ie siuvimą? Aš anksčiau siuvau drabužius. – Žinoma. Gali atsinešti ir kokį nors daiktą. Samira iš rankinės ištraukė mažą ge"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 193,
+      "before": "žaliàs",
+      "after": "žãlias",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-31",
+      "context": "mažą geltoną vaiko pirštinę. Ties nykščiu buvo prisiūtas žalias lapas. – Skylė, – pasakė ji, rodydama į lapą. – Buvo sky"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 222,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "džių. Sudėjo turimus ir parodė pirštinę. – O tu, Ana? – paklausė Eglė. – Aš darau plakatą. – Taip. O ar norėtum ką nors"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 247,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "Užrašė mano vardą, o šalia paliko tuščią vietą. Vakare Paulius atėjo pasiimti savo puodelio. Papasakojo, kad anksčiau va"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 249,
+      "before": "pasiimtì",
+      "after": "pasiim̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-3",
+      "context": "ardą, o šalia paliko tuščią vietą. Vakare Paulius atėjo pasiimti savo puodelio. Papasakojo, kad anksčiau vairavo autobusą,"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 270,
+      "before": "keptì",
+      "after": "kèpti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-4",
+      "context": "ško kito darbo. Dabar lanko kepimo kursus. – Tau patinka kepti? – paklausiau. – Patinka. Tik kai visi klausia, kuo dirb"
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 276,
+      "before": "klausià",
+      "after": "kláusia",
+      "reason": "Глагол «спрашивает», а не прилагательное.",
+      "evidence": "a-32",
+      "context": "Tau patinka kepti? – paklausiau. – Patinka. Tik kai visi klausia, kuo dirbu, vis dar sakau, kad vairuoju. Jis ilgai var"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 39,
+      "before": "spal̃va",
+      "after": "spalvà",
+      "reason": "Именительный или творительный единственного числа; не обращение.",
+      "evidence": "d-7",
+      "context": "s. Žodis „lentyna“ buvo mano sąsiuvinyje, viršuje, žalia spalva. Mačiau visą puslapį mintyse, tačiau žodžio negalėjau pas"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 70,
+      "before": "prisimintì",
+      "after": "prisiminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "tau lietuviškai, tada rusiškai. Ir vėl. – O kada bandai prisiminti nematydama atsakymo? – Kai reikia kalbėti. – Vadinasi, sun"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 91,
+      "before": "uždengtì",
+      "after": "uždeñgti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-6",
+      "context": "dai prieš kitus žmones. Ji paėmė tuščią lapą ir paprašė uždengti vertimus. Turėjau parašyti penkis žodžius iš atminties. P"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 122,
+      "before": "grįžtì",
+      "after": "grį̃žti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-7",
+      "context": "odė kaip dviejų valandų darbas. – Dabar žinome, prie ko grįžti, – pasakė Eglė. – Pabandyk, tada pasitikrink. Vien skaity"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 134,
+      "before": "Prisimintì",
+      "after": "Prisiminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "ikrink. Vien skaitydama lengvai atpažįsti pažįstamą žodį. Prisiminti jį be puslapio yra kita užduotis. – Vadinasi, turiu save"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 139,
+      "before": "kìta",
+      "after": "kità",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "atpažįsti pažįstamą žodį. Prisiminti jį be puslapio yra kita užduotis. – Vadinasi, turiu save tikrinti kaip per egzam"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 155,
+      "before": "prisimintì",
+      "after": "prisiminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "miną? – Gali be pažymio. Mokslininkai tyrė, kaip bandymas prisiminti padeda vėliau išlaikyti informaciją atmintyje. Kai kuriuos"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 241,
+      "before": "Mažàs",
+      "after": "Mãžas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-34",
+      "context": "us, tada pridėjau po vieną apibūdinimą. Mėlynas puodelis. Mažas raktas. Stora knyga. Vėliau užmerkiau akis ir bandžiau p"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 243,
+      "before": "Stóra",
+      "after": "Storà",
+      "reason": "Женский род, именительный; согласуется с knyga.",
+      "evidence": "d-0",
+      "context": "jau po vieną apibūdinimą. Mėlynas puodelis. Mažas raktas. Stora knyga. Vėliau užmerkiau akis ir bandžiau prisiminti, kas"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 250,
+      "before": "prisimintì",
+      "after": "prisiminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "s raktas. Stora knyga. Vėliau užmerkiau akis ir bandžiau prisiminti, kas buvo ant stalo. Pamiršau šaukštą. Atsimerkusi nusij"
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 300,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "sinešiau abu lapus: gražųjį ir tą su klaida. Kai Samira paklausė, kam laikau antrą, pasakiau: – Čia matau, ko dar nemoku"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 12,
+      "before": "rimtàs",
+      "after": "rim̃tas",
+      "reason": "Именительный мужского рода; выбран словарный вариант с циркумфлексом.",
+      "evidence": "a-35",
+      "context": "prendžiau mokytis kiekvieną rytą. Mano planas buvo labai rimtas: valanda kalbos, pusvalandis skaitymo, dar nauji žodžiai"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 13,
+      "before": "vãlanda",
+      "after": "valandà",
+      "reason": "Именительный: пункт плана; следующее su visa valanda — творительный.",
+      "evidence": "a-36",
+      "context": "u mokytis kiekvieną rytą. Mano planas buvo labai rimtas: valanda kalbos, pusvalandis skaitymo, dar nauji žodžiai vakare. P"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 14,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "s kiekvieną rytą. Mano planas buvo labai rimtas: valanda kalbos, pusvalandis skaitymo, dar nauji žodžiai vakare. Pirmadie"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 35,
+      "before": "atverstì",
+      "after": "atver̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-8",
+      "context": "ieškojau dingusio dokumento. Ketvirtadienį nenorėjau net atversti sąsiuvinio. Paulius rado mane virtuvėje prie šalto puode"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 37,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "okumento. Ketvirtadienį nenorėjau net atversti sąsiuvinio. Paulius rado mane virtuvėje prie šalto puodelio. – Gal reikia pr"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 46,
+      "before": "pradėtì",
+      "after": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9",
+      "context": "s rado mane virtuvėje prie šalto puodelio. – Gal reikia pradėti nuo mažiau? – paklausė. – Nuo mažiau neišmoksiu. Jis padė"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 49,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "prie šalto puodelio. – Gal reikia pradėti nuo mažiau? – paklausė. – Nuo mažiau neišmoksiu. Jis padėjo ant stalo mažą band"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 72,
+      "before": "tẽšla",
+      "after": "tešlà",
+      "reason": "Существительное, именительный единственного числа.",
+      "evidence": "d-5",
+      "context": "ieną judesį. Tik vieną. Aš jį darau per greitai, todėl tešla plyšta. – Ir kiek kartų kartojai? – Nežinau. Meistrė lie"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 76,
+      "before": "kártų",
+      "after": "kar̃tų",
+      "reason": "Родительный множественного числа существительного kartas — раз.",
+      "evidence": "c-12",
+      "context": "Aš jį darau per greitai, todėl tešla plyšta. – Ir kiek kartų kartojai? – Nežinau. Meistrė liepė neskubėti ir pažiūrėti"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 91,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "i, kas keičiasi. Papasakojau apie savo praleistas dienas. Paulius neklausė, kodėl man trūksta valios. Paklausė, kada papras"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 97,
+      "before": "Paklaũsė",
+      "after": "Pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "istas dienas. Paulius neklausė, kodėl man trūksta valios. Paklausė, kada paprastai geriu rytinę arbatą. Susitariau pati su"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 139,
+      "before": "naujàs",
+      "after": "naũjas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-38",
+      "context": "per paprasta, net truputį gėda. Į sąsiuvinį įrašiau ne „naujas gyvenimas“, o „po arbatos“. Šalia nupiešiau mažą puodelį"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 202,
+      "before": "Láikas",
+      "after": "Laĩkas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "iename tyrime žmonės kartojo pasirinktą kasdienį veiksmą. Laikas labai skyrėsi. Tai nebuvo lietuvių kalbos tyrimas. [4] –"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 208,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "dienį veiksmą. Laikas labai skyrėsi. Tai nebuvo lietuvių kalbos tyrimas. [4] – O žodžius kada kartoti? – Verta grįžti pri"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 215,
+      "before": "grįžtì",
+      "after": "grį̃žti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-7",
+      "context": "vių kalbos tyrimas. [4] – O žodžius kada kartoti? – Verta grįžti prie jų per kelis atskirus mokymosi kartus. Ne tik ilga"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 253,
+      "before": "grįžtì",
+      "after": "grį̃žti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-7",
+      "context": "elių dienų, vėliau po savaitės. Jei visai neprisiminsiu, grįžti anksčiau ir dar kartą suprasti reikšmę. Sekmadienį rytin"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 258,
+      "before": "suprastì",
+      "after": "supràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-10",
+      "context": "s. Jei visai neprisiminsiu, grįžti anksčiau ir dar kartą suprasti reikšmę. Sekmadienį rytinė arbata liko neišgerta. Išvažiav"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 262,
+      "before": "arbãta",
+      "after": "arbatà",
+      "reason": "Именительный или творительный единственного числа; не обращение.",
+      "evidence": "a-39",
+      "context": "nksčiau ir dar kartą suprasti reikšmę. Sekmadienį rytinė arbata liko neišgerta. Išvažiavau anksti, grįžau pavargusi. Sąsi"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 271,
+      "before": "tùščia",
+      "after": "tuščià",
+      "reason": "Женский род, именительный/творительный; не безличное сказуемое.",
+      "evidence": "a-40",
+      "context": "rta. Išvažiavau anksti, grįžau pavargusi. Sąsiuvinyje liko tuščia diena. Pirmadienį norėjau pradėti naują puslapį, kad jos"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 275,
+      "before": "pradėtì",
+      "after": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9",
+      "context": "argusi. Sąsiuvinyje liko tuščia diena. Pirmadienį norėjau pradėti naują puslapį, kad jos nesimatytų. Vis dėlto parašiau ki"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 287,
+      "before": "tùščia",
+      "after": "tuščià",
+      "reason": "Женский род, именительный/творительный; не безличное сказуемое.",
+      "evidence": "a-40",
+      "context": "pį, kad jos nesimatytų. Vis dėlto parašiau kitą datą po tuščia vieta. Pakartojau keturis žodžius, penktą pasitikrinau. Tu"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 288,
+      "before": "viẽta",
+      "after": "vietà",
+      "reason": "Именительный или творительный единственного числа.",
+      "evidence": "a-29",
+      "context": "jos nesimatytų. Vis dėlto parašiau kitą datą po tuščia vieta. Pakartojau keturis žodžius, penktą pasitikrinau. Tuščia d"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 294,
+      "before": "Tùščia",
+      "after": "Tuščià",
+      "reason": "Женский род, именительный/творительный; не безличное сказуемое.",
+      "evidence": "a-40",
+      "context": "ia vieta. Pakartojau keturis žodžius, penktą pasitikrinau. Tuščia diena liko savo vietoje. Man nereikėjo dėl jos iš nauj"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 305,
+      "before": "pirktì",
+      "after": "pir̃kti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-11",
+      "context": "iena liko savo vietoje. Man nereikėjo dėl jos iš naujo pirkti sąsiuvinio ar laukti kito mėnesio. Po dviejų savaičių da"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 308,
+      "before": "lauktì",
+      "after": "láukti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-12",
+      "context": "je. Man nereikėjo dėl jos iš naujo pirkti sąsiuvinio ar laukti kito mėnesio. Po dviejų savaičių dar turėjau sau primint"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 317,
+      "before": "primintì",
+      "after": "priminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "laukti kito mėnesio. Po dviejų savaičių dar turėjau sau priminti mokytis. Tačiau nebesiginčijau su visa valanda. Atsisėsda"
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 322,
+      "before": "vìsa",
+      "after": "visà",
+      "reason": "Согласуется с valanda в творительном падеже.",
+      "evidence": "a-41",
+      "context": "r turėjau sau priminti mokytis. Tačiau nebesiginčijau su visa valanda. Atsisėsdavau prie puodelio ir pradėdavau nuo vi"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 8,
+      "before": "pãskui",
+      "after": "paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "Plakatą kūriau nuo ryto. Pirmiausia pakeičiau spalvą, paskui šriftą, tada vėl spalvą. Žinutės ateidavo viena po kito"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 15,
+      "before": "víena",
+      "after": "vienà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "spalvą, paskui šriftą, tada vėl spalvą. Žinutės ateidavo viena po kitos. Atsakydama Onai, skaičiau kliento laišką. Klaus"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 20,
+      "before": "skaĩčiau",
+      "after": "skaičiaũ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "palvą. Žinutės ateidavo viena po kitos. Atsakydama Onai, skaičiau kliento laišką. Klausydamasi pamokos įrašo, ieškojau nuot"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 46,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "pakelti. Supratau, kad nuo pusryčių beveik neatsistojau. Paulius pakvietė pasivaikščioti. Pasakiau, kad neturiu laiko. – Ge"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 76,
+      "before": "sutiktì",
+      "after": "sutìkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-13",
+      "context": "d kas nors ištrauktų mane iš kėdės, bet nenorėjau pati sutikti. Po minutės parašiau, kad vis dėlto eisiu. Lauke pūtė š"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 94,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "pūtė šaltas vėjas. Iš pradžių kalbėjau tik apie darbus. Paulius klausėsi. Prie upės jis sustojo užsirišti bato, o aš pa"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 100,
+      "before": "užsirištì",
+      "after": "užsirìšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-14",
+      "context": "ik apie darbus. Paulius klausėsi. Prie upės jis sustojo užsirišti bato, o aš pagaliau nutilau. Po kojomis gulėjo šlapi la"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 166,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "amokos įrašą ir užbaigiau vieną plakato dalį: vietą bei laiką. Tai buvo mažas darbas, tačiau galėjau parodyti, kas pad"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 169,
+      "before": "mažàs",
+      "after": "mãžas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-34",
+      "context": "užbaigiau vieną plakato dalį: vietą bei laiką. Tai buvo mažas darbas, tačiau galėjau parodyti, kas padaryta. Vėliau ats"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 187,
+      "before": "Pãskui",
+      "after": "Paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ašiau: „Ką dabar jaučiu?“ Pirmas atsakymas buvo „nieko“. Paskui supratau, kad noriu valgyti. Pasišildžiau sriubos ir kla"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 201,
+      "before": "nuviltì",
+      "after": "nuvìlti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-15",
+      "context": "riubos ir klausimą perskaičiau dar kartą. „Pykstu. Bijau nuvilti Oną. Pavargau nuo ekranų.“ Šie sakiniai manęs nesutaisė."
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 215,
+      "before": "suprastì",
+      "after": "supràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-10",
+      "context": "“ Šie sakiniai manęs nesutaisė. Bet iš jų buvo lengviau suprasti, ko reikia šiam vakarui. Sriubos, aiškios darbo pabaigos"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 221,
+      "before": "áiškios",
+      "after": "aiškiõs",
+      "reason": "Родительный единственного числа; согласуется с pabaigos.",
+      "evidence": "d-4",
+      "context": "buvo lengviau suprasti, ko reikia šiam vakarui. Sriubos, aiškios darbo pabaigos ir vieno laiško Onai: plakatą atsiųsiu ry"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 223,
+      "before": "pãbaigos",
+      "after": "pabaigõs",
+      "reason": "Родительный единственного числа.",
+      "evidence": "b-30",
+      "context": "suprasti, ko reikia šiam vakarui. Sriubos, aiškios darbo pabaigos ir vieno laiško Onai: plakatą atsiųsiu rytoj iki pietų."
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 265,
+      "before": "būtì",
+      "after": "bū́ti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "u pavargusi, nes vakar dirbau per ilgai. – O ar galima būti laimingai ir pavargusiai kartu? – paklausiau. – Žinoma, –"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 284,
+      "before": "pìkta",
+      "after": "piktà",
+      "reason": "Прилагательное женского рода в перечне состояний рассказчицы.",
+      "evidence": "d-2",
+      "context": "tokia būnu. Mes pradėjome ieškoti daugiau žodžių. Rami, pikta, liūdna, susijaudinusi. Kai kuriuos jau žinojau, bet reta"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 285,
+      "before": "liū̃dna",
+      "after": "liūdnà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "būnu. Mes pradėjome ieškoti daugiau žodžių. Rami, pikta, liūdna, susijaudinusi. Kai kuriuos jau žinojau, bet retai varto"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 310,
+      "before": "vãlandos",
+      "after": "valandõs",
+      "reason": "Родительный единственного числа после po.",
+      "evidence": "b-31",
+      "context": "nešiau vandens ir padėjau abi kojas ant grindų. Kai po valandos sustingau, atsistojau. Niekas to nepamatė ir nepagyrė. Vi"
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 323,
+      "before": "lauktì",
+      "after": "láukti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-12",
+      "context": "to nepamatė ir nepagyrė. Vis dėlto mano kūnui nereikėjo laukti, kol baigsiu visus darbus."
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 17,
+      "before": "paruoštì",
+      "after": "paruõšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-16",
+      "context": "serga. Antrą kartą susierzinau. Buvome susitarusios kartu paruošti jos istorijos tekstą, o ji net neparašė. Nusiunčiau žinu"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 38,
+      "before": "trumpàs",
+      "after": "trum̃pas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-43",
+      "context": "usi vakare?“ Atsakymo negavau iki kitos dienos. Jis buvo trumpas: „Nežinau. Daug visko.“ Man pasirodė, kad jai neberūpi."
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 71,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "engvai atsisako savo planų. – O tu žinai, kas nutiko? – paklausė jis. Nežinojau. Parašiau kitą žinutę: „Ar norėtum trumpai"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 82,
+      "before": "ateitì",
+      "after": "ateĩti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-17",
+      "context": "šiau kitą žinutę: „Ar norėtum trumpai pasikalbėti? Galiu ateiti prie tavo namų.“ Samira pasiūlė susitikti žaidimų aikštel"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 88,
+      "before": "susitiktì",
+      "after": "susitìkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-18",
+      "context": "pasikalbėti? Galiu ateiti prie tavo namų.“ Samira pasiūlė susitikti žaidimų aikštelėje. Jos dukra lipo į mažą namelį, o me"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 107,
+      "before": "dirbtì",
+      "after": "dìrbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-19",
+      "context": "e šalia su popieriniais kavos puodeliais. – Vakar turėjau dirbti vakare, – paaiškino Samira. – Moteris, kuri prižiūri dukrą"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 148,
+      "before": "šálta",
+      "after": "šaltà",
+      "reason": "В главе 7 согласуется с kava: женский род, именительный.",
+      "evidence": "a-44",
+      "context": "iškinti. Samira atsisėdo ant suoliuko. Jos kava jau buvo šalta. – Aš noriu mokytis, Ana. Tik kartais neužtenka vien nor"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 196,
+      "before": "atsiųstì",
+      "after": "atsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-20",
+      "context": "Gal nereikia iš karto viso gyvenimo suplanuoti. Ar gali atsiųsti, ką mokėtės? Nufotografavau užduotis. Tada paklausiau, ar"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 232,
+      "before": "trum̃pa",
+      "after": "trumpà",
+      "reason": "Согласуется с istorija: женский род, именительный.",
+      "evidence": "a-45",
+      "context": "as? – paklausiau. – Norėčiau. Bet mano istorija dar labai trumpa. – Gal pradėkime nuo pirštinės? Samira ištraukė ją iš du"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 243,
+      "before": "Žaliàs",
+      "after": "Žãlias",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-31",
+      "context": "kime nuo pirštinės? Samira ištraukė ją iš dukros kišenės. Žalias lapas buvo truputį purvinas. Ji papasakojo, kad siūti iš"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 251,
+      "before": "siūtì",
+      "after": "siū́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-21",
+      "context": ". Žalias lapas buvo truputį purvinas. Ji papasakojo, kad siūti išmoko iš močiutės. Pirmą kartą girdėjau ją taip ilgai"
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 320,
+      "before": "tartìs",
+      "after": "tar̃tis",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-22",
+      "context": "s, kurios priklausė man. Samira dėl tokių minučių turėjo tartis su kitais žmonėmis. Sekmadienį paskambinau sutartu laiku."
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 3,
+      "before": "mãma",
+      "after": "mamà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "Vieną šeštadienį mama atsiuntė darbo skelbimą. Įmonė ieškojo žmogaus, kuris gal"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 19,
+      "before": "geràs",
+      "after": "gẽras",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-47",
+      "context": "endrauti su klientais keliomis kalbomis. Atlyginimas buvo geras, reikėjo dažnai keliauti. – Tu juk visada norėjai keliau"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 29,
+      "before": "mãma",
+      "after": "mamà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "nai keliauti. – Tu juk visada norėjai keliauti, – pasakė mama telefonu. – Taip, norėjau. Perskaičiau skelbimą ir pradėj"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 42,
+      "before": "vãlandos",
+      "after": "valandõs",
+      "reason": "Родительный единственного числа после po.",
+      "evidence": "b-31",
+      "context": "skelbimą ir pradėjau taisyti savo gyvenimo aprašymą. Po valandos sustojau. Kodėl man nesmagu? Darbas atrodė rimtas. Mama"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 49,
+      "before": "rimtàs",
+      "after": "rim̃tas",
+      "reason": "Именительный мужского рода; выбран словарный вариант с циркумфлексом.",
+      "evidence": "a-35",
+      "context": ". Po valandos sustojau. Kodėl man nesmagu? Darbas atrodė rimtas. Mama džiaugtųsi. Draugams būtų lengva paaiškinti, kuo už"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 50,
+      "before": "Mãma",
+      "after": "Mamà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "landos sustojau. Kodėl man nesmagu? Darbas atrodė rimtas. Mama džiaugtųsi. Draugams būtų lengva paaiškinti, kuo užsiimu."
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 86,
+      "before": "kurtì",
+      "after": "kùrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-0",
+      "context": "rėjau turėti savo darbo stalą, pažįstamą gatvę ir laiko kurti. Paskambinau mamai dar kartą. – Man patiko kelionės, bet"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 99,
+      "before": "dirbtì",
+      "after": "dìrbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-19",
+      "context": "artą. – Man patiko kelionės, bet nežinau, ar noriu taip dirbti. – O kaip tada užsidirbsi? Šito klausimo negalėjau atmest"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 107,
+      "before": "atmestì",
+      "after": "atmèsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-23",
+      "context": "irbti. – O kaip tada užsidirbsi? Šito klausimo negalėjau atmesti. Turėjau mokėti nuomą. Mano kelių užsakymų nepakako ilga"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 120,
+      "before": "kurtì",
+      "after": "kùrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-0",
+      "context": "sakymų nepakako ilgam. – Ieškosiu darbo, kuriame galėčiau kurti. Gali būti ir dalis dienos kitoje vietoje. Dar neturiu"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 122,
+      "before": "būtì",
+      "after": "bū́ti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ko ilgam. – Ieškosiu darbo, kuriame galėčiau kurti. Gali būti ir dalis dienos kitoje vietoje. Dar neturiu viso plano."
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 132,
+      "before": "Mãma",
+      "after": "Mamà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ir dalis dienos kitoje vietoje. Dar neturiu viso plano. Mama atsiduso. Anksčiau būčiau iš karto sutikusi, kad tik ji"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 171,
+      "before": "keptì",
+      "after": "kèpti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-4",
+      "context": "pęs, todėl ėmėme tik kraštus. – Kaip supratai, kad nori kepti? – paklausiau. – Nežinau, ar noriu visą gyvenimą. Man pat"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 191,
+      "before": "tikràs",
+      "after": "tìkras",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-48",
+      "context": "lgė tai, ką padariau. Tada nuėjau pažiūrėti, kaip atrodo tikras darbas kepykloje. – Ir kaip? – Anksti. Labai anksti, – at"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 214,
+      "before": "keptì",
+      "after": "kèpti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-4",
+      "context": "stovėti. Jis papasakojo apie pirmą bandomąjį rytą. Namie kepti sekmadienio pyragą buvo viena, ruošti daugybę vienodų kep"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 219,
+      "before": "ruoštì",
+      "after": "ruõšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-24",
+      "context": "ndomąjį rytą. Namie kepti sekmadienio pyragą buvo viena, ruošti daugybę vienodų kepinių iki septintos ryto – kita. – Bet"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 247,
+      "before": "sudėtì",
+      "after": "sudė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-25",
+      "context": "žusi surašiau, kas man patinka kuriant plakatus: aiškiai sudėti mintį, rasti tinkamą vaizdą, padėti žmogui ką nors supra"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 249,
+      "before": "rastì",
+      "after": "ràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-26",
+      "context": "kas man patinka kuriant plakatus: aiškiai sudėti mintį, rasti tinkamą vaizdą, padėti žmogui ką nors suprasti. Tada par"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 252,
+      "before": "padėtì",
+      "after": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27",
+      "context": "ant plakatus: aiškiai sudėti mintį, rasti tinkamą vaizdą, padėti žmogui ką nors suprasti. Tada parašiau, kas sunku: derė"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 256,
+      "before": "suprastì",
+      "after": "supràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-10",
+      "context": "dėti mintį, rasti tinkamą vaizdą, padėti žmogui ką nors suprasti. Tada parašiau, kas sunku: derėtis dėl kainos, laukti at"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 264,
+      "before": "lauktì",
+      "after": "láukti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-12",
+      "context": "suprasti. Tada parašiau, kas sunku: derėtis dėl kainos, laukti atsakymo, taisyti tai, ką jau laikiau baigta. Kitame pu"
+    },
+    {
+      "chapter": "ch08",
+      "wordIndex": 322,
+      "before": "láikas",
+      "after": "laĩkas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "o, kad galiu viską. Buvo parašyta, ką moku, ir pridėtas laikas, kada galime pasikalbėti."
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 40,
+      "before": "Rãsa",
+      "after": "Rasà",
+      "reason": "Имя, именительный или творительный единственного числа.",
+      "evidence": "c-3",
+      "context": "kimas vyko mažame biure virš parduotuvės. Moteris, vardu Rasa, peržiūrėjo mano darbus ir paprašė paaiškinti vieną plaka"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 49,
+      "before": "Prãdžia",
+      "after": "Pradžià",
+      "reason": "Существительное, именительный единственного числа.",
+      "evidence": "b-27",
+      "context": "ržiūrėjo mano darbus ir paprašė paaiškinti vieną plakatą. Pradžia sekėsi. Tada ji paklausė, kaip keisčiau dizainą kitai žm"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 53,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "aprašė paaiškinti vieną plakatą. Pradžia sekėsi. Tada ji paklausė, kaip keisčiau dizainą kitai žmonių grupei. Supratau ne"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 71,
+      "before": "Rãsa",
+      "after": "Rasà",
+      "reason": "Имя, именительный или творительный единственного числа.",
+      "evidence": "c-3",
+      "context": "simą, tačiau iš gėdos linktelėjau. Atsakiau apie spalvas. Rasa pakartojo klausimą. – Atsiprašau, ar galite pasakyti papra"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 96,
+      "before": "suprastì",
+      "after": "supràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-10",
+      "context": "si, kad pamiršau paprastą žodį „aiškus“. Pasakiau „lengva suprasti“ ir parodžiau pavyzdį. Po dviejų dienų gavau atsakymą. J"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 114,
+      "before": "Skaĩčiau",
+      "after": "Skaičiaũ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "irinko žmogų, turintį daugiau patirties su jų klientais. Skaičiau laišką autobuse. Už lango slinko namai, o mano galvoje"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 147,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "artu su pirkinių maišeliu ir visą vakarą laikiau tikru. Paulius užėjo grąžinti lėkštės. Pamatęs mane ant sofos, paklausė"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 155,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "Paulius užėjo grąžinti lėkštės. Pamatęs mane ant sofos, paklausė, kas atsitiko. – Negavau darbo. Mano kalba bloga. – Jie"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 161,
+      "before": "kal̃ba",
+      "after": "kalbà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ant sofos, paklausė, kas atsitiko. – Negavau darbo. Mano kalba bloga. – Jie taip parašė? Parodžiau laišką. Paulius pers"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 162,
+      "before": "blõga",
+      "after": "blogà",
+      "reason": "Женский род, именительный; согласуется с kalba.",
+      "evidence": "d-1",
+      "context": "fos, paklausė, kas atsitiko. – Negavau darbo. Mano kalba bloga. – Jie taip parašė? Parodžiau laišką. Paulius perskaitė i"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 168,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": ". Mano kalba bloga. – Jie taip parašė? Parodžiau laišką. Paulius perskaitė ir padėjo telefoną. – Čia apie patirtį. Gal ka"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 177,
+      "before": "kal̃ba",
+      "after": "kalbà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "s perskaitė ir padėjo telefoną. – Čia apie patirtį. Gal kalba irgi turėjo reikšmės, bet mes nežinome. Nenorėjau girdėt"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 196,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "mo. Norėjau, kad jis pasakytų, jog jie nieko nesupranta. Paulius pasiūlė arbatos. Aš paprašiau pabūti tyliai. Kitą rytą u"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 234,
+      "before": "kitàs",
+      "after": "kìtas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "adą: „Niekur nerasiu darbo.“ Dabar matėsi, kad tai visai kitas sakinys. Per pamoką paprašiau Eglės padėti pasitreniruoti"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 240,
+      "before": "padėtì",
+      "after": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27",
+      "context": "kad tai visai kitas sakinys. Per pamoką paprašiau Eglės padėti pasitreniruoti kalbėti apie mano darbus. Ji sutiko skirti"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 248,
+      "before": "skirtì",
+      "after": "skìrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-0",
+      "context": "adėti pasitreniruoti kalbėti apie mano darbus. Ji sutiko skirti tam penkias minutes. Samira vaidino klientę ir uždavė kla"
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 288,
+      "before": "pasiruoštì",
+      "after": "pasiruõšti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "s dar buvo liūdna dėl darbo. Tačiau liūdesys neuždraudė pasiruošti kitam pokalbiui. Rasai nusiunčiau trumpą padėką ir paklau"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 8,
+      "before": "sukurtì",
+      "after": "sukùrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-1",
+      "context": "Artėjant spalio pabaigai gavau nedidelį užsakymą. Reikėjo sukurti kavinės meniu. Labai apsidžiaugiau ir pažadėjau pirmą var"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 23,
+      "before": "pãskui",
+      "after": "paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "mą variantą greičiau, negu reikėjo. Vakare taisiau meniu, paskui bibliotekos plakatą, o po vidurnakčio nusprendžiau dar pa"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 46,
+      "before": "Rýte",
+      "after": "Rytè",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ą keturis kartus. Vis sustodavau ties tuo pačiu sakiniu. Ryte pramiegojau žadintuvą. Į pamoką atėjau su kava ir skaud"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 59,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "Į pamoką atėjau su kava ir skaudančia galva. Kai Samira paklausė, ar viskas gerai, atsakiau per aštriai. Ji nusisuko, ir"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 93,
+      "before": "užsidirbtì",
+      "after": "užsidìrbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-2",
+      "context": "sčiau namo? – pasiūlė ji. Man atrodė, kad poilsį reikia užsidirbti baigtais darbais. Bet darbai nesibaigė. Vos uždarydavau v"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 104,
+      "before": "kitàs",
+      "after": "kìtas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "arbai nesibaigė. Vos uždarydavau vieną failą, atsirasdavo kitas. Paklausiau Eglės, ar mokytis naktį vis tiek geriau negu"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 121,
+      "before": "atimtì",
+      "after": "atim̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-3",
+      "context": "sai nesimokyti. – Priklauso nuo situacijos. Tačiau nuolat atimti laiką iš miego nėra geras mokymosi planas. Miegas svarbu"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 122,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "imokyti. – Priklauso nuo situacijos. Tačiau nuolat atimti laiką iš miego nėra geras mokymosi planas. Miegas svarbus atm"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 126,
+      "before": "geràs",
+      "after": "gẽras",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-47",
+      "context": "uo situacijos. Tačiau nuolat atimti laiką iš miego nėra geras mokymosi planas. Miegas svarbus atminčiai, ne vien tam,"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 136,
+      "before": "rýte",
+      "after": "rytè",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ymosi planas. Miegas svarbus atminčiai, ne vien tam, kad ryte jaustumeisi žvaliau. [3] – Būtų gerai, jei galėčiau išmokt"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 143,
+      "before": "išmoktì",
+      "after": "išmókti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ryte jaustumeisi žvaliau. [3] – Būtų gerai, jei galėčiau išmokti žodžius miegodama. – Pirmiausia turi su jais padirbėti pa"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 176,
+      "before": "pakeistì",
+      "after": "pakeĩsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-4",
+      "context": "d kiekvieną rytą viską prisiminsime ar kad pamoką galima pakeisti miego įrašu. [3] Grįžusi susisiekiau su kavinės savininke"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 219,
+      "before": "pradėtì",
+      "after": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9",
+      "context": "ską buvau padariusi. Palikau sau trumpą pastabą, nuo ko pradėti rytoj, kad nereikėtų laikyti viso sąrašo galvoje. Prieš"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 234,
+      "before": "Pãskui",
+      "after": "Paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "lvoje. Prieš miegą norėjau pažiūrėti vieną vaizdo įrašą. Paskui dar vieną. Kai pastebėjau, kad vėl ieškau kito, padėjau"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 248,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": ", kad vėl ieškau kito, padėjau telefoną į virtuvę. Kurį laiką buvo nuobodu. Gulėjau ir girdėjau, kaip už sienos kažka"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 301,
+      "before": "padėtì",
+      "after": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27",
+      "context": "svarbu“. Parašiau: „Vakar kalbėjau nemaloniai. Tu norėjai padėti. Atsiprašau.“ Ji atsakė nuotrauka: ant stalo gulėjo nauj"
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 309,
+      "before": "naũja",
+      "after": "naujà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "dėti. Atsiprašau.“ Ji atsakė nuotrauka: ant stalo gulėjo nauja mėlyna pirštinė su geltonu lapu. Po ja buvo sakinys: „Š"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 12,
+      "before": "pãskui",
+      "after": "paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "keliui į biblioteką. Ekranas užgeso. Paspaudžiau mygtuką, paskui dar kartą, lyg antras paspaudimas galėtų pakeisti tai, k"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 16,
+      "before": "antràs",
+      "after": "añtras",
+      "reason": "Порядковое числительное, мужской род, именительный единственного числа.",
+      "evidence": "kirtis.info: antras",
+      "context": "ranas užgeso. Paspaudžiau mygtuką, paskui dar kartą, lyg antras paspaudimas galėtų pakeisti tai, kas įvyko. Tą popietę t"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 19,
+      "before": "pakeistì",
+      "after": "pakeĩsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-4",
+      "context": "mygtuką, paskui dar kartą, lyg antras paspaudimas galėtų pakeisti tai, kas įvyko. Tą popietę turėjau nunešti plakatą į sp"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 26,
+      "before": "nuneštì",
+      "after": "nunèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-5",
+      "context": "imas galėtų pakeisti tai, kas įvyko. Tą popietę turėjau nunešti plakatą į spaustuvę. Adresas buvo telefone. Taip pat ten"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 32,
+      "before": "telefòne",
+      "after": "telefonè",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "opietę turėjau nunešti plakatą į spaustuvę. Adresas buvo telefone. Taip pat ten buvo žemėlapis, susitarimas su darbuotoju"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 47,
+      "before": "grįžtì",
+      "after": "grį̃žti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-7",
+      "context": "darbuotoju ir mano mėgstamas vertėjas. Pirmiausia norėjau grįžti namo. Tada pamačiau, kad stoviu prie vaistinės. Užėjau i"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 62,
+      "before": "bibliotèka",
+      "after": "bibliotekà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "aistinės. Užėjau ir paklausiau, kur yra netoliese esanti biblioteka. Jau buvau ten ne kartą, bet iš šitos pusės gatvės nep"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 99,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "teisingai, – pasakė ji. Nuėjau be žemėlapio. Bibliotekoje Ona leido pasinaudoti kompiuteriu. Prisijungiau prie savo paš"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 120,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "merį. Baigusi atsijungiau. – Gal išspausdinti ir kelią? – paklausė Ona. – Taip, ačiū. Man patiko ši pagalba. Nereikėjo įro"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 121,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "gusi atsijungiau. – Gal išspausdinti ir kelią? – paklausė Ona. – Taip, ačiū. Man patiko ši pagalba. Nereikėjo įrodyti,"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 134,
+      "before": "víena",
+      "after": "vienà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "ši pagalba. Nereikėjo įrodyti, kad galiu viską padaryti viena. Turėjau lapą ir kelis sakinius, kuriuos galėjau pasakyt"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 151,
+      "before": "sustotì",
+      "after": "sustóti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "žmonėms. Išėjau anksčiau, nes žinojau, kad turbūt reikės sustoti ir dar ko nors paklausti. Spaustuvėje darbuotojas parodė"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 156,
+      "before": "paklaustì",
+      "after": "pakláusti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "nes žinojau, kad turbūt reikės sustoti ir dar ko nors paklausti. Spaustuvėje darbuotojas parodė bandomąjį plakatą. Geltona"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 163,
+      "before": "spal̃va",
+      "after": "spalvà",
+      "reason": "Именительный или творительный единственного числа; не обращение.",
+      "evidence": "d-7",
+      "context": "Spaustuvėje darbuotojas parodė bandomąjį plakatą. Geltona spalva buvo tamsesnė, negu ekrane, o apačioje trūko bibliotekos"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 176,
+      "before": "pridėtì",
+      "after": "pridė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-6",
+      "context": "pačioje trūko bibliotekos telefono numerio. – Šitą reikia pridėti, – pasakiau, rodydama pirštu. Jis paklausė apie popierių."
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 181,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": ". – Šitą reikia pridėti, – pasakiau, rodydama pirštu. Jis paklausė apie popierių. Vieno žodžio nesupratau. Paprašiau parodyt"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 208,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "suprantu. Dabar užsakymą patikrinau dalimis: dydį, kiekį, laiką. Darbuotojas ant lapo užrašė, kada ateiti. Grįždama užėja"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 214,
+      "before": "ateitì",
+      "after": "ateĩti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-17",
+      "context": "s: dydį, kiekį, laiką. Darbuotojas ant lapo užrašė, kada ateiti. Grįždama užėjau į telefonų taisyklą. Remontas kainavo da"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 232,
+      "before": "pakeistì",
+      "after": "pakeĩsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-4",
+      "context": "si. Jokia graži mintis negalėjo sumažinti kainos. Turėjau pakeisti tos savaitės išlaidų planą. Vakare kalbėjomės su Paulium"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 251,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "seną telefoną, kol sutaisys manąjį. – Na, diena sunki? – paklausė. – Taip. Bet spaustuvėje viską sutariau lietuviškai. – Be"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 267,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ėjo? – Su rankomis, popieriumi ir labai kantriu žmogumi. Paulius juokėsi. Aš irgi. Paskui į sąsiuvinį įrašiau frazę „Ar"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 271,
+      "before": "Pãskui",
+      "after": "Paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "iumi ir labai kantriu žmogumi. Paulius juokėsi. Aš irgi. Paskui į sąsiuvinį įrašiau frazę „Ar galite parodyti pavyzdį?“"
+    },
+    {
+      "chapter": "ch11",
+      "wordIndex": 311,
+      "before": "spal̃va",
+      "after": "spalvà",
+      "reason": "Именительный или творительный единственного числа; не обращение.",
+      "evidence": "d-7",
+      "context": "ngas telefono numeris. Šį kartą labiausiai džiaugiausi ne spalva, o tuo, kad buvau paprašiusi ją ir visus kitus dalykus"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 14,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "s. Plakatai jau kabėjo, tačiau darbų sąrašas vis ilgėjo. Ona paprašė padėti išsiųsti kvietimus. Paulius norėjo, kad pa"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 16,
+      "before": "padėtì",
+      "after": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27",
+      "context": "au kabėjo, tačiau darbų sąrašas vis ilgėjo. Ona paprašė padėti išsiųsti kvietimus. Paulius norėjo, kad pažiūrėčiau jo tr"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 17,
+      "before": "išsiųstì",
+      "after": "išsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-7",
+      "context": "jo, tačiau darbų sąrašas vis ilgėjo. Ona paprašė padėti išsiųsti kvietimus. Paulius norėjo, kad pažiūrėčiau jo trumpą tek"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 19,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "rašas vis ilgėjo. Ona paprašė padėti išsiųsti kvietimus. Paulius norėjo, kad pažiūrėčiau jo trumpą tekstą. Samirai pažadėj"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 31,
+      "before": "nupirktì",
+      "after": "nupir̃kti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-8",
+      "context": "trumpą tekstą. Samirai pažadėjau paskambinti. Dar reikėjo nupirkti puodelių. Į kiekvieną klausimą atsakiau „gerai“. Tada sup"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 46,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "“. Tada supykau, kad visi manęs kažko prašo. Penktadienį Ona atsiuntė naują sąrašą. Perskaičiau jį stovėdama parduotuv"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 60,
+      "before": "paliktì",
+      "after": "palìkti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ama parduotuvėje. Rankoje laikiau pieną ir staiga panorau palikti visą krepšelį. Parašiau: „Aš negaliu visko padaryti.“ On"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 68,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "ti visą krepšelį. Parašiau: „Aš negaliu visko padaryti.“ Ona paskambino. Neatsiliepiau. Po kelių minučių gavau žinutę:"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 80,
+      "before": "Rýte",
+      "after": "Rytè",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "učių gavau žinutę: „Suprantu. Ateik rytoj, pasidalysime.“ Ryte į biblioteką ėjau pasiruošusi gintis. Mintyse aiškinau, k"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 85,
+      "before": "gintìs",
+      "after": "gìntis",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-9",
+      "context": "rytoj, pasidalysime.“ Ryte į biblioteką ėjau pasiruošusi gintis. Mintyse aiškinau, kad turiu savo darbą ir kad mano la"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 95,
+      "before": "láikas",
+      "after": "laĩkas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "is. Mintyse aiškinau, kad turiu savo darbą ir kad mano laikas irgi svarbus. Ona padėjo ant stalo sąrašą. – Pažymėkime,"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 98,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "kad turiu savo darbą ir kad mano laikas irgi svarbus. Ona padėjo ant stalo sąrašą. – Pažymėkime, kas ką daro, – pa"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 115,
+      "before": "Pãskui",
+      "after": "Paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ro, – pasiūlė ji. – Aš juk tik plakatą žadėjau. – Taip. Paskui klausiau apie kvietimus, ir tu sutikai. Nesužinojau, kad"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 148,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": ". Niekur nebuvau parašiusi, kiek laiko iš tikrųjų turiu. Paulius atsinešė pieštuką. Samira prisijungė telefonu. Pirmą kartą"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 175,
+      "before": "padėtì",
+      "after": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27",
+      "context": "rbą. – Galiu pataisyti plakatą ir ketvirtadienį pusvalandį padėti salėje, – pasakiau. – Kvietimų nesiųsiu. Mano balsas skamb"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 188,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "lsas skambėjo griežčiau, negu norėjau. Pakartojau lėčiau. Ona užsirašė ir pati pasiėmė kvietimus. Paulius sutiko atnešt"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 194,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "kartojau lėčiau. Ona užsirašė ir pati pasiėmė kvietimus. Paulius sutiko atnešti puodelių. Samira paruoš savo daiktus ir pa"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 196,
+      "before": "atneštì",
+      "after": "atnèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-10",
+      "context": ". Ona užsirašė ir pati pasiėmė kvietimus. Paulius sutiko atnešti puodelių. Samira paruoš savo daiktus ir pasakojimą. – O j"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 215,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "espės? – paklausiau. – Tada praneš, ir spręsime, – atsakė Ona. – Gal kai ko apskritai nereikia. Išbraukėme nuotraukų ka"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 239,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "ietos, tačiau sąraše atsirado daugiau oro. Po susitikimo Ona parodė man kvietimo failą. Ji bijojo netyčia ištrinti a"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 247,
+      "before": "ištrintì",
+      "after": "ištrìnti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-11",
+      "context": "tikimo Ona parodė man kvietimo failą. Ji bijojo netyčia ištrinti adresus. – Galiu parodyti vieną kartą, o tada pabandykit"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 267,
+      "before": "paimtì",
+      "after": "paim̃ti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "jau šalia, kol ji atliko veiksmus. Rankos pačios norėjo paimti pelę ir padaryti greičiau. Jas pasidėjau ant kelių. Ona"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 276,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "mti pelę ir padaryti greičiau. Jas pasidėjau ant kelių. Ona išsiuntė pirmą laišką, patikrino ir nusišypsojo. – Dar vi"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 286,
+      "before": "víena",
+      "after": "vienà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "laišką, patikrino ir nusišypsojo. – Dar vieną pabandysiu viena. Išėjau laiku. Namuose vis dar laukė meniu pataisymai. B"
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 315,
+      "before": "tartì",
+      "after": "tar̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-12",
+      "context": ", ir palikusi kitiems jų dalį. Tai irgi reikėjo mokytis tarti garsiai."
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 21,
+      "before": "rañka",
+      "after": "rankà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "tačiakampį ant sienos. Sąsiuvinis liko prie arbatos, bet ranka jo nesiekė. Kai pasijutau geriau, turėjau baigti atidėtu"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 28,
+      "before": "baigtì",
+      "after": "baĩgti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-13",
+      "context": "tos, bet ranka jo nesiekė. Kai pasijutau geriau, turėjau baigti atidėtus užsakymus. Praleidau dar vieną pamoką. Tuomet pr"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 38,
+      "before": "grįžtì",
+      "after": "grį̃žti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-7",
+      "context": "kymus. Praleidau dar vieną pamoką. Tuomet pradėjau bijoti grįžti. Kiti bus pažengę, o aš vėl nežinosiu, ką sakyti. Eglė"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 52,
+      "before": "atsiųstì",
+      "after": "atsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-20",
+      "context": ", o aš vėl nežinosiu, ką sakyti. Eglė parašė, kad gali atsiųsti trumpą svarbiausių dalykų sąrašą. Norėjau paprašyti visų"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 65,
+      "before": "atsigriebtì",
+      "after": "atsigriẽbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-14",
+      "context": "ašą. Norėjau paprašyti visų užduočių ir per vieną vakarą atsigriebti. Vietoj to paklausiau, nuo ko pradėti. Ji pasiūlė persk"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 71,
+      "before": "pradėtì",
+      "after": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9",
+      "context": "vieną vakarą atsigriebti. Vietoj to paklausiau, nuo ko pradėti. Ji pasiūlė perskaityti vieną dialogą ir pabandyti savai"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 123,
+      "before": "naujàs",
+      "after": "naũjas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-38",
+      "context": "o likę. Grįžusi į grupę pamačiau, kad mano vietoje sėdi naujas žmogus. Akimirką pasijutau nereikalinga. Tada Samira patra"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 140,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "prie savęs. – Čia yra vietos, – pasakė. Atsisėdau. Eglė paklausė, ar jau geriau jaučiuosi, ir pradėjo pamoką. Niekas nel"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 161,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "e trūksta kelių dienų. Pamokos pabaigoje naujasis mokinys paklausė, ką reiškia „prisiminti“. Paaiškinau paprastais žodžiais i"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 164,
+      "before": "prisimintì",
+      "after": "prisiminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "Pamokos pabaigoje naujasis mokinys paklausė, ką reiškia „prisiminti“. Paaiškinau paprastais žodžiais ir pateikiau pavyzdį. Ji"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 187,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ą bijojau, kad nieko nebemoku. – Ar tu seniai mokaisi? – paklausė jis. – Šioje grupėje beveik du mėnesius. Bet kai ką mok"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 210,
+      "before": "išmoktì",
+      "after": "išmókti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "norėjau, kad jis manytų, jog visus mano sakinius galima išmokti per kelias savaites. Aš juk irgi nuolat lyginau savo pr"
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 319,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "i sugrįžau. Abi buvo mano gyvenimo dalis. Vakare parašė Ona: „Ar tavo istorijai paliekame vietą?“ Ilgai žiūrėjau į k"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 13,
+      "before": "Antràs",
+      "after": "Añtras",
+      "reason": "Порядковое числительное, мужской род, именительный единственного числа.",
+      "evidence": "kirtis.info: antras",
+      "context": "iniu apie naują gyvenimą. Jis buvo ilgas ir iškilmingas. Antras sakinys buvo dar ilgesnis. Ieškojau gražių žodžių, kurių"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 54,
+      "before": "kitàs",
+      "after": "kìtas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ir suklydau kitoje vietoje. – Gal mano tekstą kas nors kitas perskaitys? – paklausiau. Eglė pasiūlė atsisėsti. – Papasa"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 71,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "po, kas nutiko pirmą vakarą Vilniuje. – Neatsidarė durys. Paulius padėjo. – O paskui? Papasakojau apie puodelį, mamą ir sr"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 74,
+      "before": "pãskui",
+      "after": "paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "vakarą Vilniuje. – Neatsidarė durys. Paulius padėjo. – O paskui? Papasakojau apie puodelį, mamą ir sriubą. Samira paklaus"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 82,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "paskui? Papasakojau apie puodelį, mamą ir sriubą. Samira paklausė, kokios spalvos buvo puodelis. Atsakiau. Paulius pataisė,"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 84,
+      "before": "spal̃vos",
+      "after": "spalvõs",
+      "reason": "Родительный единственного числа в вопросе о цвете.",
+      "evidence": "b-28",
+      "context": "jau apie puodelį, mamą ir sriubą. Samira paklausė, kokios spalvos buvo puodelis. Atsakiau. Paulius pataisė, kad tą vakarą"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 88,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": ". Samira paklausė, kokios spalvos buvo puodelis. Atsakiau. Paulius pataisė, kad tą vakarą atnešė du, nes nežinojo, kuris m"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 105,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "jo, kuris man patiks. – Šitą istoriją aš matau, – pasakė Ona. – O pirmo sakinio nelabai supratau. Man buvo gaila sav"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 123,
+      "before": "pàprasta",
+      "after": "paprastà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "žių žodžių. Atrodė, kad paprastas tekstas parodys, kokia paprasta esu pati. Bet pasakodama apie raktą jaučiau daugiau, neg"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 167,
+      "before": "įkvėptì",
+      "after": "įkvė̃pti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-15",
+      "context": "eticijos Eglė pasiūlė pažymėti tris vietas, kur sustosiu įkvėpti ir pažiūrėti į klausytojus. Nebuvo būtina visko išmokti"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 175,
+      "before": "išmoktì",
+      "after": "išmókti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "įkvėpti ir pažiūrėti į klausytojus. Nebuvo būtina visko išmokti žodis į žodį. Galėjau turėti lapą su svarbiausiomis mint"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 219,
+      "before": "įvyktì",
+      "after": "įvỹkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-16",
+      "context": "adas, kad niekas nieko nepamatys. Pertrauka tikrai galėjo įvykti. Reikėjo žinoti, ką tada darysiu. Namuose įrašiau savo p"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 240,
+      "before": "ištrintì",
+      "after": "ištrìnti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-11",
+      "context": "emalonu. Girdėjau akcentą ir per greitą pradžią. Norėjau ištrinti įrašą, bet pirmiausia pasižymėjau du dalykus, kuriuos pat"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 274,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "us vartojau truputį kitus žodžius. Mintis liko ta pati. Paulius irgi repetavo. Jis vis sustodavo prieš sakinį „Aš mokau"
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 284,
+      "before": "keptì",
+      "after": "kèpti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-4",
+      "context": "gi repetavo. Jis vis sustodavo prieš sakinį „Aš mokausi kepti duoną“. Paprašiau papasakoti, ką veikė tą rytą kursuose."
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 312,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": ". Kai baigė, pasakiau, kad norėčiau paragauti jo duonos. Paulius pažiūrėjo į mane ir atsakė: – Tada renginyje atsinešiu."
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 5,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "Likus savaitei iki renginio, Paulius sudegino duoną. Kvapą pajutau dar laiptinėje. Kai pasibe"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 24,
+      "before": "naũja",
+      "after": "naujà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "atidarė langą ir mostelėjo į tamsų kepalą. – Štai mano nauja profesija, – pasakė. Norėjau pajuokauti, bet pamačiau jo"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 35,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": ". Norėjau pajuokauti, bet pamačiau jo veidą ir sustojau. Paulius atsisėdo, nenusivilkęs prijuostės. – Gal per vėlu pradėti"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 42,
+      "before": "pradėtì",
+      "after": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9",
+      "context": "Paulius atsisėdo, nenusivilkęs prijuostės. – Gal per vėlu pradėti. Kiti mano amžiaus jau viską moka. Prisiminiau save po"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 67,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "as neatrodė tinkamas. – Kas šiandien nutiko? – paklausiau. Paulius papasakojo, kad kepdamas pildė darbo paraišką ir neišgir"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 83,
+      "before": "áukšta",
+      "after": "aukštà",
+      "reason": "Женский род, именительный; согласуется с temperatūra.",
+      "evidence": "b-36",
+      "context": "eišgirdo laikmačio. Iš pradžių temperatūra irgi buvo per aukšta. Jis tai jau žinojo, tačiau vis tiek vadino save nevyk"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 97,
+      "before": "paklaustì",
+      "after": "pakláusti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "čiau vis tiek vadino save nevykėliu. – Ar kursuose gali paklausti apie šitą receptą? – Galiu. Tik nesmagu nešti tokį rezul"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 104,
+      "before": "neštì",
+      "after": "nèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-17",
+      "context": "e gali paklausti apie šitą receptą? – Galiu. Tik nesmagu nešti tokį rezultatą. Nufotografavome duoną. Paulius parašė mok"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 109,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "Tik nesmagu nešti tokį rezultatą. Nufotografavome duoną. Paulius parašė mokytojai trumpą žinutę. Ji atsakė vakare ir pasi"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 124,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "kė vakare ir pasiūlė kitą dieną kartu patikrinti kepimo laiką. Kol laukėme atsakymo, nuvalėme stalą. Išmetėme sudegusį"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 148,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "rštinės. Reikėjo produktų naujam bandymui ir laiko, kurį Paulius jau buvo išnaudojęs. Kitą dieną Paulius grįžo iš kursų"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 154,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ir laiko, kurį Paulius jau buvo išnaudojęs. Kitą dieną Paulius grįžo iš kursų su dviem mažais kepalais. Vieną perpjovė"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 167,
+      "before": "mìnkšta",
+      "after": "minkštà",
+      "reason": "Женский род, именительный; согласуется с duona.",
+      "evidence": "b-35",
+      "context": "dviem mažais kepalais. Vieną perpjovė. Viduje duona buvo minkšta, pluta šviesesnė. – Mokytoja liepė vienu metu kepti, o n"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 168,
+      "before": "plùta",
+      "after": "plutà",
+      "reason": "Существительное, именительный единственного числа.",
+      "evidence": "d-6",
+      "context": "ais kepalais. Vieną perpjovė. Viduje duona buvo minkšta, pluta šviesesnė. – Mokytoja liepė vienu metu kepti, o ne dar"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 174,
+      "before": "keptì",
+      "after": "kèpti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-4",
+      "context": "vo minkšta, pluta šviesesnė. – Mokytoja liepė vienu metu kepti, o ne dar ir ieškoti darbo, – pasakė jis. – Ir viską u"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 190,
+      "before": "láikas",
+      "after": "laĩkas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "– Ir viską užsirašyti. Parodė lapą: temperatūra, pradžios laikas, patikrinimas. Tai atrodė panašu į mano žodžių sąrašą, t"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 223,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "vakar padariau ne taip. Valgėme šiltą duoną be nieko. Paulius pasakė, kad gavo pasiūlymą kelioms ankstyvoms pamainoms k"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 238,
+      "before": "susitartì",
+      "after": "susitar̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-18",
+      "context": "oms kepykloje. Tai dar nebuvo nuolatinis darbas. Reikėjo susitarti dėl valandų ir suprasti, ar jam tinka toks ritmas. – Ir"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 242,
+      "before": "suprastì",
+      "after": "supràsti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-10",
+      "context": "buvo nuolatinis darbas. Reikėjo susitarti dėl valandų ir suprasti, ar jam tinka toks ritmas. – Ir vairuoti vis tiek moku"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 269,
+      "before": "visàs",
+      "after": "vìsas",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "is kalbėjo ramiau. Vienas nepavykęs kepalas jau nebebuvo visas atsakymas apie jo ateitį. Vakare perskaičiau savo istori"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 295,
+      "before": "naujàs",
+      "after": "naũjas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-38",
+      "context": "ies žodžiu „visada“. Pauliui padėjo mokytojos pastaba ir naujas bandymas. Samirai reikėjo laiko bei pagalbos su dukra. Ma"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 319,
+      "before": "įveiktì",
+      "after": "įveĩkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-19",
+      "context": "itaip: „Įveikdama sunkumus, mokausi. Bet neprivalau visko įveikti viena.“ Tada perskaičiau sakinį garsiai. Jis tiko mano i"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 320,
+      "before": "víena",
+      "after": "vienà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "Įveikdama sunkumus, mokausi. Bet neprivalau visko įveikti viena.“ Tada perskaičiau sakinį garsiai. Jis tiko mano istorij"
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 332,
+      "before": "prisimintì",
+      "after": "prisiminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "kinį garsiai. Jis tiko mano istorijai, nes dabar galėjau prisiminti, kas už jo stovi."
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 18,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "dar buvo tylu. Pastačiau ant stalo mėlyną puodelį, kurį Paulius leido atsinešti mano istorijai. Ona tikrino svečių sąraš"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 20,
+      "before": "atsineštì",
+      "after": "atsinèšti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-2",
+      "context": ". Pastačiau ant stalo mėlyną puodelį, kurį Paulius leido atsinešti mano istorijai. Ona tikrino svečių sąrašą. Samira atėjo s"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 23,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "yną puodelį, kurį Paulius leido atsinešti mano istorijai. Ona tikrino svečių sąrašą. Samira atėjo su dukra ir nedidele"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 36,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "šą. Samira atėjo su dukra ir nedidele dėže siūtų daiktų. Paulius atsinešė duonos. Eglė atnešė dar kelias kėdes ir sustat"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 66,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "ompiuteris rodė nuotraukas, bet ant sienos nieko nebuvo. Ona keitė laidą, Paulius ieškojo kito mygtuko. Aš pajutau pa"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 69,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "otraukas, bet ant sienos nieko nebuvo. Ona keitė laidą, Paulius ieškojo kito mygtuko. Aš pajutau pažįstamą norą viską pe"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 83,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ažįstamą norą viską perimti. – Kiek laiko dar bandome? – paklausė Eglė. Susitarėme skirti penkias minutes. Nepavyko. Ona gi"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 86,
+      "before": "skirtì",
+      "after": "skìrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-0",
+      "context": "ti. – Kiek laiko dar bandome? – paklausė Eglė. Susitarėme skirti penkias minutes. Nepavyko. Ona giliai įkvėpė ir pasakė,"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 90,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "klausė Eglė. Susitarėme skirti penkias minutes. Nepavyko. Ona giliai įkvėpė ir pasakė, kad šiandien apsieisime be ekra"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 113,
+      "before": "pìlna",
+      "after": "pilnà",
+      "reason": "Женский род, именительный; согласуется с salė.",
+      "evidence": "b-34",
+      "context": "dės liko tuščios, ant trečios gulėjo paltas. Tai nebuvo pilna salė, kurią slapta įsivaizdavau. Bet viena moteris atsin"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 119,
+      "before": "víena",
+      "after": "vienà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "s. Tai nebuvo pilna salė, kurią slapta įsivaizdavau. Bet viena moteris atsinešė sąsiuvinį, vyras prie durų paprašė arba"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 134,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "aprašė arbatos, o Samiros dukra padėjo dalyti servetėles. Ona pasveikino visus. Trumpai paaiškino, kad klausysimės žmoni"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 144,
+      "before": "pradėtì",
+      "after": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9",
+      "context": ". Trumpai paaiškino, kad klausysimės žmonių, kurie mokosi pradėti iš naujo. Tada pažvelgė į mane. Pasiėmiau puodelį. Rank"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 153,
+      "before": "Rañka",
+      "after": "Rankà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "dėti iš naujo. Tada pažvelgė į mane. Pasiėmiau puodelį. Ranka truputį drebėjo. Pastačiau jį ant stalo, kad nereikėtų s"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 162,
+      "before": "slėptì",
+      "after": "slė̃pti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-20",
+      "context": "a truputį drebėjo. Pastačiau jį ant stalo, kad nereikėtų slėpti judesio, ir pasakiau pirmą sakinį. Papasakojau apie duri"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 177,
+      "before": "mãma",
+      "after": "mamà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "pasakojau apie duris ir raktą. Kai pasiekiau pokalbį su mama, pamiršau, ką norėjau sakyti toliau. Salėje buvo tylu. –"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 198,
+      "before": "mãma",
+      "after": "mamà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "asakiau. Pažiūrėjau į lapą. Ten buvo tik trys žodžiai: „mama“, „vakarienė“, „rytojus“. Prisiminiau ir tęsiau. Niekas ne"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 224,
+      "before": "Víena",
+      "after": "Vienà",
+      "reason": "Согласование женского рода в этом контексте; безличные и другие падежные употребления сохранены.",
+      "evidence": "VDU tables / previous contextual review",
+      "context": "s eilė. Ji ištraukė pirštinę ir papasakojo apie močiutę. Viena klausytoja paklausė, ar Samira taiso ir suaugusiųjų drabuž"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 226,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ukė pirštinę ir papasakojo apie močiutę. Viena klausytoja paklausė, ar Samira taiso ir suaugusiųjų drabužius. Samira atsakė,"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 241,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "abužius. Samira atsakė, kad taip, ir užrašė savo numerį. Paulius kalbėjo apie sudegusią duoną. Tada padėjo ant stalo šian"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 267,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "ą. Jis atsakinėjo ilgiau, negu planavo. Paskutinė prabilo Ona. Papasakojo, kaip mokėsi pati išsiųsti kvietimus. – Ana s"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 272,
+      "before": "išsiųstì",
+      "after": "išsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-7",
+      "context": "avo. Paskutinė prabilo Ona. Papasakojo, kaip mokėsi pati išsiųsti kvietimus. – Ana sėdėjo šalia ir neleido man visko atidu"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 281,
+      "before": "atiduotì",
+      "after": "atidúoti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-21",
+      "context": "ųsti kvietimus. – Ana sėdėjo šalia ir neleido man visko atiduoti jai, – pasakė. – Nors taip būtų buvę greičiau. Salėje ka"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 296,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "ę greičiau. Salėje kažkas nusijuokė. Aš supratau, kad ir Ona turėjo savo mažą pradžią, kurios anksčiau nebuvau pastebė"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 309,
+      "before": "išeitì",
+      "after": "išeĩti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "nebuvau pastebėjusi. Vakarui pasibaigus, žmonės neskubėjo išeiti. Jie valgė duoną ir kalbėjosi prie mažo stalo. Ekranas"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 326,
+      "before": "arbãta",
+      "after": "arbatà",
+      "reason": "Именительный или творительный единственного числа; не обращение.",
+      "evidence": "a-39",
+      "context": "o. Ekranas vis dar neveikė. Mano puodelyje buvo atšalusi arbata. Atsigėriau ir nuėjau padėti moteriai, kuri norėjo sužino"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 330,
+      "before": "padėtì",
+      "after": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27",
+      "context": "ano puodelyje buvo atšalusi arbata. Atsigėriau ir nuėjau padėti moteriai, kuri norėjo sužinoti, kada vyksta mūsų kalbos"
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 338,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "padėti moteriai, kuri norėjo sužinoti, kada vyksta mūsų kalbos pamokos."
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 44,
+      "before": "kal̃ba",
+      "after": "kalbà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "pasikeitė. Nebuvau gavusi nuolatinio darbo. Mano lietuvių kalba nepasidarė tobula. Nuomą reikėjo mokėti tuo pačiu laiku."
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 53,
+      "before": "Pãskui",
+      "after": "Paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "nepasidarė tobula. Nuomą reikėjo mokėti tuo pačiu laiku. Paskui gavau Onos žinutę. Ji dėkojo ir siūlė kitą savaitę apta"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 60,
+      "before": "siūlė̃",
+      "after": "siū́lė",
+      "reason": "Глагол «предлагала», не существительное «шов».",
+      "evidence": "b-25",
+      "context": "uo pačiu laiku. Paskui gavau Onos žinutę. Ji dėkojo ir siūlė kitą savaitę aptarti vakarą. Pridėjo nuotrauką: mes sėdi"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 63,
+      "before": "aptartì",
+      "after": "aptar̃ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-22",
+      "context": "skui gavau Onos žinutę. Ji dėkojo ir siūlė kitą savaitę aptarti vakarą. Pridėjo nuotrauką: mes sėdime aplink stalą, Pauli"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 68,
+      "before": "sėdìme",
+      "after": "sė́dime",
+      "reason": "Глагол, настоящее время, 1-е лицо множественного числа.",
+      "evidence": "b-26",
+      "context": "iūlė kitą savaitę aptarti vakarą. Pridėjo nuotrauką: mes sėdime aplink stalą, Paulius pjausto duoną, Samira kažką rodo sa"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 71,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "arti vakarą. Pridėjo nuotrauką: mes sėdime aplink stalą, Paulius pjausto duoną, Samira kažką rodo savo rankomis. Nuotrauko"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 81,
+      "before": "bùrna",
+      "after": "burnà",
+      "reason": "Именительный единственного числа.",
+      "evidence": "b-32",
+      "context": "duoną, Samira kažką rodo savo rankomis. Nuotraukoje mano burna buvo pravira. Tikriausiai kalbėjau. Atrodžiau ne taip, ka"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 83,
+      "before": "prãvira",
+      "after": "pravirà",
+      "reason": "Женский род, именительный; согласуется с burna.",
+      "evidence": "b-33",
+      "context": "ra kažką rodo savo rankomis. Nuotraukoje mano burna buvo pravira. Tikriausiai kalbėjau. Atrodžiau ne taip, kaip norėčiau a"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 105,
+      "before": "Õna",
+      "after": "Onà",
+      "reason": "Имя, именительный единственного числа; обращения Ona в этих главах нет.",
+      "evidence": "c-1",
+      "context": "žiūrėjau į kitą žmogų, o ne į grindis. Per susitikimą Ona paklausė, ką kitą kartą darytume kitaip. Paulius pasiūlė"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 106,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ėjau į kitą žmogų, o ne į grindis. Per susitikimą Ona paklausė, ką kitą kartą darytume kitaip. Paulius pasiūlė iš anks"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 112,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "susitikimą Ona paklausė, ką kitą kartą darytume kitaip. Paulius pasiūlė iš anksto supjaustyti duoną. Samira norėjo turėti"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 122,
+      "before": "láiką",
+      "after": "laĩką",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "š anksto supjaustyti duoną. Samira norėjo turėti aiškesnį laiką savo pasakojimui. Aš pasakiau, kad kvietime reikia geriau"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 134,
+      "before": "ateitì",
+      "after": "ateĩti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-17",
+      "context": "akiau, kad kvietime reikia geriau paaiškinti, jog galima ateiti tik paklausyti. – O kas pavyko? – paklausė Eglė. Šį kar"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 140,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "nti, jog galima ateiti tik paklausyti. – O kas pavyko? – paklausė Eglė. Šį kartą turėjau konkretų atsakymą: pradėjau, susto"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 159,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "lapą ir pabaigiau. Dar paklausiau klausytojos apie jos kalbos mokymąsi. To nebuvau išmokusi atmintinai. Samira gavo du"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 186,
+      "before": "Pauliùs",
+      "after": "Paũlius",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "bus daugiau darbo, bet susitarė dėl kainos ir termino. Paulius pradėjo dirbti kelias pamainas kepykloje. Pirmą rytą ats"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 188,
+      "before": "dirbtì",
+      "after": "dìrbti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-19",
+      "context": "rbo, bet susitarė dėl kainos ir termino. Paulius pradėjo dirbti kelias pamainas kepykloje. Pirmą rytą atsiuntė žinutę pen"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 243,
+      "before": "atsiųstì",
+      "after": "atsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-20",
+      "context": "Sutarėme dėl užduoties ir kainos. Vieną punktą paprašiau atsiųsti raštu. Nebuvo gėda pasitikrinti, ką tiksliai pažadėjau. E"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 260,
+      "before": "trumpàs",
+      "after": "trum̃pas",
+      "reason": "Мужской род, именительный единственного числа.",
+      "evidence": "a-43",
+      "context": "lė pasiūlė palyginti du mano balso įrašus. Pirmasis buvo trumpas prisistatymas per pirmą pamoką. Antrasis – vakaro repetic"
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 314,
+      "before": "pradėtì",
+      "after": "pradė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-9",
+      "context": "uvo mažesnis tikslas už „laisvai kalbėti“, todėl galėjau pradėti jau kitą dieną. Vakare išploviau paskutinį puodelį. Mėly"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 57,
+      "before": "susitiktì",
+      "after": "susitìkti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-18",
+      "context": "ti paaiškinti ir kaip pasakyti kitaip. Tą dieną turėjau susitikti su nauja kliente. Iš vakaro pasiruošiau darbų pavyzdžius"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 92,
+      "before": "pãskui",
+      "after": "paskuĩ",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "vėjo mergina su dideliu krepšiu. Ji žiūrėjo į telefoną, paskui į durų numerį. Pamačiusi mane atsiprašė ir paklausė ang"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 100,
+      "before": "paklaũsė",
+      "after": "pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "foną, paskui į durų numerį. Pamačiusi mane atsiprašė ir paklausė angliškai, ar čia trečias butas. Atsakiau, kad taip. Ji"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 104,
+      "before": "trečiàs",
+      "after": "trẽčias",
+      "reason": "Порядковое числительное, мужской род, именительный единственного числа.",
+      "evidence": "kirtis.info: trečias",
+      "context": ". Pamačiusi mane atsiprašė ir paklausė angliškai, ar čia trečias butas. Atsakiau, kad taip. Ji pabandė atrakinti duris, t"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 118,
+      "before": "pakeltì",
+      "after": "pakélti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "atrakinti duris, tačiau raktas nesisuko. – Reikia truputį pakelti duris, – pasakiau lietuviškai ir parodžiau ranka. Durys a"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 124,
+      "before": "rañka",
+      "after": "rankà",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "ruputį pakelti duris, – pasakiau lietuviškai ir parodžiau ranka. Durys atsidarė. Mergina nusijuokė iš palengvėjimo. – Ači"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 150,
+      "before": "padėtì",
+      "after": "padė́ti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-27",
+      "context": "Ana. Ji pasakė savo vardą: Marta. Paklausiau, ar reikia padėti su krepšiu. Ji sutiko. Įnešėme jį į tuščią koridorių. N"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 184,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "au apie jos gyvenimą nieko nežinojau. – Bibliotekoje yra kalbos grupė, – pasakiau. – Jei norėsi, galiu atsiųsti informaci"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 190,
+      "before": "atsiųstì",
+      "after": "atsių̃sti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-20",
+      "context": "tekoje yra kalbos grupė, – pasakiau. – Jei norėsi, galiu atsiųsti informaciją. Ji padėkojo ir užsirašė mano numerį. Paklau"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 198,
+      "before": "Paklaũsė",
+      "after": "Pakláusė",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "siųsti informaciją. Ji padėkojo ir užsirašė mano numerį. Paklausė, kur netoliese nusipirkti maisto. Paaiškinau kelią iki pa"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 201,
+      "before": "nusipirktì",
+      "after": "nusipir̃kti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "adėkojo ir užsirašė mano numerį. Paklausė, kur netoliese nusipirkti maisto. Paaiškinau kelią iki parduotuvės, o tada turėjau"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 210,
+      "before": "eitì",
+      "after": "eĩti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "maisto. Paaiškinau kelią iki parduotuvės, o tada turėjau eiti į savo susitikimą. Lauke sniegas tirpo. Prie perėjos išs"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 252,
+      "before": "kal̃bos",
+      "after": "kalbõs",
+      "reason": "Контекстная форма совпадает с ранее проверенной; все применения записаны отдельно.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "nę. Vis dar norėjau daug ko. Stabilesnio darbo, geresnės kalbos, daugiau laiko kūrybai. Kai kurios dienos mane gąsdino."
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 275,
+      "before": "prisimintì",
+      "after": "prisiminti",
+      "reason": "Снято ошибочное ударение неинфинитивной формы; выбор между двумя инфинитивами требует лексической проверки.",
+      "evidence": "VDU ambiguity",
+      "context": "vau, kol būsiu visiškai pasiruošusi. Tačiau dabar galėjau prisiminti konkrečius dalykus: nepažįstamą klausimą kepykloje, tuščią"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 293,
+      "before": "imtìs",
+      "after": "im̃tis",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-23",
+      "context": "rtrauką savo pasakojime. Kiekvieną kartą reikėjo ko nors imtis. Paklausti, pabandyti, patikrinti, grįžti. Kartais paprašy"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 294,
+      "before": "Paklaustì",
+      "after": "Pakláusti",
+      "reason": "Инфинитив; подтверждение сохранено в предыдущей проверке.",
+      "evidence": "chapter-two-accent-review.json",
+      "context": "savo pasakojime. Kiekvieną kartą reikėjo ko nors imtis. Paklausti, pabandyti, patikrinti, grįžti. Kartais paprašyti žmogaus"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 297,
+      "before": "grįžtì",
+      "after": "grį̃žti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-a-7",
+      "context": "reikėjo ko nors imtis. Paklausti, pabandyti, patikrinti, grįžti. Kartais paprašyti žmogaus atsisėsti šalia. Priėjusi biur"
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 342,
+      "before": "išsivirtì",
+      "after": "išsivìrti",
+      "reason": "Инфинитив в контексте; выбран вариант bendratis, а не причастие.",
+      "evidence": "VDU-b-24",
+      "context": "– neužbaigtas darbas. Pasidėjau krepšį. Pirmiausia norėjau išsivirti arbatos."
+    }
+  ],
+  "unresolved": [
+    {
+      "chapter": "ch02",
+      "wordIndex": 181,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch02",
+      "wordIndex": 246,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 162,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch03",
+      "wordIndex": 181,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 70,
+      "word": "prisiminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "prisimìnti",
+        "prisimiñti"
+      ]
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 134,
+      "word": "Prisiminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "prisimìnti",
+        "prisimiñti"
+      ]
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 155,
+      "word": "prisiminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "prisimìnti",
+        "prisimiñti"
+      ]
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 250,
+      "word": "prisiminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "prisimìnti",
+        "prisimiñti"
+      ]
+    },
+    {
+      "chapter": "ch04",
+      "wordIndex": 299,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch05",
+      "wordIndex": 317,
+      "word": "priminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "primìnti",
+        "primiñti"
+      ]
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 243,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch06",
+      "wordIndex": 273,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 1,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 86,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 110,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 140,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 185,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 237,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 297,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch07",
+      "wordIndex": 315,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch09",
+      "wordIndex": 252,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 58,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch10",
+      "wordIndex": 281,
+      "word": "Samirai",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 26,
+      "word": "Samirai",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 151,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch12",
+      "wordIndex": 198,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 101,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 129,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 164,
+      "word": "prisiminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "prisimìnti",
+        "prisimiñti"
+      ]
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 222,
+      "word": "kieno",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch13",
+      "wordIndex": 228,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 81,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch14",
+      "wordIndex": 262,
+      "word": "Samirai",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 139,
+      "word": "Samiros",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 297,
+      "word": "Samirai",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch15",
+      "wordIndex": 332,
+      "word": "prisiminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "prisimìnti",
+        "prisimiñti"
+      ]
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 27,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 129,
+      "word": "Samiros",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 208,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 228,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch16",
+      "wordIndex": 233,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 74,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 118,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch17",
+      "wordIndex": 165,
+      "word": "Samira",
+      "reason": "Сервис не распознал слово; ударение не придумано.",
+      "variants": []
+    },
+    {
+      "chapter": "ch18",
+      "wordIndex": 275,
+      "word": "prisiminti",
+      "reason": "Не выбран достоверный лексический вариант.",
+      "variants": [
+        "prisimìnti",
+        "prisimiñti"
+      ]
+    }
+  ],
+  "titleReview": {
+    "tuščia": "tuščià — feminine nominative",
+    "sugrįžti": "sugrį̃žti — VDU infinitive table",
+    "laikas": "laĩkas — noun, prior review",
+    "pending": [
+      "Kieno",
+      "Samira"
+    ]
+  },
+  "validation": {
+    "sourceChapters": 18,
+    "sourceWords": 5947,
+    "wordsAndPunctuationPreserved": true,
+    "lithuanianDiacriticsPreserved": true,
+    "canonicalChaptersWithTranslations": 2
+  }
+}
