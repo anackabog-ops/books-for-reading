@@ -36,7 +36,7 @@ h1 {
 .book-shelf {
   position: relative;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
   gap: 34px;
@@ -79,10 +79,10 @@ h1 {
 
 .book-card::before {
   content: "";
+  box-sizing: border-box;
   grid-column: 1;
   grid-row: 1;
-  height: 395px;
-  align-self: end;
+  align-self: stretch;
   border: 1px solid rgba(239, 228, 206, 0.14);
   border-right: 0;
   border-radius: 2px 0 0 2px;
@@ -192,10 +192,6 @@ h1 {
 
   .book-card {
     grid-template-columns: 12px var(--cover-width);
-  }
-
-  .book-card::before {
-    height: calc(var(--cover-width) * 1110 / 629);
   }
 
   .book-info {
