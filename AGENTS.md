@@ -10,6 +10,14 @@ The reader is generic. Do not create one-off HTML readers per book.
 
 When generating an original book, pilot chapter, or continuation, use the project skill [lithuanian-storybook](.agents/skills/lithuanian-storybook/SKILL.md). Read it before planning or writing, and load only the optional setting and genre files relevant to the current request.
 
+## Agreed Chapter Length
+
+The agreed narrative length is stored in `author-plans/chapter-lengths.json`. For `jusu-iprastas-uzsakymas`, the target is about 800 Lithuanian words per chapter, with a 700–900 acceptance range. Count only narrative `text`, preserving Lithuanian letters and treating stress marks as part of their words; translations, notes and metadata do not contribute.
+
+Before narration and again before publishing a new or revised chapter, run `python3 scripts/generate-chapter-audio.py books/<book-id>.json --chapter <N> --check-length-only`. A failed length check means the chapter needs revision. Develop its scenes, choices and dialogue to the agreed scale; do not pad with repetitive description or add complexity to the Lithuanian just to reach the count.
+
+The target is a requirement, and observed chapter lengths are results. Do not replace the requirement in the plan or policy with the size of an already-written draft. Short preceding chapters and a request to continue are not approval to change length. Change the agreed target or range only when the user explicitly requests or approves that change. Run `python3 -m unittest discover -s tests -p 'test_*.py'` as part of chapter verification; the latest chapter is checked against the restored agreement.
+
 ## Project Structure
 
 Author plans live in `author-plans/<book-id>.md` in this repository. Before continuing a book, read its plan and canonical book JSON; update the plan after each chapter. Plans contain spoilers: do not show them in chat or link them from the reader. They are excluded from the Jekyll site build, but are not private in a public Git repository.

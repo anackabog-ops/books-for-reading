@@ -16,6 +16,7 @@ import hashlib
 import io
 import json
 from pathlib import Path
+import re
 import subprocess
 import unicodedata
 import wave
@@ -31,6 +32,25 @@ def plain_text(text):
     return unicodedata.normalize("NFC", "".join(
         c for c in unicodedata.normalize("NFD", text) if c not in "\u0300\u0301\u0303"
     ))
+
+
+def chapter_word_count(chapter):
+    return sum(
+        len(re.findall(r"[^\W\d_]+(?:[-’'][^\W\d_]+)*", plain_text(item["text"])))
+        for block in chapter["blocks"] for item in block["items"]
+    )
+
+
+def validate_chapter_length(chapter, limits):
+    count = chapter_word_count(chapter)
+    if not 0 < limits["min"] <= limits["target"] <= limits["max"]:
+        raise ValueError("Invalid agreed chapter length")
+    if not limits["min"] <= count <= limits["max"]:
+        raise ValueError(
+            f"Chapter has {count} Lithuanian words; expected {limits['min']}–{limits['max']} "
+            f"(target {limits['target']}). Revise the chapter; changing the agreed target requires user approval."
+        )
+    return count
 
 
 def build_ssml(chapter, female_blocks, narrator_spans):
@@ -109,7 +129,8 @@ def main():
     parser.add_argument("--chapter", type=int, required=True)
     parser.add_argument("--female-blocks", type=int, nargs="*", default=[])
     parser.add_argument("--casting", type=Path, help="Reviewed femaleBlocks/narratorSpans JSON, or a previous manifest")
-    parser.add_argument("--work-dir", type=Path, required=True)
+    parser.add_argument("--work-dir", type=Path)
+    parser.add_argument("--check-length-only", action="store_true", help="Check the agreed narrative length without synthesis")
     parser.add_argument("--credentials", type=Path,
                         default=Path.home() / ".azure/lietuviskos-knygos-speech.json")
     args = parser.parse_args()
@@ -118,6 +139,20 @@ def main():
     if not 1 <= args.chapter <= len(book["chapters"]):
         parser.error("Chapter number is out of range")
     chapter = book["chapters"][args.chapter - 1]
+    policies = json.loads((Path(__file__).resolve().parents[1] / "author-plans/chapter-lengths.json").read_text())
+    limits = policies.get(book["id"])
+    if limits is None and args.check_length_only:
+        parser.error("Record the agreed chapter length in author-plans/chapter-lengths.json first")
+    if limits is not None:
+        try:
+            count = validate_chapter_length(chapter, limits)
+        except ValueError as error:
+            parser.error(str(error))
+        print(f"Chapter length: {count} words (target {limits['target']}, range {limits['min']}–{limits['max']})", flush=True)
+    if args.check_length_only:
+        return
+    if args.work_dir is None:
+        parser.error("--work-dir is required for synthesis")
     casting = json.loads(args.casting.read_text()) if args.casting else {}
     casting = casting.get("casting", casting)
     args.female_blocks = casting.get("femaleBlocks", args.female_blocks)
