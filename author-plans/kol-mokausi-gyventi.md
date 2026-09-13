@@ -1,20 +1,37 @@
-# Kol mokausi gyventi — chapter 1 editorial state
+# Kol mokausi gyventi — whole-book processing state
 
-Source: user-provided Kol_mokausi_gyventi_B1(1).pdf, 60 pages, 18 chapters. Preserve its B1 orientation, narrator Ana and Russian teaching support. This is source adaptation, not generation of a new story.
+Source: user-provided Kol_mokausi_gyventi_B1(1).pdf, 60 pages, 18 chapters, 5,947 narrative word tokens. Preserve B1 level, narrator Ana, original plot, punctuation, and Russian teaching support. This is adaptation of the supplied source, not a new story.
 
-## Completed text work
-Canonical books/kol-mokausi-gyventi.json contains the complete narrative of chapter 1, Svetimas raktas (PDF pages 5–6): 57 sentence items, 327 Lithuanian word occurrences, and 327 local word explanations. Every sentence has a Russian translation. Whitespace-normalized narrative matches the source PDF extraction exactly. Shelf title indicates one chapter, not the whole book.
+## Current request and scope
 
-User requests sentence-level clicking and explanation of every word, so sentence length and inclusion of function words intentionally follow this request over generic phrase-size guidance. Do not shorten long sentences or omit repeated-word explanations. Long tooltip usability still needs browser verification.
+The user requests processing the WHOLE book, without asking for permission after each chapter. User requests sentence-level clicking and an explanation for EVERY word, including repeated and function words; these explicit requests override generic phrase limits. Do not present the accent checkpoint as complete translations, grammar notes, audio, or publication.
 
-Reviewed contextual distinctions: mama as nominative vs vocative; ranka as instrumental; nori as second-person question; savųjų as definite possessive form with an omitted noun; indefinite vs concessive nors; mokėti as paying; noun aukštas; partitive/negative genitive; temporal accusative; adjective–noun agreement; participles and pusdalyvis. No independent native-editor review is claimed.
+## Canonical reader content
 
-## Not yet complete for release
-VDU browser form is now accessible. Chapter 1 narrative has automatic VDU accents in the canonical reader JSON. All 18 narrative chapters (5,947 word tokens) have been processed and checkpointed in author-plans/kol-mokausi-gyventi-vdu.json. Each output matches its source exactly after removing only U+0300/U+0301/U+0303 and normalizing Unicode; Lithuanian letter diacritics were preserved. Output is automatic and still needs contextual accent review. Practice sections, chapter titles and dictionary-note lemmas are not included in this accent checkpoint. No Azure credentials are configured, and no audio exists. The current narrator voice is hardcoded Leonas in the inherited generator: make it configurable before choosing Ona for Ana, and review male/female dialogue plus narrator insertions. Do not change block types to force casting. Verify narration separately: the generator removes written stress marks before synthesis.
+books/kol-mokausi-gyventi.json still has TWO complete draft narrative chapters: chapter 1 Svetimas raktas (57 units, 327 words) and chapter 2 Prašau pakartoti (64 units, 338 words). Each unit has a Russian translation; every word has a local lemma/grammar explanation. Source fidelity and counts were checked. Catalog remains two chapters / 665 words intentionally.
 
-Browser QA remains pending because local Chromium is missing. The inherited reader logic has 20 passing focused JS tests and 9 passing Python tests. Full tests involving other books and their media are not claimed. JSON integrity, per-word note coverage, source fidelity and catalog counts are checked.
+Chapter-two intentional “pirkau… duona” learner error is preserved and explained. Chapter-one and chapter-two review evidence is in their respective accent-review JSON files. Those reviews are contextual, not independent native-editor certification.
 
-Publish only after stress/audio/UI work is complete; keep the PR in draft. Then continue chapter 2. Original chapter-1 practice is preserved below for a separate future exercise view; it is not yet rendered by the existing reader. Do not mix Russian practice instructions into Lithuanian narrative items.
+## Whole-book accent pass
+
+Raw VDU output remains untouched in kol-mokausi-gyventi-vdu.json.
+New kol-mokausi-gyventi-accented.json contains all 18 original narratives, accentuated titles, per-chapter status, counts and targeted contextual corrections.
+New kol-mokausi-gyventi-accent-audit.json preserves morphology evidence, rules, all 365 changed narrative occurrences relative to initial VDU output, and all 45 currently unaccented narrative occurrences.
+A readable text export is drafts/kol-mokausi-gyventi-accented.txt.
+
+Of 365 changes, 55 inherit the previously corrected canonical chapters 1–2; 310 were made during the whole-book pass, including removal of 8 unsupported infinitive accent choices. All narrative words and punctuation exactly match the extracted source after removing ONLY U+0300/U+0301/U+0303 and normalizing Unicode/whitespace. Lithuanian spelling marks are preserved.
+
+New morphology checks covered infinitives versus passive participles, nominative versus vocative nouns, gender/number agreement, verbs versus homographic nouns, and proper-name nominatives. Examples: kùrti, kèpti, Onà, Rasà, siū́lė, sė́dime. Context-specific exceptions are essential: chapter 6 “pečiai pakelti” retains its participle stress, chapter 8 “tris mažas vietines įmones” retains feminine plural accusative, chapter 8 “buvo viena … kita” retains neuter forms, chapter 18 “su nauja kliente” retains instrumental. Do not reuse a spelling-only correction map on future text.
+
+Unresolved narrative occurrences: Samira 30, Samirai 4, Samiros 2; prisiminti/Prisiminti 7, priminti 1; kieno 1. Two title occurrences are also unaccented: Samira and Kieno. VDU and kirtis expose both prisimìnti/prisimiñti and primìnti/primiñti; lexical meaning needs a reliable confirming source before selecting one. The unsupported accent was removed, not guessed. Unchanged automatic accents still need further scrutiny; this is a whole-corpus targeted pass, NOT a guarantee that every remaining accent is correct.
+
+## Remaining work
+
+1. Prepare contextual Russian translations and complete local word explanations for chapters 3–18 directly in canonical reader JSON. Do not use an external machine translator. Do not mark these chapters complete based on the stress-only draft.
+2. Finish lexical accent review, including note lemmas, unresolved words, titles, and remaining automatic text.
+3. Azure narration: no credentials configured and no audio generated. Inherited generator hardcodes Leonas narrator; make narrator configurable, choose a reviewed voice/casting plan for Ana and dialogue. Keep secrets out of client/repo, use only configured F0, cache narration and cut clips locally.
+4. Browser QA for long sentence tooltips, chapter selection, bookmarks and audio. Local Chromium missing; earlier focused JS tests (20) and Python tests (9) passed. No new UI/audio tests are claimed from this accent-only pass.
+5. Keep PR #1 draft and do not merge/deploy until release checks are met. Do not publish an incomplete full reader as finished.
 
 ## Original practice, PDF page 7
 
@@ -40,7 +57,3 @@ pasakė mamai apie savo jausmus? Kokius tris darbus užrašė?
 Ана не нашла чашки; маме призналась, что ей страшно; записала
 покупки, поиск курсов и адрес.
 
-## Chapter 2 draft checkpoint
-Complete source narrative Prašau pakartoti is now in canonical JSON: 64 clickable units and 338 word occurrences, each with a local Russian explanation and each unit with a translation. Quote/signature and dialogue-author boundaries were manually adjusted. The narrator's intentional pirkau… duona error is preserved and explained. All source words and punctuation match the PDF extraction after whitespace and stress normalization. Common forms inherited verified chapter-one corrections only when grammatical role matched. Chapter-two accent output otherwise remains automatic; note accents and full contextual stress review remain pending. No chapter-two audio or publication is claimed. Catalog now counts 665 words across two chapters.
-
-Chapter-one flagged glossary homographs were resolved with VDU morphology and kirtis.info; detailed evidence is in chapter-one-accent-review.json. This does not certify the full book's automatic accents. Continue with chapter-two accent review, narrator configuration and audio when Azure credentials are available; keep the PR draft until release checks pass.
