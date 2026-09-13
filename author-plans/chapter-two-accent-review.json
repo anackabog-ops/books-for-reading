@@ -9,14 +9,6 @@
     {
       "word": "Samira",
       "reason": "Not recognized by VDU; retain unaccented name pending reliable pronunciation source."
-    },
-    {
-      "word": "paskui",
-      "reason": "VDU offers two adverb accents; kirtis returns no result."
-    },
-    {
-      "word": "paklausė",
-      "reason": "Two verb accents with same tense/person; lexical sense requires a further source."
     }
   ],
   "reviewedMap": {
@@ -507,7 +499,9 @@
     "žmonės": "žmónės",
     "žodis": "žõdis",
     "žodį": "žõdį",
-    "žodžio": "žõdžio"
+    "žodžio": "žõdžio",
+    "paskui": "paskuĩ",
+    "paklausė": "pakláusė"
   },
   "vduEvidence": [
     {
@@ -801,5 +795,20 @@
       "word": "paskui-recheck"
     }
   ],
-  "limitations": "Single-result VDU forms are not independently certified. No audio or publication."
+  "limitations": "Single-result VDU forms are not independently certified. No audio or publication.",
+  "lexicalEvidence": [
+    {
+      "word": "paskui",
+      "accent": "paskuĩ",
+      "meaning": "потом, затем; наречие",
+      "url": "https://www.lietuviuzodynas.lt/zodynas/Paskui"
+    },
+    {
+      "word": "paklausė",
+      "accent": "pakláusė",
+      "meaning": "спросил/спросила; от paklausti",
+      "url": "https://tartis.vdu.lt/pagalba/",
+      "note": "VDU help explicitly associates pakláusė with paklausti. Older TITUS example differs; adopted the explicit VDU lexical distinction."
+    }
+  ]
 }
