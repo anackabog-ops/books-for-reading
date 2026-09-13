@@ -83,7 +83,7 @@
 
     var title = document.createElement("span");
     title.className = "book-title";
-    title.textContent = book.title;
+    title.textContent = book.title + (book.readingLevel ? " (" + (book.readingLevelEstimated ? "~" : "") + book.readingLevel + ")" : "");
 
     var author = document.createElement("span");
     author.className = "book-author";
