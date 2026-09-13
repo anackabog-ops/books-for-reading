@@ -18,6 +18,16 @@
       "wordCount": 4255,
       "href": "reader.html?book=jusu-iprastas-uzsakymas",
       "readingLevel": "A2"
+    },
+    {
+      "id": "kol-mokausi-gyventi",
+      "title": "Kol mokausi gyventi · Ištrauka",
+      "author": "Bozhena Anacka",
+      "cover": "assets/kol-mokausi-gyventi-cover.jpg",
+      "wordCount": 30,
+      "readingLevel": "B1",
+      "readingLevelEstimated": true,
+      "href": "reader.html?book=kol-mokausi-gyventi"
     }
   ]
 }
