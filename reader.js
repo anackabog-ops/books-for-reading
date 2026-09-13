@@ -9,6 +9,7 @@
     tooltipPinned: false,
     tooltipTimer: null,
     chapterTimelines: {},
+    chapterDurations: {},
     audioChapterId: null,
     readingPhrase: null,
     pendingSeek: null,
@@ -43,6 +44,7 @@
   var phraseAudio = document.getElementById("phraseAudio");
   var chapterAudio = document.getElementById("chapterAudio");
   var chapterPlayButton = document.getElementById("chapterPlayButton");
+  var chapterDuration = document.getElementById("chapterDuration");
   var chapterAudioError = document.getElementById("chapterAudioError");
 
   state.fontSize = normalizeFontSize(parseInt(state.fontSize, 10));
@@ -458,6 +460,14 @@
     positionTooltip();
   }
 
+  function formatChapterDuration(seconds) {
+    if (!Number.isFinite(seconds) || seconds <= 0) return "";
+    var totalSeconds = Math.round(seconds);
+    var minutes = Math.floor(totalSeconds / 60);
+    var remainingSeconds = String(totalSeconds % 60).padStart(2, "0");
+    return minutes + ":" + remainingSeconds;
+  }
+
   function loadChapterTimelines() {
     var phrases = {};
     content.querySelectorAll(".phrase").forEach(function (phrase) {
@@ -471,6 +481,9 @@
           return response.json();
         })
         .then(function (manifest) {
+          if (!Number.isFinite(manifest.duration) || manifest.duration <= 0) {
+            throw new Error("invalid duration");
+          }
           var cues = manifest.phrases.map(function (cue) {
             var phrase = phrases[cue.audio];
             if (!phrase || phrase.dataset.chapterId !== chapter.id ||
@@ -481,10 +494,12 @@
           });
           if (!cues.length) throw new Error("empty timeline");
           state.chapterTimelines[chapter.id] = cues;
+          state.chapterDurations[chapter.id] = manifest.duration;
           updateChapterAudioButton();
         })
         .catch(function () {
           state.chapterTimelines[chapter.id] = null;
+          state.chapterDurations[chapter.id] = null;
           updateChapterAudioButton();
         });
     });
@@ -496,8 +511,11 @@
     });
     var playing = !chapterAudio.paused && !chapterAudio.ended;
     var timeline = chapter && state.chapterTimelines[chapter.id];
+    var durationText = formatChapterDuration(chapter && state.chapterDurations[chapter.id]);
     chapterPlayButton.disabled = !timeline;
     chapterPlayButton.setAttribute("aria-pressed", String(playing));
+    chapterDuration.textContent = durationText;
+    chapterDuration.hidden = !durationText;
     var label = playing ? "Pristabdyti skaitymą" : "Klausyti skyriaus";
     if (!chapter || !chapter.audio) label = "Šis skyrius dar neįgarsintas";
     else if (timeline === undefined) label = "Kraunama...";

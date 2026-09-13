@@ -146,6 +146,15 @@ body.theme-dark {
   opacity: 0.4;
 }
 
+.chapter-duration {
+  flex: 0 0 auto;
+  min-width: 3.2ch;
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
 .chapter-play-button svg {
   width: 16px;
   height: 16px;
