@@ -1,113 +1,630 @@
 {
-  "status": "partial-review",
+  "status": "morphology-review-complete-for-available-unambiguous-candidates",
   "reviewed": {
     "kartas": "kar̃tas — masculine singular nominative",
-    "būti": "bū́ti — infinitive",
+    "būti": "bū́ti",
     "ranka": "rankà — instrumental in narrative, nominative lemma",
     "Paulius": "Paũlius — proper name singular nominative",
-    "Ana": "Anà — proper name singular nominative"
+    "Ana": "Anà — proper name singular nominative",
+    "Butas": "Bùtas",
+    "Dar": "Dár",
+    "Gerai": "Geraĩ",
+    "Mama": "Mamà",
+    "Mano": "Màno",
+    "Na": "Nà",
+    "Rytoj": "Rytój",
+    "arbata": "arbatà",
+    "atsiliepti": "atsiliẽpti",
+    "atsisėsti": "atsisė́sti",
+    "aukštas": "aũkštas",
+    "aukštą": "aũkštą",
+    "balta": "baltà",
+    "belsti": "bélsti",
+    "blogai": "blogaĩ",
+    "blogas": "blõgas",
+    "butas": "bùtas",
+    "dar": "dár",
+    "degti": "dègti",
+    "diena": "dienà",
+    "gerai": "geraĩ",
+    "grįžti": "grį̃žti",
+    "ilgai": "ilgaĩ",
+    "išeiti": "išeĩti",
+    "išgirsti": "išgir̃sti",
+    "išimti": "išim̃ti",
+    "išmokti": "išmókti",
+    "išnešti": "išnèšti",
+    "kalba": "kalbà",
+    "kalbos": "kalbõs",
+    "kartus": "kartùs",
+    "kartą": "kar̃tą",
+    "keli": "kelì",
+    "kelis": "kelìs",
+    "kursai": "kùrsai",
+    "kurti": "kùrti",
+    "laikas": "laĩkas",
+    "laiką": "laĩką",
+    "laukti": "láukti",
+    "likti": "lìkti",
+    "mama": "mamà",
+    "mano": "màno",
+    "maža": "mažà",
+    "mažas": "mãžas",
+    "na": "nà",
+    "name": "namè",
+    "nauja": "naujà",
+    "naujas": "naũjas",
+    "nepasiklysti": "nepasiklýsti",
+    "nesuprantama": "nesuprantamà",
+    "nusipirkti": "nusipir̃kti",
+    "padėti": "padė́ti",
+    "paimti": "paim̃ti",
+    "pakelti": "pakélti",
+    "paklausti": "pakláusti",
+    "palikti": "palìkti",
+    "paprasta": "paprastà",
+    "pasibelsti": "pasibélsti",
+    "pasiklysti": "pasiklýsti",
+    "pasirinkti": "pasiriñkti",
+    "pirkti": "pir̃kti",
+    "pradėti": "pradė́ti",
+    "prasidėti": "prasidė́ti",
+    "raktas": "rãktas",
+    "rasti": "ràsti",
+    "rytoj": "rytój",
+    "skaičiau": "skaičiaũ",
+    "spręsti": "sprę́sti",
+    "sunki": "sunkì",
+    "sunkiais": "sunkiaĩs",
+    "sunkus": "sunkùs",
+    "suprasti": "supràsti",
+    "susirasti": "susiràsti",
+    "temti": "témti",
+    "tiesa": "tiesà",
+    "uždara": "uždarà",
+    "uždarą": "ùždarą",
+    "užimta": "užimtà",
+    "užimti": "užim̃ti",
+    "virti": "vìrti",
+    "šviesa": "šviesà",
+    "šviesi": "šviesì",
+    "žalia": "žalià",
+    "žalias": "žãlias"
   },
   "pending": [
-    "kartą",
-    "butas",
     "Vilnius",
     "Vilniuje",
-    "raktas",
     "laiptinė",
     "laiptinėje",
     "dviem",
-    "sunkus",
-    "sunki",
-    "sunkiais",
-    "aukštas",
-    "aukštą",
     "truputį",
     "Truputį",
-    "pakelti",
-    "suprasti",
-    "dar",
-    "blogai",
-    "blogas",
-    "paimti",
-    "arbata",
-    "padėti",
-    "pasibelsti",
-    "išeiti",
-    "kurti",
-    "mažas",
-    "maža",
-    "nusipirkti",
     "kam",
-    "paklausti",
-    "mano",
-    "keli",
-    "kelis",
-    "skaičiau",
-    "palikti",
-    "išnešti",
-    "kartus",
-    "Mano",
-    "naujas",
-    "nauja",
-    "prasidėti",
-    "nesuprantama",
-    "mama",
-    "atsiliepti",
-    "atsisėsti",
-    "užimti",
-    "užimta",
-    "na",
-    "Na",
-    "gerai",
-    "Gerai",
-    "Butas",
-    "šviesi",
     "tai",
     "Tai",
-    "tiesa",
-    "temti",
-    "Dar",
-    "Mama",
-    "pradėti",
-    "ilgai",
-    "laukti",
     "visas",
     "visa",
-    "diena",
-    "spręsti",
-    "pasiklysti",
-    "nepasiklysti",
     "kažkam",
-    "laiką",
-    "laikas",
-    "grįžti",
-    "uždara",
-    "uždarą",
-    "rytoj",
-    "Rytoj",
-    "rasti",
-    "virti",
-    "išimti",
-    "žalias",
-    "žalia",
-    "pirkti",
-    "paprasta",
-    "susirasti",
-    "kalba",
-    "kalbos",
-    "kursai",
-    "išmokti",
-    "išgirsti",
-    "belsti",
     "savas",
-    "balta",
     "kitas",
     "kita",
-    "mėlyna",
-    "pasirinkti",
-    "name",
-    "degti",
-    "šviesa",
-    "likti"
-  ]
+    "mėlyna"
+  ],
+  "source": "https://kalbu.vdu.lt/mokymosi-priemones/kirciuoklis/",
+  "evidence": {
+    "others": [
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkar̃tą\tdkt. mot. g. vns. gal.\t-\nkar̃tą\tdkt. vyr. g. vns. gal.\t-\nkártą\tvksm.\t-\nkártą\tvksm.\t-",
+        "word": "kartą"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbùtas\tdkt. vyr. g. vns. vard.\t-",
+        "word": "butas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nVìlnius\tdkt. tikr. vyr. g. dgs. gal.\t-\nVilniùs\tdkt. tikr. vyr. g. dgs. gal.\t-\nVìlnius\tdkt. tikr. vyr. g. vns. vard.\t-\nVil̃nius\tdkt. tikr. vyr. g. vns. vard.\t-\nVìlnius\tdkt. tikr. vyr. g. vns. vard.\t-\nVil̃nius\tdkt. tikr. vyr. g. vns. vard.\t-",
+        "word": "Vilnius"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nVìlniuje\tdkt. tikr. vyr. g. vns. viet.\t-\nVil̃niuje\tdkt. tikr. vyr. g. vns. viet.\t-\nVìlniuje\tdkt. tikr. vyr. g. vns. viet.\t-\nVil̃niuje\tdkt. tikr. vyr. g. vns. viet.\t-",
+        "word": "Vilniuje"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrãktas\tdkt. vyr. g. vns. vard.\t-\nraktàs\tvksm.\t-\nrãktas\tvksm.\t-\nrãktas\tvksm.\t-\nraktàs\tvksm.\t-\nrãktas\tvksm.\t-\nrãktas\tvksm.\t-",
+        "word": "raktas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nláiptinė\tbdv. mot. g. vns. vard.\t-\nlaĩptinė\tbdv. mot. g. vns. vard.\t-\nláiptinė\tdkt. mot. g. vns. vard.\t-\nlaiptìnė\tdkt. mot. g. vns. vard.\t-\nlaĩptinė\tdkt. mot. g. vns. vard.\t-",
+        "word": "laiptinė"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nláiptinėje\tbdv. mot. g. vns. viet.\t-\nlaĩptinėje\tbdv. mot. g. vns. viet.\t-\nláiptinėje\tdkt. mot. g. vns. viet.\t-\nlaiptìnėje\tdkt. mot. g. vns. viet.\t-\nlaĩptinėje\tdkt. mot. g. vns. viet.\t-",
+        "word": "laiptinėje"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ndviẽm\tsktv.\t-\ndvíem\tsktv.\t-\ndviẽm\tsktv.\t-\ndvíem\tsktv.\t-",
+        "word": "dviem"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsunkùs\tbdv. vyr. g. vns. šauksm.\t-\nsunkùs\tbdv. vyr. g. vns. vard.\t-\nsuñkus\tvksm.\t-\nsuñkus\tvksm.\t-",
+        "word": "sunkus"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsunkì\tbdv. mot. g. vns. šauksm.\t-\nsunkì\tbdv. mot. g. vns. vard.\t-\nsuñki\tdkt. vyr. g. vns. šauksm.\t-\nsunkì\tvksm.\t-\nsuñki\tvksm.\t-\nsunkì\tvksm.\t-\nsuñki\tvksm.\t-",
+        "word": "sunki"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsunkiaĩs\tbdv. vyr. g. dgs. įn.\t-\nsuñkiais\tdkt. vyr. g. dgs. įn.\t-",
+        "word": "sunkiais"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\náukštas\tbdv. mot. g. dgs. gal.\t-\náukštas\tbdv. vyr. g. vns. šauksm.\t-\náukštas\tbdv. vyr. g. vns. vard.\t-\naũkštas\tdkt. vyr. g. vns. vard.\t-",
+        "word": "aukštas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\náukštą\tbdv. mot. g. vns. gal.\t-\náukštą\tbdv. vyr. g. vns. gal.\t-\naũkštą\tdkt. vyr. g. vns. gal.\t-",
+        "word": "aukštą"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntrupùtį\tdkt. vyr. g. vns. gal.\t-\ntrùputį\tdkt. vyr. g. vns. gal.\t-",
+        "word": "truputį"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nTrupùtį\tdkt. vyr. g. vns. gal.\t-\nTrùputį\tdkt. vyr. g. vns. gal.\t-",
+        "word": "Truputį"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ndár\tprv.\t-\ndar̃\tišt.\t-",
+        "word": "dar"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nblogaĩ\tprv.\t-\nblõgai\tbdv. mot. g. vns. naud.\t-\nblogaĩ\tvksm.\t-\nblógai\tvksm.\t-",
+        "word": "blogai"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nblogàs\tbdv. mot. g. dgs. gal.\t-\nblõgas\tbdv. vyr. g. vns. šauksm.\t-\nblõgas\tbdv. vyr. g. vns. vard.\t-",
+        "word": "blogas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\narbãta\tdkt. mot. g. vns. šauksm.\t-\narbatà\tdkt. mot. g. vns. įn.\t-\narbatà\tdkt. mot. g. vns. vard.\t-",
+        "word": "arbata"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmažàs\tbdv. mot. g. dgs. gal.\t-\nmãžas\tbdv. vyr. g. vns. šauksm.\t-\nmãžas\tbdv. vyr. g. vns. vard.\t-",
+        "word": "mažas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmãža\tbdv. bev. g.\t-\nmažà\tbdv. mot. g. vns. šauksm.\t-\nmažà\tbdv. mot. g. vns. įn.\t-\nmažà\tbdv. mot. g. vns. vard.\t-",
+        "word": "maža"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkám\tprv.\t-\nkam̃\tįv.\t-\nkám\tįv.\t-",
+        "word": "kam"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmàno\tįv.\t-\nmàno\tįv.\t-\nmãno\tvksm.\t-",
+        "word": "mano"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkelì\tįv.\t-\nkẽli\tdkt. vyr. g. vns. šauksm.\t-\nkelì\tvksm.\t-",
+        "word": "keli"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkelìs\tįv.\t-\nkẽlis\tdkt. vyr. g. vns. vard.\t-",
+        "word": "kelis"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nskaĩčiau\tdkt. vyr. g. vns. šauksm.\t-\nskaičiaũ\tvksm.\t-",
+        "word": "skaičiau"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkartùs\tbdv. vyr. g. vns. šauksm.\t-\nkartùs\tbdv. vyr. g. vns. šauksm.\t-\nkartùs\tbdv. vyr. g. vns. vard.\t-\nkartùs\tbdv. vyr. g. vns. vard.\t-\nkartùs\tdkt. vyr. g. dgs. gal.\t-\nkar̃tus\tvksm.\t-\nkártus\tvksm.\t-",
+        "word": "kartus"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nMàno\tįv.\t-\nMàno\tįv.\t-\nMãno\tvksm.\t-",
+        "word": "Mano"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnaujàs\tbdv. mot. g. dgs. gal.\t-\nnaũjas\tbdv. vyr. g. vns. šauksm.\t-\nnaũjas\tbdv. vyr. g. vns. vard.\t-",
+        "word": "naujas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnaũja\tbdv. bev. g.\t-\nnaujà\tbdv. mot. g. vns. šauksm.\t-\nnaujà\tbdv. mot. g. vns. įn.\t-\nnaujà\tbdv. mot. g. vns. vard.\t-",
+        "word": "nauja"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnesuprañtama\tbdv. bev. g.\t-\nnesuprantamà\tbdv. mot. g. vns. šauksm.\t-\nnesuprañtama\tbdv. mot. g. vns. įn.\t-\nnesuprantamà\tbdv. mot. g. vns. vard.\t-\nnesuprantamà\tvksm.\t-\nnesuprañtama\tvksm.\t-\nnesuprantamà\tvksm.\t-\nnesuprañtama\tvksm.\t-",
+        "word": "nesuprantama"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmãma\tdkt. mot. g. vns. šauksm.\t-\nmamà\tdkt. mot. g. vns. įn.\t-\nmamà\tdkt. mot. g. vns. vard.\t-",
+        "word": "mama"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nùžimta\tbdv. bev. g.\t-\nužimtà\tbdv. mot. g. vns. šauksm.\t-\nùžimta\tbdv. mot. g. vns. įn.\t-\nužimtà\tbdv. mot. g. vns. vard.\t-\nùžimta\tvksm.\t-\nužimtà\tvksm.\t-\nùžimta\tvksm.\t-\nužimtà\tvksm.\t-",
+        "word": "užimta"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnà\tjst.\t-\nnã\tišt.\t-\nnà\tdll.\t-",
+        "word": "na"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nNà\tjst.\t-\nNã\tišt.\t-\nNà\tdll.\t-",
+        "word": "Na"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ngeraĩ\tprv.\t-\ngẽrai\tbdv. mot. g. vns. naud.\t-",
+        "word": "gerai"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nGeraĩ\tprv.\t-\nGẽrai\tbdv. mot. g. vns. naud.\t-",
+        "word": "Gerai"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nBùtas\tdkt. vyr. g. vns. vard.\t-\nButàs\tdkt. tikr. vyr. g. dgs. gal.\t-\nBùtas\tdkt. tikr. vyr. g. vns. vard.\t-",
+        "word": "Butas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšviesì\tbdv. mot. g. vns. šauksm.\t-\nšviesì\tbdv. mot. g. vns. vard.\t-\nšviẽsi\tdkt. vyr. g. vns. šauksm.\t-\nšviẽsi\tvksm.\t-",
+        "word": "šviesi"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntaĩ\tjng.\t-\ntaĩ\tdll.\t-\ntái\tįv.\t-\ntaĩ\tįv.\t-",
+        "word": "tai"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nTaĩ\tjng.\t-\nTaĩ\tdll.\t-\nTái\tįv.\t-\nTaĩ\tįv.\t-",
+        "word": "Tai"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntiẽsa\tdkt. mot. g. vns. šauksm.\t-\ntiesà\tdkt. mot. g. vns. įn.\t-\ntiesà\tdkt. mot. g. vns. vard.\t-",
+        "word": "tiesa"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nDár\tprv.\t-\nDar̃\tišt.\t-",
+        "word": "Dar"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nMãma\tdkt. mot. g. vns. šauksm.\t-\nMamà\tdkt. mot. g. vns. įn.\t-\nMamà\tdkt. mot. g. vns. vard.\t-",
+        "word": "Mama"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nilgaĩ\tprv.\t-\nìlgai\tbdv. mot. g. vns. naud.\t-\nìlgai\tvksm.\t-",
+        "word": "ilgai"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvisàs\tįv.\t-\nvìsas\tįv.\t-\nvìsas\tįv.\t-",
+        "word": "visas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvìsa\tįv.\t-\nvisà\tįv.\t-\nvisà\tįv.\t-\nvisà\tįv.\t-",
+        "word": "visa"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ndiẽna\tdkt. mot. g. vns. šauksm.\t-\ndienà\tdkt. mot. g. vns. įn.\t-\ndienà\tdkt. mot. g. vns. vard.\t-",
+        "word": "diena"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkažkam̃\tįv.\t-\nkažkám\tįv.\t-",
+        "word": "kažkam"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nláiką\tdkt. mot. g. vns. gal.\t-\nlaĩką\tdkt. vyr. g. vns. gal.\t-\nlaiką̃\tvksm.\t-\nlaĩką\tvksm.\t-\nlaiką̃\tvksm.\t-\nlaĩką\tvksm.\t-\nlaiką̃\tvksm.\t-\nlaĩką\tvksm.\t-\nlaĩką\tvksm.\t-\nlaiką̃\tvksm.\t-\nlaĩką\tvksm.\t-",
+        "word": "laiką"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nláikas\tdkt. mot. g. dgs. gal.\t-\nlaĩkas\tdkt. vyr. g. vns. vard.\t-",
+        "word": "laikas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nùždara\tbdv. bev. g.\t-\nuždarà\tbdv. mot. g. vns. šauksm.\t-\nùždara\tbdv. mot. g. vns. įn.\t-\nuždarà\tbdv. mot. g. vns. vard.\t-",
+        "word": "uždara"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nùždarą\tbdv. mot. g. vns. gal.\t-\nùždarą\tbdv. vyr. g. vns. gal.\t-\nùždarą\tdkt. vyr. g. vns. gal.\t-\nùždarą\tdkt. vyr. g. vns. gal.\t-\nuždarą̃\tvksm.\t-\nuždãrą\tvksm.\t-\nuždarą̃\tvksm.\t-\nuždãrą\tvksm.\t-\nuždarą̃\tvksm.\t-\nuždãrą\tvksm.\t-\nuždãrą\tvksm.\t-\nuždarą̃\tvksm.\t-\nuždãrą\tvksm.\t-",
+        "word": "uždarą"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrytój\tprv.\t-\nrytõj\tvksm.\t-",
+        "word": "rytoj"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nRytój\tprv.\t-\nRytõj\tvksm.\t-",
+        "word": "Rytoj"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nžaliàs\tbdv. mot. g. dgs. gal.\t-\nžãlias\tbdv. vyr. g. vns. šauksm.\t-\nžãlias\tbdv. vyr. g. vns. vard.\t-",
+        "word": "žalias"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nžãlia\tbdv. bev. g.\t-\nžalià\tbdv. mot. g. vns. šauksm.\t-\nžalià\tbdv. mot. g. vns. įn.\t-\nžalià\tbdv. mot. g. vns. vard.\t-",
+        "word": "žalia"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npàprasta\tbdv. bev. g.\t-\npaprastà\tbdv. mot. g. vns. šauksm.\t-\npàprasta\tbdv. mot. g. vns. įn.\t-\npaprastà\tbdv. mot. g. vns. vard.\t-\npàprasta\tvksm.\t-\npaprastà\tvksm.\t-\npàprasta\tvksm.\t-\npaprastà\tvksm.\t-",
+        "word": "paprasta"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkal̃ba\tdkt. mot. g. vns. šauksm.\t-\nkalbà\tdkt. mot. g. vns. įn.\t-\nkalbà\tdkt. mot. g. vns. vard.\t-\nkal̃ba\tvksm.\t-",
+        "word": "kalba"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkal̃bos\tdkt. mot. g. dgs. šauksm.\t-\nkal̃bos\tdkt. mot. g. dgs. vard.\t-\nkalbõs\tdkt. mot. g. vns. kilm.\t-",
+        "word": "kalbos"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkùrsai\tdkt. vyr. g. dgs. šauksm.\t-\nkùrsai\tdkt. vyr. g. dgs. vard.\t-\nkursaĩ\tįv.\t-\nkursaĩ\tįv.\t-",
+        "word": "kursai"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsavàs\tįv.\t-\nsãvas\tįv.\t-\nsãvas\tįv.\t-",
+        "word": "savas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbálta\tbdv. bev. g.\t-\nbaltà\tbdv. mot. g. vns. šauksm.\t-\nbálta\tbdv. mot. g. vns. įn.\t-\nbaltà\tbdv. mot. g. vns. vard.\t-\nbálta\tvksm.\t-\nbaltà\tvksm.\t-\nbálta\tvksm.\t-\nbaltà\tvksm.\t-",
+        "word": "balta"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkitàs\tįv.\t-\nkìtas\tįv.\t-\nkìtas\tįv.\t-",
+        "word": "kitas"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkìta\tįv.\t-\nkità\tįv.\t-\nkità\tįv.\t-\nkità\tįv.\t-",
+        "word": "kita"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmė́lyna\tbdv. bev. g.\t-\nmė́lyna\tbdv. bev. g.\t-\nmė́lyna\tbdv. mot. g. vns. šauksm.\t-\nmėlynà\tbdv. mot. g. vns. šauksm.\t-\nmė́lyna\tbdv. mot. g. vns. įn.\t-\nmė́lyna\tbdv. mot. g. vns. įn.\t-\nmė́lyna\tbdv. mot. g. vns. vard.\t-\nmėlynà\tbdv. mot. g. vns. vard.\t-",
+        "word": "mėlyna"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnãme\tdkt. vyr. g. vns. šauksm.\t-\nnamè\tdkt. vyr. g. vns. viet.\t-",
+        "word": "name"
+      },
+      {
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšviẽsa\tdkt. mot. g. vns. šauksm.\t-\nšviesà\tdkt. mot. g. vns. įn.\t-\nšviesà\tdkt. mot. g. vns. vard.\t-",
+        "word": "šviesa"
+      }
+    ],
+    "verbs": [
+      {
+        "candidates": [
+          "bū́ti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbūtì\tvksm.\t-\nbūtì\tvksm.\t-\nbū́ti\tvksm. bendratis\t-",
+        "word": "būti"
+      },
+      {
+        "candidates": [
+          "pakélti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npakeltì\tvksm.\t-\npakeltì\tvksm.\t-\npakélti\tvksm. bendratis\t-",
+        "word": "pakelti"
+      },
+      {
+        "candidates": [
+          "supràsti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsuprastì\tvksm.\t-\nsuprastì\tvksm.\t-\nsupràsti\tvksm. bendratis\t-",
+        "word": "suprasti"
+      },
+      {
+        "candidates": [
+          "paim̃ti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npaimtì\tvksm.\t-\npaimtì\tvksm.\t-\npaim̃ti\tvksm. bendratis\t-",
+        "word": "paimti"
+      },
+      {
+        "candidates": [
+          "padė́ti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npadėtì\tvksm.\t-\npadėtì\tvksm.\t-\npadė́ti\tvksm. bendratis\t-",
+        "word": "padėti"
+      },
+      {
+        "candidates": [
+          "pasibélsti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npasibelstì\tvksm.\t-\npasibelstì\tvksm.\t-\npasibélsti\tvksm. bendratis\t-",
+        "word": "pasibelsti"
+      },
+      {
+        "candidates": [
+          "išeĩti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nišeitì\tvksm.\t-\nišeitì\tvksm.\t-\nišeĩti\tvksm. bendratis\t-",
+        "word": "išeiti"
+      },
+      {
+        "candidates": [
+          "kùrti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkurtì\tbdv. mot. g. vns. šauksm.\t-\nkurtì\tbdv. mot. g. vns. vard.\t-\nkur̃ti\tdkt. vyr. g. vns. šauksm.\t-\nkurtì\tbdv. vyr. g. dgs. šauksm.\t-\nkurtì\tbdv. vyr. g. dgs. vard.\t-\nkurtì\tvksm.\t-\nkurtì\tvksm.\t-\nkùrti\tvksm. bendratis\t-",
+        "word": "kurti"
+      },
+      {
+        "candidates": [
+          "nusipir̃kti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnusipirktì\tvksm.\t-\nnusipirktì\tvksm.\t-\nnusipir̃kti\tvksm. bendratis\t-",
+        "word": "nusipirkti"
+      },
+      {
+        "candidates": [
+          "pakláusti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npaklaustì\tvksm.\t-\npaklaustì\tvksm.\t-\npakláusti\tvksm. bendratis\t-",
+        "word": "paklausti"
+      },
+      {
+        "candidates": [
+          "palìkti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npaliktì\tvksm.\t-\npaliktì\tvksm.\t-\npalìkti\tvksm. bendratis\t-",
+        "word": "palikti"
+      },
+      {
+        "candidates": [
+          "išnèšti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nišneštì\tvksm.\t-\nišneštì\tvksm.\t-\nišnèšti\tvksm. bendratis\t-",
+        "word": "išnešti"
+      },
+      {
+        "candidates": [
+          "prasidė́ti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nprasidėtì\tvksm.\t-\nprasidėtì\tvksm.\t-\nprasidė́ti\tvksm. bendratis\t-",
+        "word": "prasidėti"
+      },
+      {
+        "candidates": [
+          "atsiliẽpti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natsilieptì\tvksm.\t-\natsilieptì\tvksm.\t-\natsiliẽpti\tvksm. bendratis\t-",
+        "word": "atsiliepti"
+      },
+      {
+        "candidates": [
+          "atsisė́sti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natsisėstì\tvksm.\t-\natsisėstì\tvksm.\t-\natsisė́sti\tvksm. bendratis\t-",
+        "word": "atsisėsti"
+      },
+      {
+        "candidates": [
+          "užim̃ti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nužimtì\tbdv. vyr. g. dgs. šauksm.\t-\nužimtì\tbdv. vyr. g. dgs. vard.\t-\nužimtì\tvksm.\t-\nužimtì\tvksm.\t-\nužim̃ti\tvksm. bendratis\t-",
+        "word": "užimti"
+      },
+      {
+        "candidates": [
+          "témti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntemtì\tvksm.\t-\ntemtì\tvksm.\t-\ntémti\tvksm. bendratis\t-",
+        "word": "temti"
+      },
+      {
+        "candidates": [
+          "pradė́ti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npradėtì\tvksm.\t-\npradėtì\tvksm.\t-\npradė́ti\tvksm. bendratis\t-",
+        "word": "pradėti"
+      },
+      {
+        "candidates": [
+          "láukti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nlauktì\tvksm.\t-\nlauktì\tvksm.\t-\nláukti\tvksm. bendratis\t-",
+        "word": "laukti"
+      },
+      {
+        "candidates": [
+          "sprę́sti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nspręstì\tvksm.\t-\nspręstì\tvksm.\t-\nsprę́sti\tvksm. bendratis\t-",
+        "word": "spręsti"
+      },
+      {
+        "candidates": [
+          "pasiklýsti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npasiklýsti\tvksm.\t-\npasiklystì\tvksm.\t-\npasiklystì\tvksm.\t-\npasiklýsti\tvksm. bendratis\t-",
+        "word": "pasiklysti"
+      },
+      {
+        "candidates": [
+          "nepasiklýsti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnepasiklýsti\tvksm.\t-\nnepasiklystì\tvksm.\t-\nnepasiklystì\tvksm.\t-\nnepasiklýsti\tvksm. bendratis\t-",
+        "word": "nepasiklysti"
+      },
+      {
+        "candidates": [
+          "grį̃žti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ngrįžtì\tvksm.\t-\ngrįžtì\tvksm.\t-\ngrįžtì\tvksm.\t-\ngrį̃žti\tvksm. bendratis\t-",
+        "word": "grįžti"
+      },
+      {
+        "candidates": [
+          "ràsti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrastì\tvksm.\t-\nrastì\tvksm.\t-\nràsti\tvksm. bendratis\t-",
+        "word": "rasti"
+      },
+      {
+        "candidates": [
+          "vìrti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvirtì\tvksm.\t-\nvirtì\tvksm.\t-\nvìrti\tvksm. bendratis\t-",
+        "word": "virti"
+      },
+      {
+        "candidates": [
+          "išim̃ti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nišimtì\tvksm.\t-\nišimtì\tvksm.\t-\nišim̃ti\tvksm. bendratis\t-",
+        "word": "išimti"
+      },
+      {
+        "candidates": [
+          "pir̃kti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npirktì\tvksm.\t-\npirktì\tvksm.\t-\npir̃kti\tvksm. bendratis\t-",
+        "word": "pirkti"
+      },
+      {
+        "candidates": [
+          "susiràsti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsusirastì\tvksm.\t-\nsusirastì\tvksm.\t-\nsusiràsti\tvksm. bendratis\t-",
+        "word": "susirasti"
+      },
+      {
+        "candidates": [
+          "išmókti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nišmoktì\tvksm.\t-\nišmoktì\tvksm.\t-\nišmókti\tvksm. bendratis\t-",
+        "word": "išmokti"
+      },
+      {
+        "candidates": [
+          "išgir̃sti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nišgirstì\tvksm.\t-\nišgirstì\tvksm.\t-\nišgirstì\tvksm.\t-\nišgir̃sti\tvksm. bendratis\t-",
+        "word": "išgirsti"
+      },
+      {
+        "candidates": [
+          "bélsti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbelstì\tvksm.\t-\nbelstì\tvksm.\t-\nbélsti\tvksm. bendratis\t-",
+        "word": "belsti"
+      },
+      {
+        "candidates": [
+          "pasiriñkti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npasirinktì\tvksm.\t-\npasirinktì\tvksm.\t-\npasiriñkti\tvksm. bendratis\t-",
+        "word": "pasirinkti"
+      },
+      {
+        "candidates": [
+          "dègti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ndegtì\tvksm.\t-\ndegtì\tvksm.\t-\ndègti\tvksm. bendratis\t-",
+        "word": "degti"
+      },
+      {
+        "candidates": [
+          "lìkti\tvksm. bendratis\t-"
+        ],
+        "rows": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nliktì\tvksm.\t-\nliktì\tvksm.\t-\nlìkti\tvksm. bendratis\t-",
+        "word": "likti"
+      }
+    ]
+  }
 }
