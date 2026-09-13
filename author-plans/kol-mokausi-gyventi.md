@@ -39,3 +39,8 @@ pasakė mamai apie savo jausmus? Kokius tris darbus užrašė?
 Проверка. Klausydamasi muzikos, gaminau vakarienę. Содержание:
 Ана не нашла чашки; маме призналась, что ей страшно; записала
 покупки, поиск курсов и адрес.
+
+## Chapter 2 draft checkpoint
+Complete source narrative Prašau pakartoti is now in canonical JSON: 64 clickable units and 338 word occurrences, each with a local Russian explanation and each unit with a translation. Quote/signature and dialogue-author boundaries were manually adjusted. The narrator's intentional pirkau… duona error is preserved and explained. All source words and punctuation match the PDF extraction after whitespace and stress normalization. Common forms inherited verified chapter-one corrections only when grammatical role matched. Chapter-two accent output otherwise remains automatic; note accents and full contextual stress review remain pending. No chapter-two audio or publication is claimed. Catalog now counts 665 words across two chapters.
+
+Chapter-one flagged glossary homographs were resolved with VDU morphology and kirtis.info; detailed evidence is in chapter-one-accent-review.json. This does not certify the full book's automatic accents. Continue with chapter-two accent review, narrator configuration and audio when Azure credentials are available; keep the PR draft until release checks pass.
