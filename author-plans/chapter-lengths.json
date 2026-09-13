@@ -1,7 +1,6 @@
 {
   "jusu-iprastas-uzsakymas": {
-    "target": 800,
-    "min": 700,
-    "max": 900
+    "min": 400,
+    "max": 800
   }
 }

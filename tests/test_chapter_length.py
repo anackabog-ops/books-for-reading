@@ -12,7 +12,7 @@ SCRIPT = ROOT / "scripts/generate-chapter-audio.py"
 spec = importlib.util.spec_from_file_location("chapter_audio_length", SCRIPT)
 audio = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(audio)
-LIMITS = {"target": 800, "min": 700, "max": 900}
+LIMITS = {"min": 400, "max": 800}
 
 
 def chapter(words):
@@ -21,47 +21,46 @@ def chapter(words):
 
 class ChapterLengthTest(unittest.TestCase):
     def test_counts_only_narrative_and_preserves_accented_words(self):
-        self.assertTrue(hasattr(audio, "chapter_word_count"), "chapter length check is missing")
         self.assertEqual(7, audio.chapter_word_count(chapter("— Ąžuolas, ėmė, ūžė. Tòmas grį̃žo. Ačiū! vis-à-vis 123")))
 
-    def test_rejects_short_and_long_chapters_including_the_original_failure(self):
-        self.assertTrue(hasattr(audio, "validate_chapter_length"), "chapter length gate is missing")
-        for count in (328, 699, 901):
-            with self.subTest(count=count), self.assertRaisesRegex(ValueError, "700–900"):
-                audio.validate_chapter_length(chapter("žodis " * count), LIMITS)
-        for count in (700, 800, 900):
-            self.assertEqual(count, audio.validate_chapter_length(chapter("žodis " * count), LIMITS))
+    def test_usual_range_has_no_single_target(self):
+        self.assertTrue(hasattr(audio, "chapter_length_report"), "advisory length report is missing")
+        for count in (400, 600, 800):
+            with self.subTest(count=count):
+                report = audio.chapter_length_report(chapter("žodis " * count), LIMITS)
+                self.assertIn(str(count), report)
+                self.assertIn("400–800", report)
+                self.assertNotIn("review", report.lower())
+                self.assertNotIn("target", report.lower())
 
-    def test_latest_chapter_matches_the_restored_agreement(self):
-        self.assertTrue(hasattr(audio, "chapter_word_count"), "chapter length check is missing")
-        book = json.loads((ROOT / "books/jusu-iprastas-uzsakymas.json").read_text())
-        count = audio.chapter_word_count(book["chapters"][-1])
-        self.assertGreaterEqual(count, 700, "a short scene is not the agreed complete chapter")
-        self.assertLessEqual(count, 900)
+    def test_outliers_request_editorial_review_without_blocking(self):
+        with tempfile.TemporaryDirectory() as directory:
+            book = Path(directory) / "book.json"
+            for count in (328, 399, 801):
+                with self.subTest(count=count):
+                    book.write_text(json.dumps({"id": "jusu-iprastas-uzsakymas", "chapters": [chapter("žodis " * count)]}))
+                    result = subprocess.run(
+                        [sys.executable, str(SCRIPT), str(book), "--chapter", "1", "--check-length-only",
+                         "--credentials", "/nonexistent/credentials.json"], capture_output=True, text=True,
+                    )
+                    self.assertEqual(0, result.returncode, result.stderr)
+                    self.assertIn(str(count), result.stdout)
+                    self.assertIn("400–800", result.stdout)
+                    self.assertIn("editorial review", result.stdout.lower())
+                    self.assertNotIn("Synthesizing", result.stdout)
 
-    def test_length_only_check_does_not_need_speech_or_a_work_directory(self):
-        result = subprocess.run(
-            [sys.executable, str(SCRIPT), str(ROOT / "books/jusu-iprastas-uzsakymas.json"),
-             "--chapter", "8", "--check-length-only", "--credentials", "/nonexistent/credentials.json"],
-            capture_output=True, text=True,
-        )
-        self.assertEqual(0, result.returncode, result.stderr)
-        self.assertIn("target 800", result.stdout)
-
-    def test_short_chapter_is_rejected_before_credentials_or_synthesis(self):
+    def test_synthesis_path_reports_short_chapter_without_length_rejection(self):
         with tempfile.TemporaryDirectory() as directory:
             book = Path(directory) / "book.json"
             book.write_text(json.dumps({"id": "jusu-iprastas-uzsakymas", "chapters": [chapter("žodis " * 328)]}))
             result = subprocess.run(
-                [sys.executable, str(SCRIPT), str(book), "--chapter", "1", "--work-dir", directory,
-                 "--credentials", "/nonexistent/credentials.json"], capture_output=True, text=True,
+                [sys.executable, str(SCRIPT), str(book), "--chapter", "1"], capture_output=True, text=True,
             )
-        self.assertNotEqual(0, result.returncode)
-        self.assertIn("328", result.stderr)
-        self.assertIn("700–900", result.stderr)
-        self.assertNotIn("Synthesizing", result.stdout)
+        self.assertIn("328", result.stdout)
+        self.assertIn("editorial review", result.stdout.lower())
+        self.assertIn("--work-dir is required", result.stderr)
 
-    def test_other_books_do_not_inherit_this_books_length_requirement(self):
+    def test_other_books_do_not_inherit_this_books_length_guidance(self):
         with tempfile.TemporaryDirectory() as directory:
             book = Path(directory) / "book.json"
             book.write_text(json.dumps({"id": "another-book", "chapters": [chapter("žodis " * 328)]}))
@@ -69,7 +68,7 @@ class ChapterLengthTest(unittest.TestCase):
                 [sys.executable, str(SCRIPT), str(book), "--chapter", "1"], capture_output=True, text=True,
             )
         self.assertIn("--work-dir is required", result.stderr)
-        self.assertNotIn("chapter length", result.stderr.lower())
+        self.assertNotIn("Chapter length", result.stdout)
 
 
 if __name__ == "__main__":

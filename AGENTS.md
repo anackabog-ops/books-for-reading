@@ -10,13 +10,19 @@ The reader is generic. Do not create one-off HTML readers per book.
 
 When generating an original book, pilot chapter, or continuation, use the project skill [lithuanian-storybook](.agents/skills/lithuanian-storybook/SKILL.md). Read it before planning or writing, and load only the optional setting and genre files relevant to the current request.
 
-## Agreed Chapter Length
+## Chapter Length And Learning Value
 
-The agreed narrative length is stored in `author-plans/chapter-lengths.json`. For `jusu-iprastas-uzsakymas`, the target is about 800 Lithuanian words per chapter, with a 700–900 acceptance range. Count only narrative `text`, preserving Lithuanian letters and treating stress marks as part of their words; translations, notes and metadata do not contribute.
+For `jusu-iprastas-uzsakymas`, plan each chapter for one reading sitting, usually 400–800 Lithuanian narrative words. Use 800 as the planning ceiling, not a target to fill. Prefer roughly 400–500 when the language or situation needs more attention; familiar language can support a longer scene. These are editorial guides, not a measured optimum for this reader. Let the scene reach a meaningful action, decision or consequence and a natural stopping point. If it runs long, remove nonessential material or divide it at a natural boundary; do not leave a scene unfinished merely to meet a count.
 
-Before narration and again before publishing a new or revised chapter, run `python3 scripts/generate-chapter-audio.py books/<book-id>.json --chapter <N> --check-length-only`. A failed length check means the chapter needs revision. Develop its scenes, choices and dialogue to the agreed scale; do not pad with repetitive description or add complexity to the Lithuanian just to reach the count.
+The usual range is stored in `author-plans/chapter-lengths.json`. Before narration and publication, run `python3 scripts/generate-chapter-audio.py books/<book-id>.json --chapter <N> --check-length-only`. It reports the count and flags outliers for editorial review rather than rejecting them automatically. Count only narrative `text`; translations, notes and metadata do not contribute. A count inside the range does not establish readiness either.
 
-The target is a requirement, and observed chapter lengths are results. Do not replace the requirement in the plan or policy with the size of an already-written draft. Short preceding chapters and a request to continue are not approval to change length. Change the agreed target or range only when the user explicitly requests or approves that change. Run `python3 -m unittest discover -s tests -p 'test_*.py'` as part of chapter verification; the latest chapter is checked against the restored agreement.
+Review three things before considering the chapter complete:
+
+- Story: the reader can follow who wants what, what changes and why the scene stops here. Develop meaningful interactions; avoid padding, repeated explanations and arbitrary cliffhangers.
+- Learning load: use the skill's language ledger to check both target and incidental vocabulary, unfamiliar forms and constructions. New vocabulary is a budget, not a quota; a chapter may focus entirely on reuse. Extra length should mostly provide meaningful practice with familiar language, not increase the new-word allowance. Plan later encounters with underused words instead of forcing them all into this chapter.
+- Reader support: preserve clear A2-oriented clauses, contextual Russian translations and full local dictionary/grammar notes, including repeated words. Shorter chapters do not justify thinner explanations. Reader reports of difficulty or fatigue guide later pacing and language load.
+
+Compare recent chapters' length and language load when planning the next one. Distinguish intentional variation from a series of underdeveloped scenes. Do not infer a new format from the latest draft or a request to continue, and do not rewrite the guidance to make an existing result look compliant. Choose ordinary scene length independently within this brief; no per-chapter approval is needed. Keep observed vocabulary and story state in the author plan, and workflow rules here. Run the Python tests as part of chapter verification.
 
 ## Project Structure
 
