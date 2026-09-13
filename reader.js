@@ -1,6 +1,10 @@
 (function () {
   var params = new URLSearchParams(window.location.search);
-  var bookId = params.get("book") || "jokiu-orchideju";
+  var bookId = params.get("book");
+  if (!bookId) {
+    window.location.replace("index.html");
+    return;
+  }
   var storagePrefix = "frankReader." + bookId + ".";
   var state = {
     book: null,
@@ -80,10 +84,15 @@
   function loadBook() {
     fetch("books/" + encodeURIComponent(bookId) + ".json", { cache: "no-cache" })
       .then(function (response) {
+        if (response.status === 404) {
+          window.location.replace("index.html");
+          return null;
+        }
         if (!response.ok) throw new Error("book load failed");
         return response.json();
       })
       .then(function (book) {
+        if (!book) return;
         state.book = book;
         document.title = book.title;
         renderBook(book);

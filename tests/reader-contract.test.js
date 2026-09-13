@@ -12,7 +12,7 @@ function read(relativePath) {
 }
 
 function firstChapterItems() {
-  const book = JSON.parse(read("books/jokiu-orchideju.json"));
+  const book = JSON.parse(read("books/jusu-iprastas-uzsakymas.json"));
   assert.ok(book.chapters[0], "book has no first chapter");
   return book.chapters[0].blocks.flatMap((block) => block.items);
 }

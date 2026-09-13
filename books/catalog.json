@@ -1,14 +1,6 @@
 {
   "books": [
     {
-      "id": "jokiu-orchideju",
-      "title": "Jokių orchidėjų mis Blendiš",
-      "author": "Džeimsas H. Čeizas",
-      "cover": "assets/jokiu-orchideju-cover.jpg",
-      "href": "reader.html?book=jokiu-orchideju",
-      "wordCount": 52393
-    },
-    {
       "id": "jusu-iprastas-uzsakymas",
       "title": "Jūsų įprastas užsakymas",
       "author": "DI sukurta istorija",
