@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="100 вопросов на литовском для живого общения: перевод, подсказки и тематические карточки. A1–B1. Bozhena Anacka.">
+  <meta name="theme-color" content="#faf7ef">
+  <title>Pasikalbėkime! · Bozhena Anacka</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#question">К вопросу</a>
+<header>
+  <a class="brand" href="./" aria-label="Pasikalbėkime — начало"><span class="brand-mark">a.</span><span>BOZHENA ANACKA<span class="brand-sub">lietuvių kalba · литовский язык</span></span></a>
+  <div class="header-note">100 вопросов <span>для настоящего разговора</span></div>
+</header>
+<main>
+  <div class="intro"><div><p class="eyebrow">POKALBIŲ KORTELĖS · A1–B1</p><h1 lang="lt">Pasikalbėkime!</h1><p>Выбери тему. Вытащи вопрос. Расскажи свою историю.</p></div><button id="images-open" class="text-button" disabled>Мои картинки</button></div>
+  <div id="loading" role="status">Открываем колоду…</div>
+  <div id="workspace" class="workspace" hidden>
+    <aside aria-label="Темы вопросов"><div class="aside-title"><h2>О чём поговорим?</h2><span>10 тем</span></div><div id="topics" class="topics"></div></aside>
+    <section class="desk" aria-label="Разговорные карточки">
+      <div class="toolbar"><div class="field"><label for="level">Уровень</label><select id="level"><option value="all">Все · A1–B1</option>A1</option><option>A2</option><option>B1</option></select></div><div class="field"><label for="collection">Колода</label><select id="collection"><option value="all">Все вопросы</option><option value="favorites">Избранное</option><option value="review">Повторить позже</option></select></div><button id="shuffle" class="shuffle" title="Начать выбранную колоду заново в случайном порядке">↻ Перемешать</button></div>
+      <div class="card-stack">
+        <article id="card" class="question-card">
+          <div class="card-top"><span id="topic-label" class="topic-label"></span><div class="card-meta"><span id="question-level" class="level-badge"></span><span id="question-id"></span><button id="favorite" class="star" aria-label="В избранное" aria-pressed="false">☆</button></div></div>
+          <div class="question-layout"><div class="question-content"><p class="card-eyebrow">TAVO EILĖ · ТВОЯ ОЧЕРЕДЬ</p><h2 id="question" lang="lt" tabindex="-1"></h2><button id="translate" class="reveal" aria-expanded="false" aria-controls="translation">Показать перевод</button><p id="translation" class="translation" hidden></p></div><div id="illustration" class="illustration" aria-hidden="true"></div></div>
+          <div class="audio-row"><button id="listen" class="audio-button" disabled>▷ Послушать</button><label class="speed-label">Скорость <select id="speed"><option value="0.8">0,8×</option><option value="1" selected>1×</option></select></label><span id="audio-status" class="audio-status" role="status"></span></div>
+          <div class="support"><button id="hint-toggle" class="hint-button" aria-expanded="false" aria-controls="hint">Как начать ответ? <span>＋</span></button><div id="hint" class="hint-content" hidden><p id="hint-lt" lang="lt"></p><p id="hint-ru"></p><span>Продолжи своей мыслью. Здесь нет единственного правильного ответа.</span></div></div>
+          <details class="answer"><summary>Записать свой ответ</summary><label for="answer">Твой ответ на литовском</label><textarea id="answer" rows="3" placeholder="Manau, kad…"></textarea><small>Сохраняется только в этом браузере. Автоматической проверки нет.</small></details>
+          <div class="card-bottom"><button id="review" class="text-button" aria-pressed="false">＋ Повторить позже</button><span id="seen"></span></div>
+        </article>
+        <div id="empty" class="empty" hidden><h2>Здесь пока нет вопросов</h2><p>Добавь карточки в эту коллекцию или измени фильтры.</p><button id="show-all" class="primary">Открыть все вопросы</button></div>
+      </div>
+      <div class="navigation"><button id="previous" class="previous" disabled>← Назад</button><div class="progress-info"><span id="progress-text"></span><progress id="progress" value="0" max="100" aria-label="Просмотрено в выбранной колоде"></progress></div><button id="next" class="primary">Следующий вопрос →</button></div>
+      <p id="deck-note" class="deck-note" role="status">Карточки не повторяются, пока не закончится колода.</p>
+    </section>
+  </div>
+</main>
+<footer><span>© 2026 Bozhena Anacka. Все права на авторские материалы защищены.</span><span>Говори в своём темпе.</span></footer>
+<div id="toast" class="toast" role="status" hidden></div>
+<dialog id="images-dialog"><form method="dialog"><button class="dialog-close" aria-label="Закрыть">×</button></form><h2>Твоя иллюстрация</h2><p>Добавь фотографию или картинку для обсуждения. Она сохранится только в этом браузере и не будет видна другим ученикам.</p><label for="image-target">Где показывать</label><select id="image-target"><option value="question">Только в этом вопросе</option><option value="topic">Во всей текущей теме</option></select><label class="file-label" for="image-file">Выбрать картинку</label><input id="image-file" type="file" accept="image/png,image/jpeg,image/webp"><p class="file-help">PNG, JPG или WebP · до 8 МБ. Картинка вопроса имеет приоритет над картинкой темы.</p><button id="image-remove" class="text-button">Убрать свою картинку для выбранного места</button><p id="image-feedback" role="status"></p></dialog>
+<noscript>Для карточек включи JavaScript в браузере.</noscript>
+</body>
+</html>

@@ -1,0 +1,1016 @@
+{
+  "topics": [
+    {
+      "id": "self",
+      "lt": "Apie mane",
+      "ru": "О себе",
+      "region": [
+        0,
+        100,
+        270,
+        380
+      ]
+    },
+    {
+      "id": "people",
+      "lt": "Žmonės šalia",
+      "ru": "Люди рядом",
+      "region": [
+        257,
+        157,
+        389,
+        325
+      ]
+    },
+    {
+      "id": "home",
+      "lt": "Namai",
+      "ru": "Дом",
+      "region": [
+        645,
+        152,
+        302,
+        340
+      ]
+    },
+    {
+      "id": "food",
+      "lt": "Maistas",
+      "ru": "Еда",
+      "region": [
+        949,
+        220,
+        280,
+        265
+      ]
+    },
+    {
+      "id": "city",
+      "lt": "Miestas",
+      "ru": "Город",
+      "region": [
+        1231,
+        58,
+        305,
+        449
+      ]
+    },
+    {
+      "id": "travel",
+      "lt": "Kelionės",
+      "ru": "Путешествия",
+      "region": [
+        8,
+        596,
+        301,
+        330
+      ]
+    },
+    {
+      "id": "learn",
+      "lt": "Darbas ir mokslai",
+      "ru": "Работа и учёба",
+      "region": [
+        312,
+        553,
+        300,
+        375
+      ]
+    },
+    {
+      "id": "hobbies",
+      "lt": "Laisvalaikis",
+      "ru": "Свободное время",
+      "region": [
+        618,
+        585,
+        301,
+        338
+      ]
+    },
+    {
+      "id": "memories",
+      "lt": "Prisiminimai",
+      "ru": "Воспоминания",
+      "region": [
+        924,
+        590,
+        294,
+        334
+      ]
+    },
+    {
+      "id": "dreams",
+      "lt": "Svajonės",
+      "ru": "Мечты",
+      "region": [
+        1258,
+        557,
+        267,
+        363
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "topic": "self",
+      "level": "A1",
+      "lt": "Ką mėgsti veikti ryte?",
+      "ru": "Что ты любишь делать утром?",
+      "hint": "Ryte mėgstu…",
+      "hintRu": "Утром я люблю…"
+    },
+    {
+      "id": "q002",
+      "topic": "self",
+      "level": "A1",
+      "lt": "Koks tavo mėgstamiausias metų laikas?",
+      "ru": "Какое твоё любимое время года?",
+      "hint": "Man labiausiai patinka…",
+      "hintRu": "Мне больше всего нравится…"
+    },
+    {
+      "id": "q003",
+      "topic": "self",
+      "level": "A1",
+      "lt": "Ką paprastai veiki sekmadienį?",
+      "ru": "Что ты обычно делаешь в воскресенье?",
+      "hint": "Sekmadienį paprastai…",
+      "hintRu": "В воскресенье обычно…"
+    },
+    {
+      "id": "q004",
+      "topic": "self",
+      "level": "A2",
+      "lt": "Kokia maža smulkmena tave pradžiugina?",
+      "ru": "Какая маленькая вещь тебя радует?",
+      "hint": "Mane pradžiugina…",
+      "hintRu": "Меня радует…"
+    },
+    {
+      "id": "q005",
+      "topic": "self",
+      "level": "A2",
+      "lt": "Kada tau lengviausia susikaupti?",
+      "ru": "Когда тебе легче всего сосредоточиться?",
+      "hint": "Man lengviausia susikaupti, kai…",
+      "hintRu": "Мне легче всего сосредоточиться, когда…"
+    },
+    {
+      "id": "q006",
+      "topic": "self",
+      "level": "A2",
+      "lt": "Ką žmonės apie tave sužino tik vėliau?",
+      "ru": "Что люди узнают о тебе только со временем?",
+      "hint": "Iš pradžių žmonės nežino, kad…",
+      "hintRu": "Сначала люди не знают, что…"
+    },
+    {
+      "id": "q007",
+      "topic": "self",
+      "level": "A2",
+      "lt": "Kaip atrodo tavo įprasta darbo diena?",
+      "ru": "Как выглядит твой обычный рабочий день?",
+      "hint": "Pirmiausia… Tada… Vakare…",
+      "hintRu": "Сначала… Потом… Вечером…"
+    },
+    {
+      "id": "q008",
+      "topic": "self",
+      "level": "B1",
+      "lt": "Kokį savo įprotį norėtum pakeisti ir kodėl?",
+      "ru": "Какую свою привычку ты хотел(а) бы изменить и почему?",
+      "hint": "Norėčiau… nes…",
+      "hintRu": "Я хотел(а) бы… потому что…"
+    },
+    {
+      "id": "q009",
+      "topic": "self",
+      "level": "B1",
+      "lt": "Ar tau svarbiau turėti aiškų planą, ar laisvę rinktis?",
+      "ru": "Что для тебя важнее: иметь чёткий план или свободу выбора?",
+      "hint": "Man svarbiau… nes…",
+      "hintRu": "Для меня важнее… потому что…"
+    },
+    {
+      "id": "q010",
+      "topic": "self",
+      "level": "B1",
+      "lt": "Kada paskutinį kartą nustebinai save?",
+      "ru": "Когда ты в последний раз удивил(а) себя?",
+      "hint": "Nustebinau save, kai…",
+      "hintRu": "Я удивил(а) себя, когда…"
+    },
+    {
+      "id": "q011",
+      "topic": "people",
+      "level": "A1",
+      "lt": "Su kuo mėgsti leisti laisvalaikį?",
+      "ru": "С кем ты любишь проводить свободное время?",
+      "hint": "Laisvalaikį mėgstu leisti su…",
+      "hintRu": "Свободное время я люблю проводить с…"
+    },
+    {
+      "id": "q012",
+      "topic": "people",
+      "level": "A1",
+      "lt": "Ką mėgstate veikti kartu su draugais?",
+      "ru": "Что вы любите делать вместе с друзьями?",
+      "hint": "Kartu mėgstame…",
+      "hintRu": "Вместе мы любим…"
+    },
+    {
+      "id": "q013",
+      "topic": "people",
+      "level": "A1",
+      "lt": "Kaip dažnai susitinki su artimaisiais?",
+      "ru": "Как часто ты встречаешься с близкими?",
+      "hint": "Su artimaisiais susitinku…",
+      "hintRu": "С близкими я встречаюсь…"
+    },
+    {
+      "id": "q014",
+      "topic": "people",
+      "level": "A2",
+      "lt": "Kaip susipažinai su vienu iš savo draugų?",
+      "ru": "Как ты познакомился(-лась) с одним из своих друзей?",
+      "hint": "Mes susipažinome…",
+      "hintRu": "Мы познакомились…"
+    },
+    {
+      "id": "q015",
+      "topic": "people",
+      "level": "A2",
+      "lt": "Kokią dovaną tau malonu gauti?",
+      "ru": "Какой подарок тебе приятно получать?",
+      "hint": "Man malonu gauti…",
+      "hintRu": "Мне приятно получать…"
+    },
+    {
+      "id": "q016",
+      "topic": "people",
+      "level": "A2",
+      "lt": "Kaip palaikai ryšį su žmonėmis, kurie gyvena toli?",
+      "ru": "Как ты поддерживаешь связь с людьми, которые живут далеко?",
+      "hint": "Mes dažnai…",
+      "hintRu": "Мы часто…"
+    },
+    {
+      "id": "q017",
+      "topic": "people",
+      "level": "A2",
+      "lt": "Kokia bendra tradicija tau patinka?",
+      "ru": "Какая совместная традиция тебе нравится?",
+      "hint": "Man patinka, kai mes…",
+      "hintRu": "Мне нравится, когда мы…"
+    },
+    {
+      "id": "q018",
+      "topic": "people",
+      "level": "B1",
+      "lt": "Koks žmogaus bruožas tau svarbiausias draugystėje?",
+      "ru": "Какая черта человека для тебя важнее всего в дружбе?",
+      "hint": "Draugystėje man svarbiausia…",
+      "hintRu": "В дружбе для меня самое важное…"
+    },
+    {
+      "id": "q019",
+      "topic": "people",
+      "level": "B1",
+      "lt": "Kaip galima padėti draugui, kuriam sunki diena?",
+      "ru": "Как можно помочь другу, у которого тяжёлый день?",
+      "hint": "Galima… Taip pat svarbu…",
+      "hintRu": "Можно… Также важно…"
+    },
+    {
+      "id": "q020",
+      "topic": "people",
+      "level": "B1",
+      "lt": "Ar lengva susirasti draugų naujame mieste?",
+      "ru": "Легко ли найти друзей в новом городе?",
+      "hint": "Manau, kad… Pavyzdžiui,…",
+      "hintRu": "Я думаю, что… Например,…"
+    },
+    {
+      "id": "q021",
+      "topic": "home",
+      "level": "A1",
+      "lt": "Kuris kambarys tavo namuose tau labiausiai patinka?",
+      "ru": "Какая комната в твоём доме тебе нравится больше всего?",
+      "hint": "Man labiausiai patinka…",
+      "hintRu": "Мне больше всего нравится…"
+    },
+    {
+      "id": "q022",
+      "topic": "home",
+      "level": "A1",
+      "lt": "Kas stovi ant tavo stalo?",
+      "ru": "Что стоит на твоём столе?",
+      "hint": "Ant mano stalo stovi…",
+      "hintRu": "На моём столе стоит…"
+    },
+    {
+      "id": "q023",
+      "topic": "home",
+      "level": "A1",
+      "lt": "Kur namuose mėgsti ilsėtis?",
+      "ru": "Где дома ты любишь отдыхать?",
+      "hint": "Mėgstu ilsėtis…",
+      "hintRu": "Я люблю отдыхать…"
+    },
+    {
+      "id": "q024",
+      "topic": "home",
+      "level": "A2",
+      "lt": "Koks daiktas tavo namuose turi įdomią istoriją?",
+      "ru": "У какой вещи в твоём доме есть интересная история?",
+      "hint": "Šį daiktą…",
+      "hintRu": "Эту вещь…"
+    },
+    {
+      "id": "q025",
+      "topic": "home",
+      "level": "A2",
+      "lt": "Ką pirmiausia darai grįžęs ar grįžusi namo?",
+      "ru": "Что ты первым делом делаешь, вернувшись домой?",
+      "hint": "Pirmiausia…",
+      "hintRu": "Первым делом…"
+    },
+    {
+      "id": "q026",
+      "topic": "home",
+      "level": "A2",
+      "lt": "Kaip norėtum pakeisti savo kambarį?",
+      "ru": "Как ты хотел(а) бы изменить свою комнату?",
+      "hint": "Norėčiau…",
+      "hintRu": "Я хотел(а) бы…"
+    },
+    {
+      "id": "q027",
+      "topic": "home",
+      "level": "A2",
+      "lt": "Kokius namų darbus mėgsti, o kokių nemėgsti?",
+      "ru": "Какие домашние дела ты любишь, а какие не любишь?",
+      "hint": "Mėgstu… bet nemėgstu…",
+      "hintRu": "Я люблю… но не люблю…"
+    },
+    {
+      "id": "q028",
+      "topic": "home",
+      "level": "B1",
+      "lt": "Kas tau padeda naujoje vietoje pasijusti kaip namuose?",
+      "ru": "Что помогает тебе почувствовать себя как дома на новом месте?",
+      "hint": "Man padeda…",
+      "hintRu": "Мне помогает…"
+    },
+    {
+      "id": "q029",
+      "topic": "home",
+      "level": "B1",
+      "lt": "Ar norėtum gyventi mažame name gamtoje, ar bute miesto centre?",
+      "ru": "Ты хотел(а) бы жить в маленьком доме на природе или в квартире в центре города?",
+      "hint": "Rinkčiausi… nes…",
+      "hintRu": "Я бы выбрал(а)… потому что…"
+    },
+    {
+      "id": "q030",
+      "topic": "home",
+      "level": "B1",
+      "lt": "Kuriuos tris daiktus pasiimtum persikeldamas ar persikeldama į kitą šalį?",
+      "ru": "Какие три вещи ты взял(а) бы с собой, переезжая в другую страну?",
+      "hint": "Pasiimčiau… nes…",
+      "hintRu": "Я бы взял(а) с собой… потому что…"
+    },
+    {
+      "id": "q031",
+      "topic": "food",
+      "level": "A1",
+      "lt": "Ką mėgsti valgyti pusryčiams?",
+      "ru": "Что ты любишь есть на завтрак?",
+      "hint": "Pusryčiams mėgstu…",
+      "hintRu": "На завтрак я люблю…"
+    },
+    {
+      "id": "q032",
+      "topic": "food",
+      "level": "A1",
+      "lt": "Kokius vaisius mėgsti?",
+      "ru": "Какие фрукты ты любишь?",
+      "hint": "Mėgstu…",
+      "hintRu": "Я люблю…"
+    },
+    {
+      "id": "q033",
+      "topic": "food",
+      "level": "A1",
+      "lt": "Ką dažniausiai geri: arbatą, kavą ar vandenį?",
+      "ru": "Что ты чаще всего пьёшь: чай, кофе или воду?",
+      "hint": "Dažniausiai geriu…",
+      "hintRu": "Чаще всего я пью…"
+    },
+    {
+      "id": "q034",
+      "topic": "food",
+      "level": "A2",
+      "lt": "Kokį patiekalą moki gaminti?",
+      "ru": "Какое блюдо ты умеешь готовить?",
+      "hint": "Moku gaminti… Tam reikia…",
+      "hintRu": "Я умею готовить… Для этого нужно…"
+    },
+    {
+      "id": "q035",
+      "topic": "food",
+      "level": "A2",
+      "lt": "Koks maistas tau primena vaikystę?",
+      "ru": "Какая еда напоминает тебе детство?",
+      "hint": "Vaikystę man primena…",
+      "hintRu": "Детство мне напоминает…"
+    },
+    {
+      "id": "q036",
+      "topic": "food",
+      "level": "A2",
+      "lt": "Ką pagamintum draugui, kuris ateina į svečius?",
+      "ru": "Что ты приготовил(а) бы другу, который приходит в гости?",
+      "hint": "Pagaminčiau…",
+      "hintRu": "Я приготовил(а) бы…"
+    },
+    {
+      "id": "q037",
+      "topic": "food",
+      "level": "A2",
+      "lt": "Kokį naują patiekalą neseniai paragavai?",
+      "ru": "Какое новое блюдо ты недавно попробовал(а)?",
+      "hint": "Neseniai paragavau… Jis buvo…",
+      "hintRu": "Недавно я попробовал(а)… Оно было…"
+    },
+    {
+      "id": "q038",
+      "topic": "food",
+      "level": "B1",
+      "lt": "Kas tau svarbiausia renkantis kavinę?",
+      "ru": "Что для тебя важнее всего при выборе кафе?",
+      "hint": "Man svarbu, kad kavinėje…",
+      "hintRu": "Мне важно, чтобы в кафе…"
+    },
+    {
+      "id": "q039",
+      "topic": "food",
+      "level": "B1",
+      "lt": "Ar tau labiau patinka gaminti namuose, ar valgyti mieste?",
+      "ru": "Тебе больше нравится готовить дома или есть в городе?",
+      "hint": "Man labiau patinka… nes…",
+      "hintRu": "Мне больше нравится… потому что…"
+    },
+    {
+      "id": "q040",
+      "topic": "food",
+      "level": "B1",
+      "lt": "Kaip galima išmesti mažiau maisto?",
+      "ru": "Как можно выбрасывать меньше еды?",
+      "hint": "Galima pradėti nuo…",
+      "hintRu": "Можно начать с…"
+    },
+    {
+      "id": "q041",
+      "topic": "city",
+      "level": "A1",
+      "lt": "Kaip paprastai keliauji po miestą?",
+      "ru": "Как ты обычно передвигаешься по городу?",
+      "hint": "Paprastai važiuoju… arba einu…",
+      "hintRu": "Обычно я еду… или иду…"
+    },
+    {
+      "id": "q042",
+      "topic": "city",
+      "level": "A1",
+      "lt": "Kur yra tavo mėgstamiausia vieta mieste?",
+      "ru": "Где находится твоё любимое место в городе?",
+      "hint": "Mano mėgstamiausia vieta yra…",
+      "hintRu": "Моё любимое место находится…"
+    },
+    {
+      "id": "q043",
+      "topic": "city",
+      "level": "A1",
+      "lt": "Kas yra netoli tavo namų?",
+      "ru": "Что находится недалеко от твоего дома?",
+      "hint": "Netoli mano namų yra…",
+      "hintRu": "Недалеко от моего дома есть…"
+    },
+    {
+      "id": "q044",
+      "topic": "city",
+      "level": "A2",
+      "lt": "Kur nuvestum draugą, kuris pirmą kartą atvyko į tavo miestą?",
+      "ru": "Куда ты отвёл(-ела) бы друга, который впервые приехал в твой город?",
+      "hint": "Pirmiausia nuvesčiau jį į…",
+      "hintRu": "Сначала я отвёл(-ела) бы его в…"
+    },
+    {
+      "id": "q045",
+      "topic": "city",
+      "level": "A2",
+      "lt": "Ką mėgsti stebėti eidamas ar eidama per miestą?",
+      "ru": "За чем ты любишь наблюдать, идя по городу?",
+      "hint": "Mėgstu stebėti…",
+      "hintRu": "Я люблю наблюдать за…"
+    },
+    {
+      "id": "q046",
+      "topic": "city",
+      "level": "A2",
+      "lt": "Kada tavo miestas tau atrodo gražiausias?",
+      "ru": "Когда твой город кажется тебе самым красивым?",
+      "hint": "Man jis gražiausias, kai…",
+      "hintRu": "Для меня он красивее всего, когда…"
+    },
+    {
+      "id": "q047",
+      "topic": "city",
+      "level": "A2",
+      "lt": "Ar kada nors pasiklydai mieste? Kas nutiko?",
+      "ru": "Ты когда-нибудь терялся(-лась) в городе? Что случилось?",
+      "hint": "Kartą… / Dar niekada…",
+      "hintRu": "Однажды… / Ещё никогда…"
+    },
+    {
+      "id": "q048",
+      "topic": "city",
+      "level": "B1",
+      "lt": "Ką norėtum pakeisti savo mieste?",
+      "ru": "Что ты хотел(а) бы изменить в своём городе?",
+      "hint": "Norėčiau, kad mieste būtų daugiau…",
+      "hintRu": "Я хотел(а) бы, чтобы в городе было больше…"
+    },
+    {
+      "id": "q049",
+      "topic": "city",
+      "level": "B1",
+      "lt": "Kokie gyvenimo mažame mieste privalumai ir trūkumai?",
+      "ru": "Какие преимущества и недостатки есть у жизни в маленьком городе?",
+      "hint": "Vienas privalumas yra… Tačiau…",
+      "hintRu": "Одно преимущество — это… Однако…"
+    },
+    {
+      "id": "q050",
+      "topic": "city",
+      "level": "B1",
+      "lt": "Kaip tavo miestas galėtų tapti patogesnis pėstiesiems?",
+      "ru": "Как твой город мог бы стать удобнее для пешеходов?",
+      "hint": "Reikėtų daugiau…",
+      "hintRu": "Нужно было бы больше…"
+    },
+    {
+      "id": "q051",
+      "topic": "travel",
+      "level": "A1",
+      "lt": "Kur norėtum nuvažiuoti atostogauti?",
+      "ru": "Куда ты хотел(а) бы поехать отдыхать?",
+      "hint": "Norėčiau nuvažiuoti į…",
+      "hintRu": "Я хотел(а) бы поехать в…"
+    },
+    {
+      "id": "q052",
+      "topic": "travel",
+      "level": "A1",
+      "lt": "Su kuo mėgsti keliauti?",
+      "ru": "С кем ты любишь путешествовать?",
+      "hint": "Mėgstu keliauti su…",
+      "hintRu": "Я люблю путешествовать с…"
+    },
+    {
+      "id": "q053",
+      "topic": "travel",
+      "level": "A1",
+      "lt": "Ką visada pasiimi į kelionę?",
+      "ru": "Что ты всегда берёшь с собой в поездку?",
+      "hint": "Visada pasiimu…",
+      "hintRu": "Я всегда беру с собой…"
+    },
+    {
+      "id": "q054",
+      "topic": "travel",
+      "level": "A2",
+      "lt": "Kokią vietą aplankei per paskutines atostogas?",
+      "ru": "Какое место ты посетил(а) во время последнего отпуска?",
+      "hint": "Per paskutines atostogas…",
+      "hintRu": "Во время последнего отпуска…"
+    },
+    {
+      "id": "q055",
+      "topic": "travel",
+      "level": "A2",
+      "lt": "Ką mėgsti veikti prie jūros?",
+      "ru": "Что ты любишь делать у моря?",
+      "hint": "Prie jūros mėgstu…",
+      "hintRu": "У моря я люблю…"
+    },
+    {
+      "id": "q056",
+      "topic": "travel",
+      "level": "A2",
+      "lt": "Koks kelionės momentas tau labiausiai įsiminė?",
+      "ru": "Какой момент путешествия тебе запомнился больше всего?",
+      "hint": "Labiausiai įsiminė…",
+      "hintRu": "Больше всего запомнилось…"
+    },
+    {
+      "id": "q057",
+      "topic": "travel",
+      "level": "A2",
+      "lt": "Ką norėtum parodyti svečiui savo šalyje?",
+      "ru": "Что ты хотел(а) бы показать гостю в своей стране?",
+      "hint": "Norėčiau parodyti…",
+      "hintRu": "Я хотел(а) бы показать…"
+    },
+    {
+      "id": "q058",
+      "topic": "travel",
+      "level": "B1",
+      "lt": "Ar kelionėje tau svarbiau poilsis, ar nauji įspūdžiai?",
+      "ru": "Что для тебя важнее в путешествии: отдых или новые впечатления?",
+      "hint": "Man svarbiau… nes…",
+      "hintRu": "Для меня важнее… потому что…"
+    },
+    {
+      "id": "q059",
+      "topic": "travel",
+      "level": "B1",
+      "lt": "Ką darytum, jei kelionėje visą dieną lytų?",
+      "ru": "Что бы ты делал(а), если бы во время поездки весь день шёл дождь?",
+      "hint": "Jei lytų, aš…",
+      "hintRu": "Если бы шёл дождь, я бы…"
+    },
+    {
+      "id": "q060",
+      "topic": "travel",
+      "level": "B1",
+      "lt": "Ko galima išmokti keliaujant net ir netoli namų?",
+      "ru": "Чему можно научиться, путешествуя даже недалеко от дома?",
+      "hint": "Galima išmokti… arba sužinoti…",
+      "hintRu": "Можно научиться… или узнать…"
+    },
+    {
+      "id": "q061",
+      "topic": "learn",
+      "level": "A1",
+      "lt": "Kokių kalbų mokaisi?",
+      "ru": "Какие языки ты изучаешь?",
+      "hint": "Mokausi…",
+      "hintRu": "Я изучаю…"
+    },
+    {
+      "id": "q062",
+      "topic": "learn",
+      "level": "A1",
+      "lt": "Kur tau patinka mokytis?",
+      "ru": "Где тебе нравится учиться?",
+      "hint": "Man patinka mokytis…",
+      "hintRu": "Мне нравится учиться…"
+    },
+    {
+      "id": "q063",
+      "topic": "learn",
+      "level": "A1",
+      "lt": "Ką veiki per pertrauką?",
+      "ru": "Что ты делаешь во время перерыва?",
+      "hint": "Per pertrauką…",
+      "hintRu": "Во время перерыва…"
+    },
+    {
+      "id": "q064",
+      "topic": "learn",
+      "level": "A2",
+      "lt": "Kodėl pradėjai mokytis lietuvių kalbos?",
+      "ru": "Почему ты начал(а) изучать литовский язык?",
+      "hint": "Pradėjau mokytis, nes…",
+      "hintRu": "Я начал(а) учиться, потому что…"
+    },
+    {
+      "id": "q065",
+      "topic": "learn",
+      "level": "A2",
+      "lt": "Koks lietuviškas žodis tau patinka ir kodėl?",
+      "ru": "Какое литовское слово тебе нравится и почему?",
+      "hint": "Man patinka žodis… nes…",
+      "hintRu": "Мне нравится слово… потому что…"
+    },
+    {
+      "id": "q066",
+      "topic": "learn",
+      "level": "A2",
+      "lt": "Kas tau padeda prisiminti naujus žodžius?",
+      "ru": "Что помогает тебе запоминать новые слова?",
+      "hint": "Man padeda…",
+      "hintRu": "Мне помогает…"
+    },
+    {
+      "id": "q067",
+      "topic": "learn",
+      "level": "A2",
+      "lt": "Ką naujo išmokai šią savaitę?",
+      "ru": "Чему новому ты научился(-лась) на этой неделе?",
+      "hint": "Šią savaitę išmokau…",
+      "hintRu": "На этой неделе я научился(-лась)…"
+    },
+    {
+      "id": "q068",
+      "topic": "learn",
+      "level": "B1",
+      "lt": "Kaip elgiesi, kai bijai suklysti kalbėdamas ar kalbėdama kita kalba?",
+      "ru": "Как ты поступаешь, когда боишься ошибиться, говоря на другом языке?",
+      "hint": "Kai bijau suklysti, bandau…",
+      "hintRu": "Когда я боюсь ошибиться, я стараюсь…"
+    },
+    {
+      "id": "q069",
+      "topic": "learn",
+      "level": "B1",
+      "lt": "Koks mokytojo patarimas tau buvo naudingas?",
+      "ru": "Какой совет учителя был тебе полезен?",
+      "hint": "Man buvo naudingas patarimas…",
+      "hintRu": "Мне был полезен совет…"
+    },
+    {
+      "id": "q070",
+      "topic": "learn",
+      "level": "B1",
+      "lt": "Ką norėtum išmokti, net jei tai nebūtų naudinga darbui?",
+      "ru": "Чему ты хотел(а) бы научиться, даже если бы это не пригодилось для работы?",
+      "hint": "Norėčiau išmokti… nes…",
+      "hintRu": "Я хотел(а) бы научиться… потому что…"
+    },
+    {
+      "id": "q071",
+      "topic": "hobbies",
+      "level": "A1",
+      "lt": "Ką mėgsti veikti laisvalaikiu?",
+      "ru": "Что ты любишь делать в свободное время?",
+      "hint": "Laisvalaikiu mėgstu…",
+      "hintRu": "В свободное время я люблю…"
+    },
+    {
+      "id": "q072",
+      "topic": "hobbies",
+      "level": "A1",
+      "lt": "Kokios muzikos klausaisi?",
+      "ru": "Какую музыку ты слушаешь?",
+      "hint": "Klausausi…",
+      "hintRu": "Я слушаю…"
+    },
+    {
+      "id": "q073",
+      "topic": "hobbies",
+      "level": "A1",
+      "lt": "Ar mėgsti vaikščioti gamtoje?",
+      "ru": "Ты любишь гулять на природе?",
+      "hint": "Taip, mėgstu… / Labiau mėgstu…",
+      "hintRu": "Да, люблю… / Я больше люблю…"
+    },
+    {
+      "id": "q074",
+      "topic": "hobbies",
+      "level": "A2",
+      "lt": "Kokią knygą ar filmą rekomenduotum draugui?",
+      "ru": "Какую книгу или фильм ты порекомендовал(а) бы другу?",
+      "hint": "Rekomenduočiau… nes…",
+      "hintRu": "Я порекомендовал(а) бы… потому что…"
+    },
+    {
+      "id": "q075",
+      "topic": "hobbies",
+      "level": "A2",
+      "lt": "Ką norėtum išbandyti pirmą kartą?",
+      "ru": "Что ты хотел(а) бы попробовать впервые?",
+      "hint": "Norėčiau išbandyti…",
+      "hintRu": "Я хотел(а) бы попробовать…"
+    },
+    {
+      "id": "q076",
+      "topic": "hobbies",
+      "level": "A2",
+      "lt": "Kaip praleistum laisvą dieną be telefono?",
+      "ru": "Как бы ты провёл(-ела) свободный день без телефона?",
+      "hint": "Ryte… Vėliau…",
+      "hintRu": "Утром… Позже…"
+    },
+    {
+      "id": "q077",
+      "topic": "hobbies",
+      "level": "A2",
+      "lt": "Kas tau padeda atsipalaiduoti po sunkios dienos?",
+      "ru": "Что помогает тебе расслабиться после тяжёлого дня?",
+      "hint": "Man padeda…",
+      "hintRu": "Мне помогает…"
+    },
+    {
+      "id": "q078",
+      "topic": "hobbies",
+      "level": "B1",
+      "lt": "Kaip supranti, kad tau reikia poilsio?",
+      "ru": "Как ты понимаешь, что тебе нужен отдых?",
+      "hint": "Suprantu, kad reikia poilsio, kai…",
+      "hintRu": "Я понимаю, что нужен отдых, когда…"
+    },
+    {
+      "id": "q079",
+      "topic": "hobbies",
+      "level": "B1",
+      "lt": "Ar pomėgis turi duoti rezultatų, ar užtenka malonumo?",
+      "ru": "Должно ли увлечение приносить результаты или достаточно удовольствия?",
+      "hint": "Manau, kad… nes…",
+      "hintRu": "Я думаю, что… потому что…"
+    },
+    {
+      "id": "q080",
+      "topic": "hobbies",
+      "level": "B1",
+      "lt": "Ką pasirinktum: išmokti groti instrumentu ar gerai piešti?",
+      "ru": "Что бы ты выбрал(а): научиться играть на инструменте или хорошо рисовать?",
+      "hint": "Pasirinkčiau… nes…",
+      "hintRu": "Я бы выбрал(а)… потому что…"
+    },
+    {
+      "id": "q081",
+      "topic": "memories",
+      "level": "A1",
+      "lt": "Kur gyvenai vaikystėje?",
+      "ru": "Где ты жил(а) в детстве?",
+      "hint": "Vaikystėje gyvenau…",
+      "hintRu": "В детстве я жил(а)…"
+    },
+    {
+      "id": "q082",
+      "topic": "memories",
+      "level": "A1",
+      "lt": "Koks buvo tavo mėgstamiausias žaidimas?",
+      "ru": "Какая игра была твоей любимой?",
+      "hint": "Mano mėgstamiausias žaidimas buvo…",
+      "hintRu": "Моей любимой игрой была…"
+    },
+    {
+      "id": "q083",
+      "topic": "memories",
+      "level": "A1",
+      "lt": "Ką mėgdavai veikti vasarą?",
+      "ru": "Что ты любил(а) делать летом?",
+      "hint": "Vasarą mėgdavau…",
+      "hintRu": "Летом я любил(а)…"
+    },
+    {
+      "id": "q084",
+      "topic": "memories",
+      "level": "A2",
+      "lt": "Koks kvapas tau primena malonų prisiminimą?",
+      "ru": "Какой запах вызывает у тебя приятное воспоминание?",
+      "hint": "Šis kvapas man primena…",
+      "hintRu": "Этот запах напоминает мне…"
+    },
+    {
+      "id": "q085",
+      "topic": "memories",
+      "level": "A2",
+      "lt": "Ką prisimeni apie savo pirmą dieną mokykloje ar darbe?",
+      "ru": "Что ты помнишь о своём первом дне в школе или на работе?",
+      "hint": "Prisimenu, kad…",
+      "hintRu": "Я помню, что…"
+    },
+    {
+      "id": "q086",
+      "topic": "memories",
+      "level": "A2",
+      "lt": "Kas tavo gyvenime pasikeitė per paskutinius metus?",
+      "ru": "Что изменилось в твоей жизни за последний год?",
+      "hint": "Anksčiau… O dabar…",
+      "hintRu": "Раньше… А сейчас…"
+    },
+    {
+      "id": "q087",
+      "topic": "memories",
+      "level": "A2",
+      "lt": "Kokia sena nuotrauka tau ypač brangi?",
+      "ru": "Какая старая фотография тебе особенно дорога?",
+      "hint": "Man brangi nuotrauka, kurioje…",
+      "hintRu": "Мне дорога фотография, на которой…"
+    },
+    {
+      "id": "q088",
+      "topic": "memories",
+      "level": "B1",
+      "lt": "Ko anksčiau bijojai, o dabar jau nebijai?",
+      "ru": "Чего ты раньше боялся(-лась), а сейчас уже не боишься?",
+      "hint": "Anksčiau bijojau… bet dabar…",
+      "hintRu": "Раньше я боялся(-лась)… но сейчас…"
+    },
+    {
+      "id": "q089",
+      "topic": "memories",
+      "level": "B1",
+      "lt": "Kokį patarimą duotum sau prieš penkerius metus?",
+      "ru": "Какой совет ты дал(а) бы себе пять лет назад?",
+      "hint": "Patarčiau sau…",
+      "hintRu": "Я посоветовал(а) бы себе…"
+    },
+    {
+      "id": "q090",
+      "topic": "memories",
+      "level": "B1",
+      "lt": "Kas padeda tau priprasti prie pokyčių?",
+      "ru": "Что помогает тебе привыкать к переменам?",
+      "hint": "Prie pokyčių man padeda priprasti…",
+      "hintRu": "Мне помогает привыкать к переменам…"
+    },
+    {
+      "id": "q091",
+      "topic": "dreams",
+      "level": "A1",
+      "lt": "Ką norėtum veikti kitą savaitgalį?",
+      "ru": "Что ты хотел(а) бы делать в следующие выходные?",
+      "hint": "Kitą savaitgalį norėčiau…",
+      "hintRu": "В следующие выходные я хотел(а) бы…"
+    },
+    {
+      "id": "q092",
+      "topic": "dreams",
+      "level": "A1",
+      "lt": "Kokia tavo maža svajonė?",
+      "ru": "Какая у тебя маленькая мечта?",
+      "hint": "Svajoju apie…",
+      "hintRu": "Я мечтаю о…"
+    },
+    {
+      "id": "q093",
+      "topic": "dreams",
+      "level": "A1",
+      "lt": "Kas šiandien tave pradžiugino?",
+      "ru": "Что сегодня тебя порадовало?",
+      "hint": "Šiandien mane pradžiugino…",
+      "hintRu": "Сегодня меня порадовало…"
+    },
+    {
+      "id": "q094",
+      "topic": "dreams",
+      "level": "A2",
+      "lt": "Kam norėtum skirti daugiau laiko?",
+      "ru": "Чему ты хотел(а) бы уделять больше времени?",
+      "hint": "Daugiau laiko norėčiau skirti…",
+      "hintRu": "Больше времени я хотел(а) бы уделять…"
+    },
+    {
+      "id": "q095",
+      "topic": "dreams",
+      "level": "A2",
+      "lt": "Kaip atrodytų tavo puiki diena?",
+      "ru": "Как выглядел бы твой отличный день?",
+      "hint": "Mano diena prasidėtų…",
+      "hintRu": "Мой день начался бы…"
+    },
+    {
+      "id": "q096",
+      "topic": "dreams",
+      "level": "A2",
+      "lt": "Kokį mažą tikslą gali pasiekti šį mėnesį?",
+      "ru": "Какой маленькой цели ты можешь достичь в этом месяце?",
+      "hint": "Šį mėnesį galiu…",
+      "hintRu": "В этом месяце я могу…"
+    },
+    {
+      "id": "q097",
+      "topic": "dreams",
+      "level": "A2",
+      "lt": "Kam norėtum padėkoti ir už ką?",
+      "ru": "Кого ты хотел(а) бы поблагодарить и за что?",
+      "hint": "Norėčiau padėkoti… už…",
+      "hintRu": "Я хотел(а) бы поблагодарить… за…"
+    },
+    {
+      "id": "q098",
+      "topic": "dreams",
+      "level": "B1",
+      "lt": "Ką tau reiškia sėkminga diena?",
+      "ru": "Что для тебя значит удачный день?",
+      "hint": "Diena man sėkminga, kai…",
+      "hintRu": "День для меня удачный, когда…"
+    },
+    {
+      "id": "q099",
+      "topic": "dreams",
+      "level": "B1",
+      "lt": "Ką pradėtum daryti, jei nebijotum, kad nepavyks?",
+      "ru": "Что бы ты начал(а) делать, если бы не боялся(-лась), что не получится?",
+      "hint": "Pradėčiau…",
+      "hintRu": "Я бы начал(а)…"
+    },
+    {
+      "id": "q100",
+      "topic": "dreams",
+      "level": "B1",
+      "lt": "Kokį pirmą žingsnį gali žengti savo svajonės link jau šiandien?",
+      "ru": "Какой первый шаг к своей мечте ты можешь сделать уже сегодня?",
+      "hint": "Jau šiandien galiu…",
+      "hintRu": "Уже сегодня я могу…"
+    }
+  ]
+}
