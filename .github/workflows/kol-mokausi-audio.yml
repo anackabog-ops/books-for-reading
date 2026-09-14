@@ -1,6 +1,10 @@
 name: Kol mokausi - Azure narration
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/kol-mokausi-audio.yml'
   workflow_dispatch:
     inputs:
       confirm_f0:
@@ -17,8 +21,22 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  credentials-preflight:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Confirm Azure Speech secrets are available
+        env:
+          SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+        run: |
+          test -n "$SPEECH_KEY" || { echo "::error::AZURE_SPEECH_KEY is missing"; exit 1; }
+          test -n "$SPEECH_REGION" || { echo "::error::AZURE_SPEECH_REGION is missing"; exit 1; }
+          echo "Both Azure Speech secrets are configured."
+
   narrate:
-    if: inputs.confirm_f0
+    if: github.event_name == 'workflow_dispatch' && inputs.confirm_f0
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
