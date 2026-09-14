@@ -146,8 +146,33 @@
         });
         textWrap.append(paragraph);
       });
+      if (typeof chapter.practice === "string" && chapter.practice.trim()) {
+        var practice = document.createElement("details");
+        practice.className = "chapter-practice";
+        var summary = document.createElement("summary");
+        summary.textContent = "Praktika";
+        var practiceText = document.createElement("div");
+        practiceText.className = "chapter-practice-text";
+        practiceText.lang = book.translationLanguage || "ru";
+        practiceText.textContent = chapter.practice;
+        practice.append(summary, practiceText);
+        textWrap.append(practice);
+      }
     });
 
+    (book.appendices || []).forEach(function (appendix) {
+      if (!appendix || typeof appendix.text !== "string" || !appendix.text.trim()) return;
+      var panel = document.createElement("details");
+      panel.className = "chapter-practice";
+      var heading = document.createElement("summary");
+      heading.textContent = appendix.title || "Pastabos";
+      var body = document.createElement("div");
+      body.className = "chapter-practice-text";
+      body.lang = appendix.language || book.translationLanguage || "ru";
+      body.textContent = appendix.text;
+      panel.append(heading, body);
+      textWrap.append(panel);
+    });
     content.append(textWrap);
     state.totalParagraphs = textWrap.querySelectorAll(".reader-paragraph").length;
     applySettings();
