@@ -1,0 +1,63 @@
+name: Kol mokausi - text and speech preparation
+
+on:
+  push:
+    branches: [codex/kol-mokausi-gyventi-pilot]
+  pull_request:
+    branches: [main]
+    paths:
+      - 'books/kol-mokausi-gyventi.json'
+      - 'books/catalog.json'
+      - 'author-plans/kol-mokausi-gyventi-casting.json'
+      - 'author-plans/chapter-lengths.json'
+      - 'reader*'
+      - 'index*'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/kol-mokausi-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kol-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Python regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Reader syntax and focused regressions
+        run: |
+          node --check index.js
+          node --check reader.js
+          node --test tests/reader-chapter-duration.test.js tests/reader-playback.test.js tests/reader-routing.test.js tests/reader-scroll.test.js tests/reader-chapter-tracking.test.js
+      - name: Check canonical cleanup
+        run: |
+          node scripts/clean-book-items.js kol-mokausi-gyventi
+          git diff --exit-code -- books/kol-mokausi-gyventi.json
+      - name: Prepare all chapters without Azure calls
+        run: python scripts/generate-book-audio.py books/kol-mokausi-gyventi.json --casting author-plans/kol-mokausi-gyventi-casting.json --work-dir .speech-prepared --prepare-only
+      - name: Verify word notes and speech coverage
+        run: python scripts/verify-kol-mokausi.py --prepared-dir .speech-prepared
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: kol-mokausi-speech-preparation
+          path: .speech-prepared/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14

@@ -1,0 +1,96 @@
+name: Kol mokausi - Azure narration
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_f0:
+        description: 'I checked in Azure that this Speech resource uses the free F0 tier'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kol-mokausi-azure
+  cancel-in-progress: false
+
+jobs:
+  narrate:
+    if: inputs.confirm_f0
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Prepare and validate before using Azure
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          python scripts/generate-book-audio.py books/kol-mokausi-gyventi.json --casting author-plans/kol-mokausi-gyventi-casting.json --work-dir .speech-prepared --prepare-only
+          python scripts/verify-kol-mokausi.py --prepared-dir .speech-prepared
+      - name: Configure private credentials
+        env:
+          SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          SPEECH_SKU: ${{ vars.AZURE_SPEECH_SKU }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          if not os.environ.get("SPEECH_KEY") or not os.environ.get("SPEECH_REGION"):
+              raise SystemExit("Set AZURE_SPEECH_KEY and AZURE_SPEECH_REGION in Actions secrets.")
+          if os.environ.get("SPEECH_SKU") != "F0":
+              raise SystemExit("Verify the resource tier in Azure and set the AZURE_SPEECH_SKU variable to F0.")
+          target = Path(os.environ["RUNNER_TEMP"]) / "speech-credentials.json"
+          target.write_text(json.dumps({k: os.environ[k] for k in ("SPEECH_KEY", "SPEECH_REGION")} | {"sku": "F0"}))
+          target.chmod(0o600)
+          PY
+      - name: Install audio tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install azure-cognitiveservices-speech==1.51.2
+      - name: Restore synthesis cache
+        id: cache
+        uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5
+        with:
+          path: .speech-cache
+          key: kol-speech-v1-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            kol-speech-v1-${{ runner.os }}-${{ github.ref_name }}-
+      - name: Generate all chapters, stopping on the first failure
+        id: synthesis
+        run: python scripts/generate-book-audio.py books/kol-mokausi-gyventi.json --casting author-plans/kol-mokausi-gyventi-casting.json --work-dir .speech-cache --credentials "$RUNNER_TEMP/speech-credentials.json"
+      - name: Verify every recording and decode all MP3s
+        run: python scripts/verify-kol-mokausi.py --prepared-dir .speech-prepared --require-audio
+      - name: Save synthesis cache, including completed chapters after failure
+        if: always() && steps.synthesis.outcome != 'skipped' && steps.synthesis.outcome != ''
+        uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
+        with:
+          path: .speech-cache
+          key: ${{ steps.cache.outputs.cache-primary-key }}
+      - name: Preserve audio and canonical JSON for review
+        if: always() && steps.synthesis.outcome != 'skipped' && steps.synthesis.outcome != ''
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: kol-mokausi-audio-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            assets/audio/kol-mokausi-gyventi/
+            books/kol-mokausi-gyventi.json
+            .speech-prepared/verification.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+      - name: Remove credentials
+        if: always()
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          (Path(os.environ["RUNNER_TEMP"]) / "speech-credentials.json").unlink(missing_ok=True)
+          PY
