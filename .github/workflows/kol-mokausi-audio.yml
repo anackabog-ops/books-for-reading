@@ -37,15 +37,12 @@ jobs:
         env:
           SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
-          SPEECH_SKU: ${{ vars.AZURE_SPEECH_SKU }}
         run: |
           python - <<'PY'
           import json, os
           from pathlib import Path
           if not os.environ.get("SPEECH_KEY") or not os.environ.get("SPEECH_REGION"):
               raise SystemExit("Set AZURE_SPEECH_KEY and AZURE_SPEECH_REGION in Actions secrets.")
-          if os.environ.get("SPEECH_SKU") != "F0":
-              raise SystemExit("Verify the resource tier in Azure and set the AZURE_SPEECH_SKU variable to F0.")
           target = Path(os.environ["RUNNER_TEMP"]) / "speech-credentials.json"
           target.write_text(json.dumps({k: os.environ[k] for k in ("SPEECH_KEY", "SPEECH_REGION")} | {"sku": "F0"}))
           target.chmod(0o600)
