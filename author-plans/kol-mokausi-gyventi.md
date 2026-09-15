@@ -1,6 +1,6 @@
 # Kol mokausi gyventi — complete narrative adaptation, release pending
 
-Updated 2026-09-14. User requests the whole supplied B1 book, sentence-level clicking and a local explanation for EVERY word. These requirements override the generic phrase-size and optional-function-word guidelines. Do not ask for chapter-by-chapter permission.
+Updated 2026-09-15. User requests the whole supplied B1 book, sentence-level clicking and a local explanation for EVERY word. These requirements override the generic phrase-size and optional-function-word guidelines. Do not ask for chapter-by-chapter permission.
 
 ## Canonical content
 
@@ -12,7 +12,7 @@ A manually authored lexicon and productive morphology were used as editing aids,
 
 ## Accents
 
-Raw VDU output remains unchanged. The accented-text and audit JSON preserve the earlier 365 corrections and a separate lexical follow-up. Dictionary evidence resolved prisimiñti, primiñti and kienõ (9 narrative occurrences). Remaining unaccented narrative words are Samira (30), Samirai (4), Samiros (2), plus Samira in one chapter title. Ask the author about intended name pronunciation before adding those accents.
+Raw VDU output remains unchanged. The accented-text and audit JSON preserve the earlier 365 corrections and a separate lexical follow-up. Dictionary evidence resolved prisimiñti, primiñti and kienõ (9 narrative occurrences). Remaining unaccented narrative words are Samira (30), Samirai (4), Samiros (2), plus Samira in one chapter title. The author confirmed Сами́ра (stress on i) on 2026-09-15. This pronunciation decision is recorded; applying Lithuanian accent notation consistently to the name and its inflected forms and checking the synthesized pronunciation remain pending.
 
 Unchanged VDU output is not certified correct in every position. Note surfaces inherit narrative accents; lemma accents are reused only when previously checked, otherwise lemma spelling is unaccented. Source practice remains as supplied. Do not describe the book as independently proofread or every string as fully accented.
 
@@ -34,6 +34,8 @@ After configuring the existing private F0 credentials file, remove --prepare-onl
 
 11 Python tests and 19 focused JavaScript tests pass. JavaScript syntax checks pass. The standard item cleaner reports zero changes. Complete source equality, per-word note coverage, Russian translations, JSON structure, all 18 casting plans and XML/bookmark coverage pass. See the verification JSON for exact counts and limitations.
 
-The other-book audio regression cannot run in this partial local mirror because its MP3s/manifests are absent. This does not test audio for this book. The remote browser could not load the local HTTP preview, so visual/mobile QA remains pending; no successful browser screenshot check is claimed. Shared tooltip already provides bounded scrolling.
+On 2026-09-15, a fresh complete checkout of head 992c122 was verified: all 25 JavaScript tests (including the other-book audio regression) and all 11 Python tests passed. Both JavaScript syntax checks passed; the standard cleaner made zero changes. Fresh prepare-only generation and verification passed for all 18 SSML documents, 963 units and 5,947 word explanations. No Azure requests were made and no MP3s were generated for this book. These structural checks do not certify linguistic accuracy.
 
-Keep PR #1 draft. Remaining release work: confirm Samira pronunciation, independently check remaining automatic accents/linguistic notes as appropriate, configure Azure F0 and generate/listen/check all audio, verify the actual mobile reader, then merge and deploy only after release checks. Do not call this an audio-complete or published release.
+The remote browser rejected the local HTTP preview with net::ERR_BLOCKED_BY_CLIENT on 2026-09-15, so visual/mobile QA remains pending; no successful browser screenshot check is claimed. Shared tooltip already provides bounded scrolling. GitHub secret presence was verified previously, but credential validity, Speech resource ownership and actual F0 tier remain unverified. The user's Azure signup is currently blocked at the verification step. Do not dispatch narration until the actual resource and F0 tier are confirmed.
+
+Keep PR #1 draft. Remaining release work: apply the confirmed Samira pronunciation, independently check remaining automatic accents/linguistic notes as appropriate, configure Azure F0 and generate/listen/check all audio, verify the actual mobile reader, then merge and deploy only after release checks. Do not call this an audio-complete or published release.
