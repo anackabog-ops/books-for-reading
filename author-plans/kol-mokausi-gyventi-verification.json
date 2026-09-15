@@ -1,0 +1,44 @@
+{
+  "chapters": 18,
+  "sentenceUnits": 963,
+  "narrativeWords": 5947,
+  "localWordExplanations": 5947,
+  "perChapterWords": [
+    327,
+    338,
+    328,
+    316,
+    331,
+    327,
+    334,
+    325,
+    322,
+    329,
+    323,
+    316,
+    343,
+    324,
+    336,
+    339,
+    346,
+    343
+  ],
+  "sourceFidelity": "exact after stress removal and whitespace normalization",
+  "unaccentedNarrative": {
+    "Samira": 30,
+    "Samirai": 4,
+    "Samiros": 2
+  },
+  "audioPreparation": "18 valid SSML documents; all phrase bookmarks and casting spans match",
+  "tests": {
+    "python": 11,
+    "focusedJavaScript": 19
+  },
+  "limits": [
+    "Azure credentials absent; no MP3s generated.",
+    "Remote browser could not reach local HTTP preview; visual QA pending.",
+    "Other-book audio regression needs media files missing from this local mirror.",
+    "Unchanged VDU accents and linguistic notes lack independent native-editor certification."
+  ],
+  "practice": "All 18 original exercise sections preserved and exposed in collapsed Praktika panels."
+}

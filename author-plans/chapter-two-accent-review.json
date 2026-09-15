@@ -1,0 +1,814 @@
+{
+  "chapter": "chapter-2",
+  "status": "partial-contextual-review",
+  "sources": [
+    "https://kalbu.vdu.lt/mokymosi-priemones/kirciuoklis/",
+    "https://kirtis.info/"
+  ],
+  "pending": [
+    {
+      "word": "Samira",
+      "reason": "Not recognized by VDU; retain unaccented name pending reliable pronunciation source."
+    }
+  ],
+  "reviewedMap": {
+    "Ana": "Anà",
+    "Ar": "Ar̃",
+    "Ateikite": "Ateĩkite",
+    "Atsakiau": "Atsakiaũ",
+    "Atsiprašau": "Atsiprašaũ",
+    "Aš": "Àš",
+    "Butas": "Bùtas",
+    "Buvau": "Buvaũ",
+    "Dar": "Dár",
+    "Du": "Dù",
+    "Eglė": "Ẽglė",
+    "Galite": "Gãlite",
+    "Gerai": "Geraĩ",
+    "Grupėje": "Grùpėje",
+    "Grįždama": "Grįždamà",
+    "Ir": "Ir̃",
+    "Jame": "Jamè",
+    "Ji": "Jì",
+    "Jis": "Jìs",
+    "Kai": "Kaĩ",
+    "Kaip": "Kaĩp",
+    "Kiti": "Kitì",
+    "Kitą": "Kìtą",
+    "Kurią": "Kurią̃",
+    "Laba": "Labà",
+    "Lauke": "Laukè",
+    "Mama": "Mamà",
+    "Man": "Mán",
+    "Mano": "Màno",
+    "Mokytoja": "Mókytoja",
+    "Na": "Nà",
+    "Norėjau": "Norė́jau",
+    "Norėčiau": "Norė́čiau",
+    "O": "Õ",
+    "Pabandykime": "Pabandýkime",
+    "Parašiau": "Parašiaũ",
+    "Pardavėja": "Pardavė́ja",
+    "Pasakiau": "Pasakiaũ",
+    "Pasirodo": "Pasiródo",
+    "Pauliaus": "Paũliaus",
+    "Paulius": "Paũlius",
+    "Pažiūrėsime": "Pažiūrė́sime",
+    "Per": "Per̃",
+    "Perskaičiusi": "Pérskaičiusi",
+    "Pirkau": "Pirkaũ",
+    "Po": "Põ",
+    "Prašau": "Prašaũ",
+    "Prie": "Priẽ",
+    "Prieš": "Priẽš",
+    "Rytoj": "Rytój",
+    "Staiga": "Staigà",
+    "Supjaustyti": "Supjáustyti",
+    "Susipažinsime": "Susipažìnsime",
+    "Tai": "Taĩ",
+    "Taip": "Taĩp",
+    "Truputį": "Trupùtį",
+    "Už": "Ùž",
+    "Užsiėmimai": "Užsiėmìmai",
+    "Vaikas": "Vaĩkas",
+    "Viena": "Vienà",
+    "Vilniuje": "Vìlniuje",
+    "Vilnius": "Vìlnius",
+    "Vis": "Vìs",
+    "adresas": "ãdresas",
+    "adresu": "ãdresu",
+    "antradieniais": "antrãdieniais",
+    "antradienis": "antrãdienis",
+    "apie": "apiẽ",
+    "ar": "ar̃",
+    "arbata": "arbatà",
+    "ateiti": "ateĩti",
+    "atsakymas": "atsãkymas",
+    "atsakymą": "atsãkymą",
+    "atsakyti": "atsakýti",
+    "atsikandau": "atsikándau",
+    "atsikąsti": "atsiką́sti",
+    "atsiliepti": "atsiliẽpti",
+    "atsilikti": "atsilìkti",
+    "atsiprašyti": "atsiprašýti",
+    "atsisėsti": "atsisė́sti",
+    "aukštas": "aũkštas",
+    "aukštą": "aũkštą",
+    "autobusas": "autobùsas",
+    "autobusą": "autobùsą",
+    "aš": "àš",
+    "balta": "baltà",
+    "bandelių": "bandẽlių",
+    "bandelė": "bandẽlė",
+    "bandelės": "bandẽlės",
+    "bandelę": "bandẽlę",
+    "belsti": "bélsti",
+    "bet": "bèt",
+    "biblioteka": "bibliotekà",
+    "bibliotekos": "bibliotèkos",
+    "bijau": "bijaũ",
+    "bijoti": "bijóti",
+    "blogai": "blogaĩ",
+    "blogas": "blõgas",
+    "butas": "bùtas",
+    "buvo": "bùvo",
+    "būti": "bū́ti",
+    "dabar": "dabar̃",
+    "dar": "dár",
+    "darbas": "dárbas",
+    "darbą": "dárbą",
+    "daug": "daũg",
+    "daugiau": "daugiaũ",
+    "degti": "dègti",
+    "delsiau": "delsiaũ",
+    "delsti": "del̃sti",
+    "diena": "dienà",
+    "dieną": "diẽną",
+    "du": "dù",
+    "duona": "dúona",
+    "duonas": "dúonas",
+    "duonos": "dúonos",
+    "duoną": "dúoną",
+    "durys": "dùrys",
+    "durų": "dùrų",
+    "dvi": "dvì",
+    "dviejų": "dviejų̃",
+    "dviem": "dviẽm",
+    "eiti": "eĩti",
+    "galite": "gãlite",
+    "galvojo": "galvójo",
+    "galvoti": "galvóti",
+    "galėti": "galė́ti",
+    "galėčiau": "galė́čiau",
+    "galūnė": "galū́nė",
+    "garsas": "gar̃sas",
+    "garsiai": "gar̃siai",
+    "garsą": "gar̃są",
+    "gatvė": "gãtvė",
+    "gatvę": "gãtvę",
+    "gauti": "gáuti",
+    "gavau": "gavaũ",
+    "gerai": "geraĩ",
+    "ginčijosi": "giñčijosi",
+    "ginčytis": "giñčytis",
+    "grupė": "grùpė",
+    "grupės": "grùpės",
+    "grupę": "grùpę",
+    "grąžinti": "grąžìnti",
+    "grįžti": "grį̃žti",
+    "ilgai": "ilgaĩ",
+    "ir": "ir̃",
+    "iš": "ìš",
+    "išeidama": "išeidamà",
+    "išeiti": "išeĩti",
+    "išgirsti": "išgir̃sti",
+    "išimti": "išim̃ti",
+    "išmokti": "išmókti",
+    "išnešti": "išnèšti",
+    "jau": "jaũ",
+    "ji": "jì",
+    "jie": "jiẽ",
+    "jis": "jìs",
+    "jo": "jõ",
+    "jos": "jõs",
+    "judesys": "judesỹs",
+    "judesį": "jùdesį",
+    "kad": "kàd",
+    "kai": "kaĩ",
+    "kaimynas": "kaimýnas",
+    "kaimynui": "kaimýnui",
+    "kaip": "kaĩp",
+    "kalba": "kalbà",
+    "kalbos": "kalbõs",
+    "kalbą": "kal̃bą",
+    "kalbėjo": "kalbė́jo",
+    "kalbėjomės": "kalbė́jomės",
+    "kalbėti": "kalbė́ti",
+    "kalbėtis": "kalbė́tis",
+    "kam": "kám",
+    "kartas": "kar̃tas",
+    "kartodama": "kartódama",
+    "kartoti": "kartóti",
+    "kartus": "kartùs",
+    "kartą": "kar̃tą",
+    "karšta": "karštà",
+    "karštas": "kárštas",
+    "kas": "kàs",
+    "kažkam": "kažkám",
+    "keli": "kelì",
+    "kelis": "kelìs",
+    "kepykla": "kepyklà",
+    "kepyklą": "kepỹklą",
+    "ketvirtadieniais": "ketvirtãdieniais",
+    "ketvirtadienis": "ketvirtãdienis",
+    "kita": "kità",
+    "kitas": "kìtas",
+    "klausimais": "kláusimais",
+    "klausimas": "kláusimas",
+    "kur": "kur̃",
+    "kuri": "kurì",
+    "kuris": "kurìs",
+    "kursai": "kùrsai",
+    "kurti": "kùrti",
+    "kurį": "kurį̃",
+    "kvapas": "kvãpas",
+    "kvapą": "kvãpą",
+    "ką": "ką̃",
+    "laba": "labà",
+    "labas": "lãbas",
+    "laikas": "laĩkas",
+    "laiką": "laĩką",
+    "laiptinė": "láiptinė",
+    "laiptinėje": "láiptinėje",
+    "laisva": "laisvà",
+    "laisvas": "laĩsvas",
+    "langas": "lángas",
+    "lango": "lángo",
+    "laukas": "laũkas",
+    "laukti": "láukti",
+    "lentyna": "lentýna",
+    "lentyną": "lentýną",
+    "lietuviai": "lietùviai",
+    "lietuvis": "lietùvis",
+    "lietuviškai": "lietùviškai",
+    "lietuvių": "lietùvių",
+    "liko": "lìko",
+    "likti": "lìkti",
+    "lėtai": "lėtaĩ",
+    "lėčiau": "lėčiaũ",
+    "maišelis": "maišẽlis",
+    "maišelį": "maišẽlį",
+    "mama": "mamà",
+    "man": "mán",
+    "mano": "màno",
+    "manęs": "manę̃s",
+    "maža": "mažà",
+    "mažas": "mãžas",
+    "mes": "mẽs",
+    "mintis": "mintìs",
+    "mintį": "miñtį",
+    "mokytoja": "mókytoja",
+    "mokėdama": "mokė́dama",
+    "mokėti": "mokė́ti",
+    "moteris": "móteris",
+    "mums": "mùms",
+    "mėlyna": "mė́lyna",
+    "na": "nà",
+    "namai": "namaĩ",
+    "name": "namè",
+    "namo": "namõ",
+    "namų": "namų̃",
+    "nauja": "naujà",
+    "naujas": "naũjas",
+    "naują": "naũją",
+    "ne": "nè",
+    "nebuvo": "nebùvo",
+    "negu": "negù",
+    "nepasiklysti": "nepasiklýsti",
+    "nesuprantama": "nesuprantamà",
+    "nesupratau": "nesuprataũ",
+    "nesustabdė": "nesustãbdė",
+    "netaisyklinga": "netaisyklìnga",
+    "netaisyklingas": "netaisyklìngas",
+    "netoli": "netolì",
+    "nežinau": "nežinaũ",
+    "nors": "nórs",
+    "norėjau": "norė́jau",
+    "norėjo": "norė́jo",
+    "norėti": "norė́ti",
+    "nueiti": "nueĩti",
+    "nuo": "nuõ",
+    "nurodyti": "nuródyti",
+    "nurodytu": "nuródytu",
+    "nusijuokiau": "nusìjuokiau",
+    "nusijuokti": "nusijuõkti",
+    "nusipirkau": "nusipirkaũ",
+    "nusipirkti": "nusipir̃kti",
+    "nusipirkusi": "nusipir̃kusi",
+    "nutiko": "nutìko",
+    "nutikti": "nutìkti",
+    "nutilau": "nutilaũ",
+    "nutilti": "nutìlti",
+    "nuėjau": "nuėjaũ",
+    "o": "õ",
+    "obuoliais": "obuoliaĩs",
+    "obuolys": "obuolỹs",
+    "paaiškino": "paáiškino",
+    "paaiškinti": "paáiškinti",
+    "pabandyti": "pabandýti",
+    "padėti": "padė́ti",
+    "pagalba": "pagálba",
+    "pagalbos": "pagálbos",
+    "paimti": "paim̃ti",
+    "pakartojo": "pakartójo",
+    "pakartoti": "pakartóti",
+    "pakelti": "pakélti",
+    "paklausti": "pakláusti",
+    "pakėlusi": "pakė́lusi",
+    "palikti": "palìkti",
+    "pamatyti": "pamatýti",
+    "pamačiau": "pamačiaũ",
+    "pamoka": "pamokà",
+    "pamokos": "pamokõs",
+    "pamoką": "pãmoką",
+    "papasakoti": "papãsakoti",
+    "paprasta": "paprastà",
+    "paprašiau": "paprašiaũ",
+    "paprašyti": "paprašýti",
+    "paprašė": "paprãšė",
+    "parašyti": "parašýti",
+    "pardavėja": "pardavė́ja",
+    "pardavėjai": "pardavė́jai",
+    "parodyti": "paródyti",
+    "parodė": "paródė",
+    "parsinešiau": "parsìnešiau",
+    "parsinešti": "parsinèšti",
+    "pasakiau": "pasakiaũ",
+    "pasakyti": "pasakýti",
+    "pasakė": "pasãkė",
+    "pasibeldžiau": "pasibéldžiau",
+    "pasibelsti": "pasibélsti",
+    "pasidaryti": "pasidarýti",
+    "pasidarė": "pasidãrė",
+    "pasiklysti": "pasiklýsti",
+    "pasimokyti": "pasimókyti",
+    "pasirinkti": "pasiriñkti",
+    "pasirodyti": "pasiródyti",
+    "pasiruoštame": "pasiruoštamè",
+    "pasiruošti": "pasiruõšti",
+    "pasitikrinau": "pasitìkrinau",
+    "pasitikrinti": "pasitìkrinti",
+    "pati": "patì",
+    "patraukti": "patráukti",
+    "patraukė": "patráukė",
+    "pats": "pàts",
+    "pačią": "pãčią",
+    "pažiūrėti": "pažiūrė́ti",
+    "per": "per̃",
+    "perskaityti": "pérskaityti",
+    "pertrauka": "pértrauka",
+    "pertrauką": "pértrauką",
+    "pirkau": "pirkaũ",
+    "pirkti": "pir̃kti",
+    "pirma": "pirmà",
+    "pirmas": "pìrmas",
+    "pirmą": "pìrmą",
+    "pjaustyti": "pjáustyti",
+    "po": "põ",
+    "pokalbio": "pókalbio",
+    "pokalbis": "pókalbis",
+    "pokalbyje": "pókalbyje",
+    "pradėti": "pradė́ti",
+    "prasidėti": "prasidė́ti",
+    "prašau": "prašaũ",
+    "prašyti": "prašýti",
+    "prie": "priẽ",
+    "prieš": "priẽš",
+    "priklausyti": "priklausýti",
+    "priklausytų": "priklausýtų",
+    "prisijungsiu": "prisijùngsiu",
+    "prisijungti": "prisijùngti",
+    "prisistatyti": "prisistatýti",
+    "prisistačiau": "prisistačiaũ",
+    "puodelis": "puodẽlis",
+    "puodelį": "puodẽlį",
+    "raktas": "rãktas",
+    "ramiai": "ramiaĩ",
+    "ranka": "rankà",
+    "rankas": "rankàs",
+    "rankinė": "rañkinė",
+    "rankinę": "rañkinę",
+    "rankos": "rañkos",
+    "ranką": "rañką",
+    "rasti": "ràsti",
+    "reikia": "reĩkia",
+    "reikėjo": "reikė́jo",
+    "reikėti": "reikė́ti",
+    "rodau": "ródau",
+    "rodyti": "ródyti",
+    "rytas": "rýtas",
+    "ryte": "rytè",
+    "rytoj": "rytój",
+    "rytą": "rýtą",
+    "sakinys": "sakinỹs",
+    "sakinį": "sãkinį",
+    "savaitė": "saváitė",
+    "savaitę": "saváitę",
+    "savas": "sãvas",
+    "savo": "sàvo",
+    "skaičiau": "skaičiaũ",
+    "skani": "skanì",
+    "skanus": "skanùs",
+    "skelbimas": "skelbìmas",
+    "skelbimą": "skelbìmą",
+    "spręsti": "sprę́sti",
+    "staiga": "staigà",
+    "stovėjo": "stovė́jo",
+    "stovėti": "stovė́ti",
+    "su": "sù",
+    "sunki": "sunkì",
+    "sunkiais": "sunkiaĩs",
+    "sunkus": "sunkùs",
+    "supjaustyti": "supjáustyti",
+    "suprasti": "supràsti",
+    "susipažinti": "susipažìnti",
+    "susirasti": "susiràsti",
+    "sustabdyti": "sustabdýti",
+    "sustojau": "sustójau",
+    "sustoti": "sustóti",
+    "sąsiuvinis": "są́siuvinis",
+    "sąsiuvinyje": "są́siuvinyje",
+    "sėdinti": "sė́dinti",
+    "sėdėjo": "sėdė́jo",
+    "sėdėti": "sėdė́ti",
+    "ta": "tà",
+    "tai": "taĩ",
+    "taip": "taĩp",
+    "tarsi": "tar̃si",
+    "tas": "tàs",
+    "tačiau": "tačiaũ",
+    "telefonas": "telefònas",
+    "telefone": "telefonè",
+    "telefoną": "telefòną",
+    "temti": "témti",
+    "tiek": "tíek",
+    "tiesa": "tiesà",
+    "tikra": "tikrà",
+    "tikras": "tìkras",
+    "tikrųjų": "tikrų̃jų",
+    "truputį": "trupùtį",
+    "turėjo": "turė́jo",
+    "turėti": "turė́ti",
+    "tą": "tą̃",
+    "už": "ùž",
+    "uždara": "uždarà",
+    "uždarą": "ùždarą",
+    "užeiti": "užeĩti",
+    "užimta": "užimtà",
+    "užimti": "užim̃ti",
+    "užrašyta": "užrašýta",
+    "užrašyti": "užrašýti",
+    "užsiėmimas": "užsiėmìmas",
+    "užėjau": "užėjaũ",
+    "vadinasi": "vadìnasi",
+    "vadintis": "vadìntis",
+    "vaikas": "vaĩkas",
+    "vaiku": "vaikù",
+    "vaikus": "vaikùs",
+    "valanda": "valandà",
+    "valandos": "valandõs",
+    "veikti": "veĩkti",
+    "veikėte": "veĩkėte",
+    "viena": "vienà",
+    "vienas": "víenas",
+    "vieta": "vietà",
+    "virti": "vìrti",
+    "vis": "vìs",
+    "visa": "visà",
+    "visas": "vìsas",
+    "viso": "vìso",
+    "vyko": "vỹko",
+    "vykti": "vỹkti",
+    "Ėjau": "Ėjaũ",
+    "į": "į̃",
+    "įdėjo": "įdė́jo",
+    "įdėti": "įdė́ti",
+    "Šalia": "Šalià",
+    "Šito": "Šìto",
+    "Šitą": "Šìtą",
+    "Šįkart": "Šį̃kart",
+    "šalia": "šalià",
+    "šeši": "šešì",
+    "šešios": "šẽšios",
+    "šiandien": "šiañdien",
+    "šilta": "šiltà",
+    "šiltas": "šil̃tas",
+    "šiltos": "šiltõs",
+    "šita": "šìta",
+    "šitas": "šìtas",
+    "šitą": "šìtą",
+    "šviesa": "šviesà",
+    "šviesi": "šviesì",
+    "šįkart": "šį̃kart",
+    "Žiūrėjau": "Žiūrė́jau",
+    "žalia": "žalià",
+    "žalias": "žãlias",
+    "žinoti": "žinóti",
+    "žiūrėti": "žiūrė́ti",
+    "žmogus": "žmogùs",
+    "žmonės": "žmónės",
+    "žodis": "žõdis",
+    "žodį": "žõdį",
+    "žodžio": "žõdžio",
+    "paskui": "paskuĩ",
+    "paklausė": "pakláusė"
+  },
+  "vduEvidence": [
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnueitì\tvksm.\t-\nnueitì\tvksm.\t-\nnueĩti\tvksm. bendratis\t-",
+      "word": "nueiti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkepỹkla\tdkt. mot. g. vns. šauksm.\t-\nkepyklà\tdkt. mot. g. vns. įn.\t-\nkepyklà\tdkt. mot. g. vns. vard.\t-",
+      "word": "kepykla"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntelefòne\tdkt. vyr. g. vns. šauksm.\t-\ntelefonè\tdkt. vyr. g. vns. viet.\t-",
+      "word": "telefone"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\neitì\tvksm.\t-\neitì\tvksm.\t-\neĩti\tvksm. bendratis\t-",
+      "word": "eiti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nlãbas\tjst.\t-\nlabàs\tbdv. mot. g. dgs. gal.\t-\nlãbas\tbdv. vyr. g. vns. šauksm.\t-\nlãbas\tbdv. vyr. g. vns. vard.\t-\nlãbas\tdkt. vyr. g. vns. vard.\t-",
+      "word": "labas"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nlãba\tbdv. bev. g.\t-\nlabà\tbdv. mot. g. vns. šauksm.\t-\nlabà\tbdv. mot. g. vns. įn.\t-\nlabà\tbdv. mot. g. vns. vard.\t-",
+      "word": "laba"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nLãba\tbdv. bev. g.\t-\nLabà\tbdv. mot. g. vns. šauksm.\t-\nLabà\tbdv. mot. g. vns. įn.\t-\nLabà\tbdv. mot. g. vns. vard.\t-\nLãba\tdkt. tikr. mot. g. vns. šauksm.\t-\nLabà\tdkt. tikr. mot. g. vns. įn.\t-\nLabà\tdkt. tikr. mot. g. vns. vard.\t-",
+      "word": "Laba"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nKurią̃\tįv.\t-\nKurią̃\tvksm.\t-\nKurią̃\tvksm.\t-\nKurią̃\tvksm.\t-\nKùrią\tvksm.\t-\nKurią̃\tvksm.\t-",
+      "word": "Kurią"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšitàs\tįv.\t-\nšìtas\tįv.\t-\nšìtas\tįv.\t-\nšìtas\tįv.\t-\nšìtas\tįv.\t-\nšìtas\tįv.\t-",
+      "word": "šitas"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšità\tįv.\t-\nšìta\tįv.\t-\nšità\tįv.\t-\nšìta\tįv.\t-\nšità\tįv.\t-\nšìta\tįv.\t-",
+      "word": "šita"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npasiruoštì\tvksm.\t-\npasiruoštì\tvksm.\t-\npasiruõšti\tvksm. bendratis\t-",
+      "word": "pasiruošti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npãskui\tprl.\t-\npaskuĩ\tprv.\t-\npãskui\tprv.\t-",
+      "word": "paskui"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmanę̃s\tįv.\t-\nmãnęs\tvksm.\t-\nmãnęs\tvksm.\t-",
+      "word": "manęs"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkárštas\tbdv. mot. g. dgs. gal.\t-\nkárštas\tbdv. vyr. g. vns. šauksm.\t-\nkárštas\tbdv. vyr. g. vns. vard.\t-\nkarštàs\tvksm.\t-\nkar̃štas\tvksm.\t-\nkar̃štas\tvksm.\t-\nkárštas\tvksm.\t-\nkárštas\tvksm.\t-\nkárštas\tvksm.\t-",
+      "word": "karštas"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkáršta\tbdv. bev. g.\t-\nkarštà\tbdv. mot. g. vns. šauksm.\t-\nkáršta\tbdv. mot. g. vns. įn.\t-\nkarštà\tbdv. mot. g. vns. vard.\t-\nkar̃šta\tvksm.\t-\nkar̃šta\tvksm.\t-\nkarštà\tvksm.\t-\nkarštà\tvksm.\t-\nkarštà\tvksm.\t-\nkáršta\tvksm.\t-\nkáršta\tvksm.\t-\nkarštà\tvksm.\t-\nkáršta\tvksm.\t-\nkarštà\tvksm.\t-",
+      "word": "karšta"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nlėtaĩ\tprv.\t-\nlė̃tai\tbdv. mot. g. vns. naud.\t-",
+      "word": "lėtai"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nįdėtì\tvksm.\t-\nįdėtì\tvksm.\t-\nįdė́ti\tvksm. bendratis\t-",
+      "word": "įdėti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkal̃bą\tdkt. mot. g. vns. gal.\t-\nkalbą̃\tvksm.\t-\nkalbą̃\tvksm.\t-\nkalbą̃\tvksm.\t-\nkal̃bą\tvksm.\t-\nkalbą̃\tvksm.\t-",
+      "word": "kalbą"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nLaukè\tprv.\t-\nLaũke\tdkt. vyr. g. vns. šauksm.\t-\nLaukè\tdkt. vyr. g. vns. viet.\t-\nLaũke\tdkt. tikr. mot. g. vns. šauksm.\t-\nLaukè\tdkt. tikr. mot. g. vns. įn.\t-",
+      "word": "Lauke"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natsikąstì\tvksm.\t-\natsikąstì\tvksm.\t-\natsiką́sti\tvksm. bendratis\t-",
+      "word": "atsikąsti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšiltàs\tbdv. mot. g. dgs. gal.\t-\nšil̃tas\tbdv. vyr. g. vns. šauksm.\t-\nšil̃tas\tbdv. vyr. g. vns. vard.\t-\nšìltas\tvksm.\t-\nšìltas\tvksm.\t-\nšìltas\tvksm.\t-",
+      "word": "šiltas"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšil̃ta\tbdv. bev. g.\t-\nšiltà\tbdv. mot. g. vns. šauksm.\t-\nšiltà\tbdv. mot. g. vns. įn.\t-\nšiltà\tbdv. mot. g. vns. vard.\t-\nšìlta\tvksm.\t-\nšiltà\tvksm.\t-\nšìlta\tvksm.\t-\nšiltà\tvksm.\t-",
+      "word": "šilta"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nšil̃tos\tbdv. mot. g. dgs. šauksm.\t-\nšil̃tos\tbdv. mot. g. dgs. vard.\t-\nšiltõs\tbdv. mot. g. vns. kilm.\t-\nšìltos\tvksm.\t-\nšìltos\tvksm.\t-\nšiltõs\tvksm.\t-",
+      "word": "šiltos"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nparsineštì\tvksm.\t-\nparsineštì\tvksm.\t-\nparsinèšti\tvksm. bendratis\t-",
+      "word": "parsinešti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nbibliotèka\tdkt. mot. g. vns. šauksm.\t-\nbibliotekà\tdkt. mot. g. vns. įn.\t-\nbibliotekà\tdkt. mot. g. vns. vard.\t-",
+      "word": "biblioteka"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvyktì\tvksm.\t-\nvyktì\tvksm.\t-\nvỹkti\tvksm. bendratis\t-",
+      "word": "vykti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npõ\tprl.\t-\npõ\tprl.\t-\npõ\tprl.\t-\npõ\tprl.\t-",
+      "word": "po"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nPõ\tprl.\t-\nPõ\tprl.\t-\nPõ\tprl.\t-\nPõ\tprl.\t-\nPò\tdkt. tikr.\t-",
+      "word": "Po"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvãlanda\tdkt. mot. g. vns. šauksm.\t-\nvãlanda\tdkt. mot. g. vns. įn.\t-\nvalandà\tdkt. mot. g. vns. vard.\t-",
+      "word": "valanda"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvãlandos\tdkt. mot. g. dgs. šauksm.\t-\nvãlandos\tdkt. mot. g. dgs. vard.\t-\nvalandõs\tdkt. mot. g. vns. kilm.\t-",
+      "word": "valandos"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ngautì\tvksm.\t-\ngautì\tvksm.\t-\ngáuti\tvksm. bendratis\t-",
+      "word": "gauti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nateitì\tvksm.\t-\nateitì\tvksm.\t-\nateĩti\tvksm. bendratis\t-",
+      "word": "ateiti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsusipažintì\tvksm.\t-\nsusipažintì\tvksm.\t-\nsusipažìnti\tvksm. bendratis\t-",
+      "word": "susipažinti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nvíena\tįv.\t-\nvienà\tįv.\t-\nvíena\tįv.\t-\nvienà\tįv.\t-\nvíena\tsktv.\t-\nvienà\tsktv.\t-\nvíena\tsktv.\t-\nvienà\tsktv.\t-\nvíena\tbdv. bev. g.\t-\nvienà\tbdv. mot. g. vns. šauksm.\t-\nvíena\tbdv. mot. g. vns. įn.\t-\nvienà\tbdv. mot. g. vns. vard.\t-",
+      "word": "viena"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npirmà\tprl.\t-\npìrma\tprl.\t-\npirmà\tprv.\t-\npìrma\tprv.\t-\npìrma\tsktv.\t-\npirmà\tsktv.\t-\npìrma\tsktv.\t-\npirmà\tsktv.\t-\npìrma\tbdv. bev. g.\t-\npirmà\tbdv. mot. g. vns. šauksm.\t-\npìrma\tbdv. mot. g. vns. įn.\t-\npirmà\tbdv. mot. g. vns. vard.\t-",
+      "word": "pirma"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npãmoka\tdkt. mot. g. vns. šauksm.\t-\npãmoka\tdkt. mot. g. vns. įn.\t-\npamokà\tdkt. mot. g. vns. vard.\t-\npamóka\tvksm.\t-",
+      "word": "pamoka"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npãmoką\tdkt. mot. g. vns. gal.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-\npamóką\tvksm.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-\npamóką\tvksm.\t-\npamoką̃\tvksm.\t-\npamóką\tvksm.\t-",
+      "word": "pamoką"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnusijuoktì\tvksm.\t-\nnusijuoktì\tvksm.\t-\nnusijuõkti\tvksm. bendratis\t-",
+      "word": "nusijuokti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntíek\tprv.\t-\ntiẽk\tvksm.\t-",
+      "word": "tiek"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ndelstì\tvksm.\t-\ndelstì\tvksm.\t-\ndel̃sti\tvksm. bendratis\t-",
+      "word": "delsti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nlaisvàs\tbdv. mot. g. dgs. gal.\t-\nláisvas\tbdv. mot. g. dgs. gal.\t-\nlaĩsvas\tbdv. vyr. g. vns. šauksm.\t-\nláisvas\tbdv. vyr. g. vns. šauksm.\t-\nlaĩsvas\tbdv. vyr. g. vns. vard.\t-\nláisvas\tbdv. vyr. g. vns. vard.\t-",
+      "word": "laisvas"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nlaĩsva\tbdv. bev. g.\t-\nláisva\tbdv. bev. g.\t-\nlaisvà\tbdv. mot. g. vns. šauksm.\t-\nlaisvà\tbdv. mot. g. vns. šauksm.\t-\nlaisvà\tbdv. mot. g. vns. įn.\t-\nláisva\tbdv. mot. g. vns. įn.\t-\nlaisvà\tbdv. mot. g. vns. vard.\t-\nlaisvà\tbdv. mot. g. vns. vard.\t-",
+      "word": "laisva"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nviẽta\tdkt. mot. g. vns. šauksm.\t-\nvietà\tdkt. mot. g. vns. įn.\t-\nvietà\tdkt. mot. g. vns. vard.\t-",
+      "word": "vieta"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npatrauktì\tvksm.\t-\npatrauktì\tvksm.\t-\npatráukti\tvksm. bendratis\t-",
+      "word": "patraukti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nmẽs\tįv.\t-\nmès\tvksm.\t-",
+      "word": "mes"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnutiktì\tvksm.\t-\nnutiktì\tvksm.\t-\nnutìkti\tvksm. bendratis\t-",
+      "word": "nutikti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnutiltì\tvksm.\t-\nnutiltì\tvksm.\t-\nnutìlti\tvksm. bendratis\t-",
+      "word": "nutilti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nveiktì\tvksm.\t-\nveiktì\tvksm.\t-\nveĩkti\tvksm. bendratis\t-",
+      "word": "veikti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrýte\tdkt. vyr. g. vns. šauksm.\t-\nrytè\tdkt. vyr. g. vns. viet.\t-\nrytè\tvksm.\t-",
+      "word": "ryte"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npaklaũsė\tvksm.\t-\npakláusė\tvksm.\t-",
+      "word": "paklausė"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nramiaĩ\tprv.\t-\nrãmiai\tbdv. mot. g. vns. naud.\t-",
+      "word": "ramiai"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npakartójo\tvksm.\t-\npakártojo\tvksm.\t-",
+      "word": "pakartojo"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nVíena\tįv.\t-\nVienà\tįv.\t-\nVíena\tįv.\t-\nVienà\tįv.\t-\nVíena\tsktv.\t-\nVienà\tsktv.\t-\nVíena\tsktv.\t-\nVienà\tsktv.\t-\nVíena\tbdv. bev. g.\t-\nVienà\tbdv. mot. g. vns. šauksm.\t-\nVíena\tbdv. mot. g. vns. įn.\t-\nVienà\tbdv. mot. g. vns. vard.\t-\nVíena\tdkt. tikr. mot. g. vns. šauksm.\t-\nVíena\tdkt. tikr. mot. g. vns. įn.\t-\nVíena\tdkt. tikr. mot. g. vns. vard.\t-",
+      "word": "Viena"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\npãmokos\tdkt. mot. g. dgs. šauksm.\t-\npãmokos\tdkt. mot. g. dgs. vard.\t-\npamokõs\tdkt. mot. g. vns. kilm.\t-",
+      "word": "pamokos"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nprisijungtì\tvksm.\t-\nprisijungtì\tvksm.\t-\nprisijùngti\tvksm. bendratis\t-",
+      "word": "prisijungti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\natsiliktì\tvksm.\t-\natsiliktì\tvksm.\t-\natsilìkti\tvksm. bendratis\t-",
+      "word": "atsilikti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nkláusimais\tdkt. vyr. g. dgs. įn.\t-\nklausimaĩs\tvksm.\t-",
+      "word": "klausimais"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nnamõ\tprv.\t-\nnãmo\tdkt. vyr. g. vns. kilm.\t-",
+      "word": "namo"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nužeitì\tvksm.\t-\nužeitì\tvksm.\t-\nužeĩti\tvksm. bendratis\t-",
+      "word": "užeiti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nsustotì\tvksm.\t-\nsustotì\tvksm.\t-\nsustóti\tvksm. bendratis\t-",
+      "word": "sustoti"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\nrañką\tdkt. mot. g. vns. gal.\t-\nranką̃\tvksm.\t-\nrañką\tvksm.\t-\nranką̃\tvksm.\t-\nrañką\tvksm.\t-\nranką̃\tvksm.\t-\nrañką\tvksm.\t-\nrañką\tvksm.\t-\nranką̃\tvksm.\t-\nrañką\tvksm.\t-",
+      "word": "ranką"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntikràs\tbdv. mot. g. dgs. gal.\t-\ntìkras\tbdv. vyr. g. vns. šauksm.\t-\ntìkras\tbdv. vyr. g. vns. vard.\t-",
+      "word": "tikras"
+    },
+    {
+      "table": "Kirčiuotas žodis\tMorfologinė informacija\tŽodžio reikšmė\ntìkra\tbdv. bev. g.\t-\ntikrà\tbdv. mot. g. vns. šauksm.\t-\ntikrà\tbdv. mot. g. vns. įn.\t-\ntikrà\tbdv. mot. g. vns. vard.\t-",
+      "word": "tikra"
+    }
+  ],
+  "kirtisEvidence": [
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Raktas\": Kita\n- button \"Raktas\": Kitas\n- button \"Raktas\": Buto\n- button \"Raktas\": Duris\n- button \"Raktas\"\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\" [active]:\n    - text: šitas\n    - list:\n      - button \"šitas\":\n        - generic: šitas\n  - button:\n- status\n- button \"Kirčiuoti\"\n- strong: šìtas\n- emphasis: (įvrd.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: V.\n- generic: neįvardž.\n- strong: šìtas\n- emphasis: (įvrd.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: Š.\n- generic: neįvardž.\n- strong: šìtas\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: dgsk.\n- generic: G.\n- generic: neįvardž.",
+      "word": "šitas"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Raktas\": Kita\n- button \"Raktas\": Kitas\n- button \"Raktas\": Buto\n- button \"Raktas\": Duris\n- button \"Raktas\"\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\":\n    - text: šita\n    - list:\n      - button:\n        - generic: šitaip\n      - button:\n        - generic: šitais\n      - button:\n        - generic: šitai\n      - button:\n        - generic: šitame\n      - button:\n        - generic: šitam\n      - button:\n        - generic: šitas\n      - button:\n        - generic: šita\n  - button:\n- status:\n  - paragraph: There are 7 matches available.\n- button \"Kirčiuoti\"\n- progressbar\n- strong: šìta\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: V.\n- generic: neįvardž.\n- strong: šìta\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Įn.\n- generic: neįvardž.\n- strong: šìta\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Š.\n- generic: neįvardž.\n- strong: šìtas\n- emphasis: (įvrd.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: V.\n- generic: neįvardž.\n- strong: šìtas\n- emphasis: (įvrd.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: Š.\n- generic: neįvardž.\n- strong: šìtas\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: dgsk.\n- generic: G.\n- generic: neįvardž.",
+      "word": "šita"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Raktas\": Kita\n- button \"Raktas\": Kitas\n- button \"Raktas\": Buto\n- button \"Raktas\": Duris\n- button \"Raktas\"\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\" [active]:\n    - text: paskui\n    - list:\n      - button \"paskui\":\n        - generic: paskui\n      - button \"paskuigalio\":\n        - generic: paskuigalio\n      - button \"paskuigalio\":\n        - generic: paskuigalio\n      - button \"paskuigalis\":\n        - generic: paskuigalis\n      - button \"paskuigalis\":\n        - generic: paskuigalis\n      - button \"paskui\":\n        - generic: paskui\n  - button:\n- status\n- button \"Kirčiuoti\"",
+      "word": "paskui"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Viena\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Raktas\": Kita\n- button \"Raktas\": Kitas\n- button \"Raktas\": Buto\n- button \"Raktas\": Duris\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\":\n    - text: viena\n    - list:\n      - button:\n        - generic: vienaakis\n      - button:\n        - generic: vienaakis\n      - button:\n        - generic: vienaauksciai\n      - button:\n        - generic: vienaaukscio\n      - button:\n        - generic: vienaaukscius\n      - button:\n        - generic: vienaaukstis\n      - button:\n        - generic: vienaauksti\n      - button:\n        - generic: vienaaukščiai\n  - button:\n- status:\n  - paragraph: There are 101 matches available.\n- button \"Kirčiuoti\"\n- progressbar\n- strong: víena\n- emphasis: (dktv.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: V.\n- strong: víena\n- emphasis: (dktv.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Įn.\n- strong: víena\n- emphasis: (dktv.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Š.\n- strong: vienà\n- emphasis: (bdvr.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: V.\n- generic: neįvardž.\n- strong: víena\n- emphasis: (bdvr.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Įn.\n- generic: neįvardž.\n- strong: vienà\n- emphasis: (bdvr.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Š.\n- generic: neįvardž.\n- strong: víena\n- emphasis: (bdvr.)\n- generic: bevrd.gim.\n- generic: neįvardž.\n- strong: vienà\n- emphasis: (sktv.)\n- generic: mot.gim.\n- generic: kiekin.\n- generic: vnsk.\n- generic: V.\n- strong: víena\n- emphasis: (sktv.)\n- generic: mot.gim.\n- generic: kiekin.\n- generic: vnsk.\n- generic: Įn.\n- strong: vienà\n- emphasis: (sktv.)\n- generic: mot.gim.\n- generic: kiekin.\n- generic: vnsk.\n- generic: Š.\n- strong: víena\n- emphasis: (sktv.)\n- generic: bevrd.gim.\n- generic: kiekin.\n- strong: vienà\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: V.\n- strong: víena\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Įn.\n- strong: vienà\n- emphasis: (įvrd.)\n- generic: mot.gim.\n- generic: vnsk.\n- generic: Š.\n- strong: víena\n- emphasis: (įvrd.)\n- generic: bevrd.gim.",
+      "word": "viena"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Pirma\n- button \"Raktas\": Viena\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Raktas\": Kita\n- button \"Raktas\": Kitas\n- button \"Raktas\": Buto\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\" [active]:\n    - text: pirma\n    - list:\n      - button \"pirmadieniais\":\n        - generic: pirmadieniais\n      - button \"pirmadieniais\":\n        - generic: pirmadieniais\n      - button \"pirmadienio\":\n        - generic: pirmadienio\n      - button \"pirmadienis\":\n        - generic: pirmadienis\n      - button \"pirmadieniui\":\n        - generic: pirmadieniui\n      - button \"pirmadieniu\":\n        - generic: pirmadieniu\n      - button \"pirmadienį\":\n        - generic: pirmadienį\n      - button \"pirmaeilė\":\n        - generic: pirmaeilė\n  - button:\n- status:\n  - paragraph: There are 109 matches available.\n- button \"Kirčiuoti\"\n- progressbar\n- strong: pirmà\n- emphasis: (sktv.)\n- generic: mot.gim.\n- generic: kelintin.\n- generic: vnsk.\n- generic: V.\n- generic: neįvardž.\n- strong: pìrma\n- emphasis: (sktv.)\n- generic: mot.gim.\n- generic: kelintin.\n- generic: vnsk.\n- generic: Įn.\n- generic: neįvardž.\n- strong: pirmà\n- emphasis: (sktv.)\n- generic: mot.gim.\n- generic: kelintin.\n- generic: vnsk.\n- generic: Š.\n- generic: neįvardž.\n- strong: pìrma\n- emphasis: (sktv.)\n- generic: bevrd.gim.\n- generic: kelintin.\n- generic: neįvardž.",
+      "word": "pirma"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Laisvas\n- button \"Raktas\": Pirma\n- button \"Raktas\": Viena\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Raktas\": Kita\n- button \"Raktas\": Kitas\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\" [active]:\n    - text: laisvas\n    - list:\n      - button \"laisvas\":\n        - generic: laisvas\n      - button \"laisvasias\":\n        - generic: laisvasias\n      - button \"laisvasis\":\n        - generic: laisvasis\n      - button \"laisvasis\":\n        - generic: laisvasis\n      - button \"laisvas\":\n        - generic: laisvas\n      - button \"laisvąsias\":\n        - generic: laisvąsias\n  - button:\n- status\n- button \"Kirčiuoti\"\n- strong: laĩsvas\n- emphasis: (bdvr.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: V.\n- generic: neįvardž.\n- strong: laĩsvas\n- emphasis: (bdvr.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: Š.\n- generic: neįvardž.\n- strong: laisvàs\n- emphasis: (bdvr.)\n- generic: mot.gim.\n- generic: dgsk.\n- generic: G.\n- generic: neįvardž.",
+      "word": "laisvas"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Laisvas\n- button \"Raktas\": Pirma\n- button \"Raktas\": Viena\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Raktas\": Kita\n- button \"Raktas\": Kitas\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\":\n    - text: paklausė\n    - list:\n      - button:\n        - generic: paklausėme\n      - button:\n        - generic: paklausėte\n      - button:\n        - generic: paklausė\n  - button:\n  - progressbar\n- status:\n  - paragraph: There are 3 matches available.\n- button \"Kirčiuoti\"\n- progressbar\n- strong: laĩsvas\n- emphasis: (bdvr.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: V.\n- generic: neįvardž.\n- strong: laĩsvas\n- emphasis: (bdvr.)\n- generic: vyr.gim.\n- generic: vnsk.\n- generic: Š.\n- generic: neįvardž.\n- strong: laisvàs\n- emphasis: (bdvr.)\n- generic: mot.gim.\n- generic: dgsk.\n- generic: G.\n- generic: neįvardž.",
+      "word": "paklausė"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Pakartojo\n- button \"Raktas\": Paklausė\n- button \"Raktas\": Laisvas\n- button \"Raktas\": Pirma\n- button \"Raktas\": Viena\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\":\n    - text: pakartojo\n    - list:\n      - button:\n        - generic: pakartojo\n      - button:\n        - generic: pakartojo\n  - button:\n- status:\n  - paragraph: There are 2 matches available.\n- button \"Kirčiuoti\"\n- progressbar\n- strong: pakártojo\n- emphasis: (dlv.)\n- generic: vyr.gim.\n- generic: būt.l.\n- generic: vnsk.\n- generic: K.\n- generic: įvardž.\n- generic: nesngr.\n- generic: neveik.r.\n- strong: pakártojo\n- emphasis: (dlv.)\n- generic: vyr.gim.\n- generic: būt.l.\n- generic: vnsk.\n- generic: K.\n- generic: įvardž.\n- generic: nesngr.\n- generic: neveik.r.\n- strong: pakártojo\n- emphasis: (dlv.)\n- generic: vyr.gim.\n- generic: būt.l.\n- generic: vnsk.\n- generic: K.\n- generic: įvardž.\n- generic: nesngr.\n- generic: neveik.r.\n- strong: pakartójo\n- emphasis: (vksm.)\n- generic: būt.kart.l.\n- generic: IIIasm.\n- generic: vnsk.\n- generic: nesngr.\n- strong: pakartójo\n- emphasis: (vksm.)\n- generic: būt.kart.l.\n- generic: IIIasm.\n- generic: dgsk.\n- generic: nesngr.\n- strong: paklaũsė\n- emphasis: (vksm.)\n- generic: būt.kart.l.\n- generic: IIIasm.\n- generic: vnsk.\n- generic: nesngr.\n- strong: paklaũsė\n- emphasis: (vksm.)\n- generic: būt.kart.l.\n- generic: IIIasm.\n- generic: dgsk.\n- generic: nesngr.\n- strong: pakláusė\n- emphasis: (vksm.)\n- generic: būt.kart.l.\n- generic: IIIasm.\n- generic: vnsk.\n- generic: nesngr.\n- strong: pakláusė\n- emphasis: (vksm.)\n- generic: būt.kart.l.\n- generic: IIIasm.\n- generic: dgsk.\n- generic: nesngr.",
+      "word": "pakartojo"
+    },
+    {
+      "snapshot": "- button \"Open menu\":\n- heading \"Kirčiavimas internetu\" [level=3]\n- heading \"Istorija\" [level=1]\n- button \"Raktas\": Pakartojo\n- button \"Raktas\": Paklausė\n- button \"Raktas\": Laisvas\n- button \"Raktas\": Pirma\n- button \"Raktas\": Viena\n- button \"Raktas\": Šita\n- button \"Raktas\": Šitas\n- button \"Raktas\": Visa\n- button \"Raktas\": Savas\n- button \"Raktas\": Kažkam\n- button \"Raktas\": Tai\n- button \"Raktas\": Kam\n- button \"Raktas\": Truputį\n- button \"Raktas\": Dviem\n- button \"Raktas\": Laiptinėje\n- button \"Raktas\": Laiptinė\n- button \"Raktas\": Vilniuje\n- button \"Raktas\": Vilnius\n- button \"Raktas\": Mėlyna\n- button \"Raktas\": Visas\n- button \"Trinti istoriją\"\n- generic: Kirčiavimo programa\n- listbox:\n  - generic: Sukirčiuoti žodį\n  - searchbox \"Sukirčiuoti žodį\" [active]:\n    - text: paskui\n    - list:\n      - button \"paskui\":\n        - generic: paskui\n      - button \"paskuigalio\":\n        - generic: paskuigalio\n      - button \"paskuigalio\":\n        - generic: paskuigalio\n      - button \"paskuigalis\":\n        - generic: paskuigalis\n      - button \"paskuigalis\":\n        - generic: paskuigalis\n      - button \"paskui\":\n        - generic: paskui\n  - button:\n- status\n- button \"Kirčiuoti\"",
+      "word": "paskui-recheck"
+    }
+  ],
+  "limitations": "Single-result VDU forms are not independently certified. No audio or publication.",
+  "lexicalEvidence": [
+    {
+      "word": "paskui",
+      "accent": "paskuĩ",
+      "meaning": "потом, затем; наречие",
+      "url": "https://www.lietuviuzodynas.lt/zodynas/Paskui"
+    },
+    {
+      "word": "paklausė",
+      "accent": "pakláusė",
+      "meaning": "спросил/спросила; от paklausti",
+      "url": "https://tartis.vdu.lt/pagalba/",
+      "note": "VDU help explicitly associates pakláusė with paklausti. Older TITUS example differs; adopted the explicit VDU lexical distinction."
+    }
+  ]
+}

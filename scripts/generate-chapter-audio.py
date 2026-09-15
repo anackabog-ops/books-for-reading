@@ -54,14 +54,20 @@ def chapter_length_report(chapter, limits):
     return report
 
 
-def build_ssml(chapter, female_blocks, narrator_spans):
+def build_ssml(chapter, female_blocks, narrator_spans, narrator_voice="lt-LT-LeonasNeural", block_voices=None):
+    block_voices = block_voices or {}
+    allowed = {"lt-LT-LeonasNeural", "lt-LT-OnaNeural"}
+    if narrator_voice not in allowed or any(v not in allowed for v in block_voices.values()):
+        raise ValueError("Unsupported Lithuanian voice")
+    if any(not str(k).isdigit() or not 1 <= int(k) <= len(chapter["blocks"]) for k in block_voices):
+        raise ValueError("Voice override refers to a missing block")
     phrases, parts, used = [], ['<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="lt-LT">'], set()
     previous_voice = None
     for bi, block in enumerate(chapter["blocks"]):
-        voice = "lt-LT-OnaNeural" if bi + 1 in female_blocks else "lt-LT-LeonasNeural"
+        voice = block_voices.get(str(bi + 1), "lt-LT-OnaNeural" if bi + 1 in female_blocks else narrator_voice)
         block_parts = []
         for ii, item in enumerate(block["items"]):
-            mark, text = f"p-{bi:03d}-i-{ii:03d}", plain_text(item["text"])
+            mark, text = f"p-{bi:03d}-i-{ii:03d}", re.sub(r"\s*\[\d+\]", "", plain_text(item["text"]))
             key = f"{bi + 1}:{ii + 1}"
             spans = narrator_spans.get(key, [])
             if key in narrator_spans:
@@ -77,7 +83,7 @@ def build_ssml(chapter, female_blocks, narrator_spans):
                     raise ValueError(f"Overlapping narrator spans at {key}")
                 if start > cursor:
                     segments.append(dict(text=text[cursor:start], voice=voice))
-                segments.append(dict(text=text[start:end], voice="lt-LT-LeonasNeural"))
+                segments.append(dict(text=text[start:end], voice=narrator_voice))
                 cursor = end
             if cursor < len(text):
                 segments.append(dict(text=text[cursor:], voice=voice))
@@ -131,6 +137,8 @@ def main():
     parser.add_argument("--female-blocks", type=int, nargs="*", default=[])
     parser.add_argument("--casting", type=Path, help="Reviewed femaleBlocks/narratorSpans JSON, or a previous manifest")
     parser.add_argument("--work-dir", type=Path)
+    parser.add_argument("--narrator-voice", choices=["lt-LT-LeonasNeural", "lt-LT-OnaNeural"], default="lt-LT-LeonasNeural")
+    parser.add_argument("--prepare-only", action="store_true", help="Save reviewed SSML and casting without calling Azure")
     parser.add_argument("--check-length-only", action="store_true", help="Report narrative length and editorial guidance without synthesis")
     parser.add_argument("--credentials", type=Path,
                         default=Path.home() / ".azure/lietuviskos-knygos-speech.json")
@@ -156,21 +164,34 @@ def main():
         parser.error("--work-dir is required for synthesis")
     casting = json.loads(args.casting.read_text()) if args.casting else {}
     casting = casting.get("casting", casting)
+    if "chapters" in casting:
+        if chapter["id"] not in casting["chapters"]:
+            parser.error("Casting plan does not cover this chapter")
+        casting = casting["chapters"][chapter["id"]]
     args.female_blocks = casting.get("femaleBlocks", args.female_blocks)
     narrator_spans = casting.get("narratorSpans", {})
+    narrator_voice = casting.get("narratorVoice", args.narrator_voice)
+    block_voices = casting.get("blockVoices", {})
     for number in args.female_blocks:
         if not 1 <= number <= len(chapter["blocks"]) or chapter["blocks"][number - 1]["type"] != "dialogue":
             parser.error("Female block numbers must identify reviewed dialogue blocks")
 
-    ssml, phrases = build_ssml(chapter, args.female_blocks, narrator_spans)
+    ssml, phrases = build_ssml(chapter, args.female_blocks, narrator_spans, narrator_voice, block_voices)
     digest = hashlib.sha256(ssml.encode()).hexdigest()
     args.work_dir.mkdir(parents=True, exist_ok=True)
+    if args.prepare_only:
+        (args.work_dir / f"{digest}.ssml").write_text(ssml)
+        (args.work_dir / f"{digest}.casting.json").write_text(json.dumps(dict(narratorVoice=narrator_voice, blockVoices=block_voices, femaleBlocks=args.female_blocks, narratorSpans=narrator_spans), ensure_ascii=False, indent=2) + "\n")
+        print(f"Prepared {len(phrases)} phrase bookmarks; no Azure request made", flush=True)
+        return
     wav_path = args.work_dir / f"{digest}.wav"
     marks_path = args.work_dir / f"{digest}.json"
     if wav_path.exists() and marks_path.exists():
         offsets = json.loads(marks_path.read_text())
         print("Using cached synthesis", flush=True)
     else:
+        if not args.credentials.is_file():
+            raise SystemExit("Azure credentials are missing. Configure the F0 credentials file before synthesis.")
         import azure.cognitiveservices.speech as speechsdk
         credentials = json.loads(args.credentials.read_text())
         if credentials.get("sku") != "F0":
@@ -236,7 +257,7 @@ def main():
                     voiceSwitchGapSeconds=VOICE_SWITCH_GAP_SECONDS,
                     sampleRate=params.framerate,
                     duration=duration, phrases=phrases,
-                    casting=dict(femaleBlocks=args.female_blocks, narratorSpans=narrator_spans))
+                    casting=dict(femaleBlocks=args.female_blocks, narratorSpans=narrator_spans, narratorVoice=narrator_voice, blockVoices=block_voices))
     (output / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     temporary = book_path.with_suffix(".json.tmp")
     temporary.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\n")
@@ -246,3 +267,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

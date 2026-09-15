@@ -52,6 +52,24 @@ class CastingTest(unittest.TestCase):
         _, phrases = audio.build_ssml(chapter, [1], {'1:1': ['— pasakė Ieva.']})
         self.assertEqual(['lt-LT-LeonasNeural', 'lt-LT-OnaNeural'], [s['voice'] for s in phrases[0]['segments']])
 
+    def test_female_narrator_and_male_dialogue_preserve_speaker_insertions(self):
+        text = '– Taip, – atsakė jis.'
+        chapter = {'blocks': [{'type': 'paragraph', 'items': [{'text': text}]}]}
+        ssml, phrases = audio.build_ssml(chapter, [], {'1:1': [', – atsakė jis.']},
+                                        'lt-LT-OnaNeural', {'1': 'lt-LT-LeonasNeural'})
+        ET.fromstring(ssml)
+        self.assertEqual(['lt-LT-LeonasNeural', 'lt-LT-OnaNeural'],
+                         [segment['voice'] for segment in phrases[0]['segments']])
+        self.assertEqual(text, ''.join(segment['text'] for segment in phrases[0]['segments']))
+        with self.assertRaises(ValueError):
+            audio.build_ssml(chapter, [], {}, 'lt-LT-OnaNeural', {'2': 'lt-LT-LeonasNeural'})
+
+    def test_reference_numbers_are_not_spoken(self):
+        chapter = {'blocks': [{'type': 'paragraph', 'items': [{'text': 'Žodis. [3]'}]}]}
+        ssml, phrases = audio.build_ssml(chapter, [], {})
+        self.assertEqual('Žodis.', phrases[0]['text'])
+        self.assertNotIn('[3]', ssml)
+
     def test_stale_casting_is_rejected_before_synthesis(self):
         self.assertTrue(hasattr(audio, 'build_ssml'))
         chapter = {'blocks': [{'type': 'dialogue', 'items': [{'text': '— Ačiū.'}]}]}
@@ -63,3 +81,4 @@ class CastingTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

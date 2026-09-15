@@ -441,3 +441,22 @@ body:not(.chapter-playing) .phrase:focus,
     width: 32px;
   }
 }
+
+.chapter-practice {
+  margin: 1.5em 0 2em;
+  padding: 14px 16px;
+  border: 1px solid var(--tooltip-line);
+  border-radius: 6px;
+  font-family: var(--sans-stack);
+  font-size: 17px;
+  line-height: 1.6;
+}
+.chapter-practice summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.chapter-practice-text {
+  margin-top: 12px;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}

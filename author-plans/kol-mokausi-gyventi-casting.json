@@ -1,0 +1,218 @@
+{
+  "bookId": "kol-mokausi-gyventi",
+  "chapters": {
+    "chapter-1": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "2": "lt-LT-LeonasNeural",
+        "8": "lt-LT-LeonasNeural",
+        "9": "lt-LT-LeonasNeural",
+        "48": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "2:1": [
+          ", – pasakė vyras už nugaros."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-2": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {},
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-3": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "4": "lt-LT-LeonasNeural",
+        "5": "lt-LT-LeonasNeural",
+        "53": "lt-LT-LeonasNeural",
+        "54": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "4:1": [
+          ", – paaiškino jis."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-4": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {},
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-5": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "8": "lt-LT-LeonasNeural",
+        "11": "lt-LT-LeonasNeural",
+        "12": "lt-LT-LeonasNeural",
+        "13": "lt-LT-LeonasNeural",
+        "15": "lt-LT-LeonasNeural",
+        "16": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "8:1": [
+          "? – paklausė."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-6": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "11": "lt-LT-LeonasNeural",
+        "12": "lt-LT-LeonasNeural",
+        "25": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "11:1": [
+          ", – atsakė."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-7": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "11": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "11:1": [
+          "? – paklausė jis."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-8": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "30": "lt-LT-LeonasNeural",
+        "31": "lt-LT-LeonasNeural",
+        "32": "lt-LT-LeonasNeural",
+        "34": "lt-LT-LeonasNeural",
+        "35": "lt-LT-LeonasNeural",
+        "36": "lt-LT-LeonasNeural",
+        "40": "lt-LT-LeonasNeural",
+        "41": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "35:1": [
+          ", – atsakė jis."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-9": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "26": "lt-LT-LeonasNeural",
+        "29": "lt-LT-LeonasNeural",
+        "30": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-10": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {},
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-11": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "41": "lt-LT-LeonasNeural",
+        "44": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "41:1": [
+          "? – paklausė."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-12": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {},
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-13": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "29": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "29:1": [
+          "? – paklausė jis."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-14": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "51": "lt-LT-LeonasNeural",
+        "52": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "51:1": [
+          "Paulius pažiūrėjo į mane ir atsakė: "
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-15": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "4": "lt-LT-LeonasNeural",
+        "7": "lt-LT-LeonasNeural",
+        "8": "lt-LT-LeonasNeural",
+        "16": "lt-LT-LeonasNeural",
+        "17": "lt-LT-LeonasNeural",
+        "28": "lt-LT-LeonasNeural",
+        "29": "lt-LT-LeonasNeural",
+        "33": "lt-LT-LeonasNeural",
+        "34": "lt-LT-LeonasNeural",
+        "39": "lt-LT-LeonasNeural",
+        "40": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {
+        "4:1": [
+          ", – pasakė."
+        ],
+        "28:1": [
+          ", – pasakė jis."
+        ],
+        "39:1": [
+          ", – pridūrė."
+        ]
+      },
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-16": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {},
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-17": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {
+        "50": "lt-LT-LeonasNeural",
+        "51": "lt-LT-LeonasNeural"
+      },
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    },
+    "chapter-18": {
+      "narratorVoice": "lt-LT-OnaNeural",
+      "blockVoices": {},
+      "narratorSpans": {},
+      "review": "Ana narrates; explicit male dialogue uses Leonas. Quoted messages and reported speech remain narration. Source reviewed by chapter and sentence."
+    }
+  }
+}
